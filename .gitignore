@@ -1,8 +1,8 @@
-.env
+.env/
 build/
 dist/
 apartmani/
-node_modules
+node_modules/
 
 .vscode/
 .idea/
