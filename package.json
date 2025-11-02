@@ -6,11 +6,8 @@
   "bin": "trello.js",
   "pkg": {
     "assets": [
-      "data.json",
-      "newData.json",
       ".env",
-      "log.txt",
-      "node_modules/axios/**/*"
+      "img/**/*"
     ],
     "scripts": [
       "rentlio.js"
@@ -18,16 +15,23 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pkg . --targets node18-win-x64 --output dist/dubrovnik-apartmani.exe"
+      "build:ncc": "ncc build trello.js -o build/lib",
+      "build:exe": "pkg ./build/lib/index.js --targets node18-win-x64 --output dist/dubrovnik-apartmani.exe",
+      "build:copy": "copy .env dist\\.env && copy config.json dist\\config.json && copy data.json dist\\data.json && copy newData.json dist\\newData.json && copy log.txt dist\\log.txt && copy package.json dist\\package.json && xcopy img dist\\img /E /I /Y",
+      "build:all": "npm run build:ncc && npm run build:exe && npm run build:copy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "1.4.0",
-    "dotenv": "^16.6.0",
+    "axios": "^1.10.0",
+    "dotenv": "^16.6.1",
     "form-data": "^4.0.4",
     "lodash": "^4.17.21",
-    "node-cron": "^4.1.1"
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.4",
+    "pkg": "^5.8.1"
   }
 }
