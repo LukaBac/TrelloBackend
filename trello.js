@@ -1,7 +1,64 @@
-require('dotenv').config();
-const axios = require("./node_modules/axios/dist/node/axios.cjs");const fs = require('fs');
-const log  = require('console');
+const fs = require('fs');
+// const { app } = require("electron");
 const path = require('path');
+
+let electronApp = null;
+let isElectron = false;
+let isPackaged = false;
+
+try {
+  const electron = require("electron");
+  electronApp = electron.app;
+  isElectron = true;
+  isPackaged = electronApp?.isPackaged ?? false;
+} catch {
+  // Pokrenuto iz CLI-a (node index.js)
+}
+
+function getBasePath() {
+  // 📦 ELECTRON BUILD (exe)
+  if (isElectron && isPackaged) {
+    // resources folder
+    const resourcesPath = process.resourcesPath;
+
+    // .env i json fileovi su OUTSIDE app.asar
+    // => jedan level iznad resources/app.asar
+    return path.join(resourcesPath);
+  }
+
+  // 🧪 ELECTRON DEV
+  if (isElectron && !isPackaged) {
+    return __dirname;
+  }
+
+  // 💻 CLI RUN
+  return process.cwd();
+}
+
+function getDataPath(filename) {
+  return path.join(getBasePath(), filename);
+}
+
+// require("dotenv").config({
+//   path: getEnvPath(),
+// });
+
+function getEnvPath() {
+  // 📦 packaged exe
+  if (isElectron && isPackaged) {
+    return path.join(process.resourcesPath, ".env");
+  }
+
+  // dev + CLI
+  return path.join(getBasePath(), ".env");
+}
+
+require("dotenv").config({
+  path: getEnvPath(),
+});
+
+const axios = require('axios');
+const log  = require('console');
 const FormData = require('form-data');
 
 const TRELLO_KEY = process.env.TRELLO_API_KEY;
@@ -9,9 +66,24 @@ const TRELLO_TOKEN = process.env.TRELLO_TOKEN;
 const LIST_ID = process.env.TRELLO_LIST_ID;
 const BOARD_ID = process.env.TRELLO_BOARD_ID;
 
-const { reservations } = JSON.parse(fs.readFileSync('data.json'));
-const logFile = getDataPath("log.txt");
+// console.log("ENV PATH:", getEnvPath());
+// console.log("TRELLO_KEY:", process.env.TRELLO_API_KEY ? "OK" : "MISSING");
+// console.log("LIST_ID:", process.env.TRELLO_LIST_ID);
+
+let app;
+try {
+  // probaj importat electron app ako postoji
+  ({ app } = require("electron"));
+} catch (e) {
+  app = null; // fallback ako se pokreće iz CLI-a
+}
+
+const dataFile = readJSONSafe("data.json", { reservations: [] });
+const reservations = dataFile.reservations;
+
 const configPath = getDataPath("config.json");
+const logFile = getDataPath("log.txt");
+
 
 const cron = require('node-cron');
 const readline = require('readline');
@@ -19,8 +91,8 @@ const _ = require('lodash');
 const { fetchReservations, previewDataFromAPI, previewRawAPI } = require('./rentlio');
 
 function updateConfig(newConfig) {
-  fs.writeFileSync(configPath, JSON.stringify(newConfig, null, 2), "utf8");
-  config = newConfig; // ažuriraj u memoriji
+  writeJSONSafe("config.json", newConfig);
+  config = newConfig;
 }
 
 // 📖 UČITAJ CONFIG
@@ -67,15 +139,49 @@ async function autoSync() {
   }
 }
 
-function loadConfig() {
+function readJSONSafe(filename, fallback) {
   try {
-    const data = fs.readFileSync("config.json", "utf8");
-    return JSON.parse(data);
+    const filePath = getDataPath(filename);
+    if (!fs.existsSync(filePath)) return fallback;
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
   } catch (err) {
-    console.error("❌ Greška pri čitanju config.json:", err);
-    return { trackerMonth: 0, refreshMinutes: 3 };
+    console.error("❌ JSON read error:", filename, err.message);
+    return fallback;
   }
 }
+
+function writeJSONSafe(filename, data) {
+  try {
+    fs.writeFileSync(
+      getDataPath(filename),
+      JSON.stringify(data, null, 2),
+      "utf8"
+    );
+  } catch (err) {
+    console.error("❌ JSON write error:", filename, err.message);
+  }
+}
+
+function loadConfig() {
+  return readJSONSafe("config.json", {
+    monthTracker: 0,
+    refreshMinutes: 3,
+  });
+}
+
+
+
+
+
+// function getDataPath(filename = "data.json") {
+//   // Ako je electron i app definiran
+//   if (app && app.isPackaged) {
+//     return path.join(process.resourcesPath, filename);
+//   }
+//   // fallback: Node CLI ili nepakiran Electron
+//   return path.join(__dirname, filename);
+// }
+
 
 // 📦 Dummy funkcija (preimenuj listu + arhiviraj stare kartice)
 async function archiveAndRenameList(currentMonth) {
@@ -138,172 +244,58 @@ async function archiveAndRenameList(currentMonth) {
 console.log(`🚀 Program pokrenut! Refresh svakih ${config.refreshMinutes} minuta.`);
 
 // Pokreni odmah pri startu
-//autoSync();
+autoSync();
+// fetchReservations();
 
 // Zatim svaka X minuta (iz config.json)
-//cron.schedule(`*/${config.refreshMinutes} * * * *`, async () => {
-  /*if (!isCreatingCards) {
+cron.schedule(`*/${config.refreshMinutes} * * * *`, async () => {
+  if (!isCreatingCards) {
     await autoSync();
   } else {
     console.log("⏸️ Pauzirano — izrada kartica u tijeku.");
   }
-});*/
-
-fetchReservations("data.json");
-
-
-
-// STARA SINKRONIZACIJA
-/*
-let syncInterval = 3;
-let syncJob = null; 
-
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
 });
 
-async function startSync() {
-  console.log(`🚀 Pokrećem prvi sync...`);
-  await checkForUpdates();
-  console.log(`✅ Prvi sync završen. Pokrećem automatsku sinkronizaciju svakih ${syncInterval} minute/a.`);*/
+//fetchReservations("newData.json");
 
-  //const cronExp = `*/${syncInterval} * * * *`;
-  /*syncJob = cron.schedule(cronExp, async () => {
-    console.log(`⏳ Automatski sync (${new Date().toLocaleTimeString()})...`);
-    await checkForUpdates();
-  });
+
+function getMonthKey(timestamp) {
+  const d = new Date(timestamp * 1000);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
 }
 
-function showMenu() {
-  console.log("\n==============================");
-  console.log("   🧠 Evisitor & Trello Sync");
-  console.log("==============================");
-  console.log("1️⃣  Kreiraj kartice za trenutni mjesec");
-  console.log(`2️⃣  Sinkronizacija svakih ${syncInterval} minute/a`);
-  console.log("3️⃣  Promijeni vrijeme sinkronizacije (u minutama)");
-  console.log("==============================");
+function getActiveMonths() {
+  const now = new Date();
 
-  rl.question("Odaberi opciju (1-3): ", async (choice) => {
-    switch (choice.trim()) {
-      case "1":
-        console.log("🚀 Pokrećem kreiranje kartica...");
-        rl.close(); // zatvara meni
-        await createCardsForCurrentMonth();
-        console.log("✅ Gotovo. Možeš zatvoriti aplikaciju.");
-        break;
+  const currentMonth = new Date(now.getFullYear(), now.getMonth(), 1);
+  const nextMonth = new Date(now.getFullYear(), now.getMonth() + 1, 1);
 
-      case "2":
-        console.log(`🚀 Pokrećem sinkronizaciju svakih ${syncInterval} minute/a...`);
-        rl.close(); // zatvara meni
-        await startSync();
-        break;
+  const fiveDaysBeforeNext = new Date(nextMonth);
+  fiveDaysBeforeNext.setDate(fiveDaysBeforeNext.getDate() - 5);
 
-      case "3":
-        rl.question("⏱️  Unesi novi interval u minutama: ", (min) => {
-          const num = parseInt(min);
-          if (isNaN(num) || num <= 0) {
-            console.log("❌ Nevažeći unos. Pokušaj ponovno.");
-          } else {
-            syncInterval = num;
-            console.log(`✅ Interval postavljen na ${syncInterval} minute/a.`);
-          }
-          showMenu();
-        });
-        return;
+  // Ako smo unutar 5 dana prije novog mjeseca → aktivna su oba
+  if (now >= fiveDaysBeforeNext) {
+    return [
+      getMonthKey(currentMonth.getTime() / 1000),
+      getMonthKey(nextMonth.getTime() / 1000),
+    ];
+  }
 
-      default:
-        console.log("⚠️ Nevažeći unos, pokušaj ponovno.");
-        showMenu();
-        return;
-    }
-  });
+  return [getMonthKey(currentMonth.getTime() / 1000)];
 }
 
-// 🟢 Pokreni izbornik pri startu
-showMenu();*/
-
-
-/*
-
-  MEETING:
-  DONE - NOVI CHECKLIST ZA DOLAZNI I ODLAZNI
-  DONE - ako je sta nadopisano, provjerit da se ne rusi
-  DONE - evisitor - kopija checkina
-  DONE - mj dana najduze trajanje
 
 
 
-  TODO: 
-    DONE - RIJESITI NOVIGOSTI, NOTEOVE, PROVJERITI ISPRAVNOST, EVISITOR?
-
-    WEBHOOKS
-
-    DONE - RIJESITI REZERVACIJE KOJE NISU UBACENE JER API NE DOHVACA IZ TRENUTNOG MJESECA
-
-    POPRAVITI AKO SE PROMJENI DATUM REZERVACIJE NA KARTICU KOJA NE POSTOJI, I VRATI NA STARU. 
-
-
-
-  NASLOV (OBJEKT / NAMJENA)
-    natuknice - Broj, Naziv, Gost, Slovo, Pax, jesu li novi ili ne
-
-    Objekt iz data.json
-    {
-      "id": 8083320,
-      "unitName": "31 - NORA",
-      "guestName": "Leticia Briz Fernandez",
-      "salesChannelName": "BOOKING",
-      "guestNumber": 6,
-      "arrivalDate": 1756684800,
-      "departureDate": 1757203200
-      
-  totalNights
-  note
-  checkedIn
-  checkedOut
-  canceledAt??
-    },
-
-
-    OLD TOWN / Check-in 🛎️:
-      MONTE SANTO
-      Grey Nest
-      AD Ilije Sarake
-      Kaštela
-      AD Pobijana
-      Panorama
-      Hidden Gem
-      Sweet Room
-      Kaleta
-      Rafael
-      Lincun
-
-
-    VILLA SPINDLER / Check-in 🛎️:
-      71 - 78
-
-
-    KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️:
-    101 - 108
-      
-
-    EVISITOR ✍🏻
-
-
-    B BOOKING
-    E EXPEDIA
-    EA Airbnb
-*/
 
 // Pomoćne funkcije
-function loadJSON(file) {
-  return JSON.parse(fs.readFileSync(file));
-}
+// function loadJSON(file) {
+//   return JSON.parse(fs.readFileSync(file));
+// }
 
-function saveJSON(file, data) {
-  fs.writeFileSync(file, JSON.stringify(data, null, 2));
-}
+// function saveJSON(file, data) {
+//   fs.writeFileSync(file, JSON.stringify(data, null, 2));
+// }
 
 function timestamp() {
   const now = new Date();
@@ -323,247 +315,7 @@ function logError(error) {
 }
 
 
-/*
-async function syncData() {
-  const current = loadJSON('data.json');
-  const last = loadJSON('last_synced.json');
 
-  // === REZERVACIJE ===
-  const newReservations = _.differenceBy(current.reservations, last.reservations, 'id');
-  const deletedReservations = _.differenceBy(last.reservations, current.reservations, 'id');
-
-  for (const res of newReservations) {
-    await createCardReservation(res);
-  }
-
-  for (const res of deletedReservations) {
-    await deleteCardByReservationId(res.id);
-  }
-
-  // === PROPERTIES ===
-  const newProperties = _.differenceBy(current.properties, last.properties, 'id');
-  const deletedProperties = _.differenceBy(last.properties, current.properties, 'id');
-
-  for (const prop of newProperties) {
-    await createCardForProperty(prop);
-  }
-
-  for (const prop of deletedProperties) {
-    await deleteCardByPropertyId(prop.id);
-  }
-
-    // 🔁 Provjera izmjena kod postojećih rezervacija
-  const commonReservations = _.intersectionBy(current.reservations, last.reservations, 'id');
-  for (const res of commonReservations) {
-    await updateCardIfChanged(res);
-  }
-
-  // 🔁 Provjera izmjena kod postojećih objekata
-  const commonProperties = _.intersectionBy(current.properties, last.properties, 'id');
-  for (const prop of commonProperties) {
-    await updateCardIfChangedProperty(prop);
-  }
-
-
-  // Ažuriraj lokalni snapshot
-  saveJSON('last_synced.json', current);
-}
-
-
-async function deleteCardByReservationId(reservationId) {
-  try {
-    const res = await axios.get(`https://api.trello.com/1/lists/${RESERVATIONS_ID}/cards`, {
-      params: {
-        key: TRELLO_KEY,
-        token: TRELLO_TOKEN
-      }
-    });
-
-    const card = res.data.find(c => c.desc.includes(`Rez ID: ${reservationId}`));
-    if (card) {
-      await axios.delete(`https://api.trello.com/1/cards/${card.id}`, {
-        params: {
-          key: TRELLO_KEY,
-          token: TRELLO_TOKEN
-        }
-      });
-      console.log(`🗑️ Obrisana kartica za Rez ID: ${reservationId}`);
-    } else {
-      console.log(`⚠️ Nema kartice za Rez ID: ${reservationId}`);
-    }
-  } catch (err) {
-    console.error('❌ Greška kod brisanja:', err.response?.data || err.message);
-  }
-}
-
-async function updateCardIfChanged(reservation) {
-  try {
-    const res = await axios.get(`https://api.trello.com/1/lists/${RESERVATIONS_ID}/cards`, {
-      params: {
-        key: TRELLO_KEY,
-        token: TRELLO_TOKEN
-      }
-    });
-
-    const card = res.data.find(c => c.desc.includes(`Rez ID: ${reservation.id}`));
-
-    if (!card) return; // nema kartice za ovaj ID
-
-    const propertyName = getPropertyNameById(reservation.property_id);
-    const newName = `${reservation.guestName} – ${reservation.unitName}`;
-    const newDesc = `📌 Napomena: ${reservation.note || '—'}\n🔑 Rez ID: ${reservation.id}`;
-
-
-    // Usporedi ime i opis
-    if (card.name !== newName || card.desc !== newDesc) {
-      await axios.put(`https://api.trello.com/1/cards/${card.id}`, null, {
-        params: {
-          key: TRELLO_KEY,
-          token: TRELLO_TOKEN,
-          name: newName,
-          desc: newDesc
-        }
-      });
-      console.log(`✏️ Ažurirana kartica za ${reservation.guestName}`);
-    }
-  } catch (err) {
-    console.error('❌ Greška kod ažuriranja kartice (rez):', err.response?.data || err.message);
-  }
-}
-
-
-
-
-
-// pomoćna funkcija za dohvat imena objekta po ID-u
-function getPropertyNameById(id) {
-  const prop = properties.find(p => p.id === id);
-  return prop ? `${prop.name} (${prop.city})` : 'Nepoznat objekt';
-}
-
-
-async function createCardReservation(reservation) {
-  const name = `${reservation.guestName} – ${reservation.unitName}`;
-  const desc = `📌 Napomena: ${reservation.note || '—'}\n🔑 Rez ID: ${reservation.id}`;
-
-  try {
-    const response = await axios.post('https://api.trello.com/1/cards', null, {
-      params: {
-        key: TRELLO_KEY,
-        token: TRELLO_TOKEN,
-        idList: RESERVATIONS_ID,
-        name: name,
-        desc: desc
-      }
-    });
-
-    console.log(`✅ Dodana karta za ${reservation.guestName}`);
-  } catch (error) {
-    console.error(`❌ Greška za ${reservation.guestName}:`, error.response?.data || error.message);
-  }
-}
-
-
-async function createCardForProperty(property) {
-  const name = property.name;
-  const desc = `📍 Adresa: ${property.address}\n🏙️ Grad: ${property.city}\n🏨 Property ID: ${property.id}`;
-
-  try {
-    const response = await axios.post('https://api.trello.com/1/cards', null, {
-      params: {
-        key: TRELLO_KEY,
-        token: TRELLO_TOKEN,
-        idList: PROPERTIES_ID,
-        name: name,
-        desc: desc
-      }
-    });
-
-    console.log(`✅ Dodana karta za objekt: ${property.name}`);
-  } catch (error) {
-    console.error(`❌ Greška za objekt ${property.name}:`, error.response?.data || error.message);
-  }
-}
-
-
-async function deleteCardByPropertyId(propertyId) {
-  try {
-    const res = await axios.get(`https://api.trello.com/1/lists/${PROPERTIES_ID}/cards`, {
-      params: {
-        key: TRELLO_KEY,
-        token: TRELLO_TOKEN
-      }
-    });
-
-    const card = res.data.find(c => c.desc.includes(`Property ID: ${propertyId}`));
-    if (card) {
-      await axios.delete(`https://api.trello.com/1/cards/${card.id}`, {
-        params: {
-          key: TRELLO_KEY,
-          token: TRELLO_TOKEN
-        }
-      });
-      console.log(`🗑️ Obrisana kartica za Property ID: ${propertyId}`);
-    } else {
-      console.log(`⚠️ Nema kartice za Property ID: ${propertyId}`);
-    }
-  } catch (err) {
-    console.error('❌ Greška kod brisanja property kartice:', err.response?.data || err.message);
-  }
-}
-
-async function updateCardIfChangedProperty(property) {
-  try {
-    const res = await axios.get(`https://api.trello.com/1/lists/${PROPERTIES_ID}/cards`, {
-      params: {
-        key: TRELLO_KEY,
-        token: TRELLO_TOKEN
-      }
-    });
-
-    const card = res.data.find(c => c.desc.includes(`Property ID: ${property.id}`));
-    if (!card) return;
-
-    const newName = property.name;
-    const newDesc = `📍 Adresa: ${property.address}\n🏙️ Grad: ${property.city}\n🏨 Property ID: ${property.id}`;
-
-    if (card.name !== newName || card.desc !== newDesc) {
-      await axios.put(`https://api.trello.com/1/cards/${card.id}`, null, {
-        params: {
-          key: TRELLO_KEY,
-          token: TRELLO_TOKEN,
-          name: newName,
-          desc: newDesc
-        }
-      });
-      console.log(`✏️ Ažurirana kartica za objekt: ${property.name}`);
-    }
-  } catch (err) {
-    console.error('❌ Greška kod ažuriranja kartice (objekt):', err.response?.data || err.message);
-  }
-}
-
-
-
-async function listAllLists() {
-  try {
-    const response = await axios.get(`https://api.trello.com/1/boards/${process.env.TRELLO_BOARD_ID}/lists`, {
-      params: {
-        key: TRELLO_KEY,
-        token: TRELLO_TOKEN
-      }
-    });
-
-    console.log('📋 Sve liste na boardu:\n');
-    response.data.forEach(list => {
-      console.log(`🆔 ID: ${list.id}`);
-      console.log(`📛 Naziv: ${list.name}`);
-      console.log('--------------------------');
-    });
-  } catch (error) {
-    console.error('❌ Greška kod dohvaćanja lista:', error.response?.data || error.message);
-  }
-}*/
 
 //fetchReservations();
 
@@ -592,9 +344,9 @@ function getAppDir() {
     return process.cwd();
   }
 }
-function getDataPath(filename = "data.json") {
-  return path.join(getAppDir(), filename);
-}
+// function getDataPath(filename = "data.json") {
+//   return path.join(getAppDir(), filename);
+// }
 
 
 //#endregion
@@ -784,21 +536,7 @@ async function createCardForDay(dateObj, arrivalsGrouped, departuresGrouped) {
 
 
 
-/*async function createCardsForCurrentMonth() {
-  const today = new Date();
-  const year = today.getFullYear();
-  const month = today.getMonth(); // 0-11
 
-  const arrivalsGrouped = groupReservationsByArrivalDate(reservations, month, year);
-  const departuresGrouped = groupReservationsByDepartureDate(reservations, month, year);
-
-  const firstDay = new Date(year, month, 1);
-  const lastDay = new Date(year, month + 1, 0);
-
-  for (let d = new Date(firstDay); d <= lastDay; d.setDate(d.getDate() + 1)) {
-    await createCardForDay(new Date(d), arrivalsGrouped, departuresGrouped);
-  }
-}*/
 
 
 
@@ -828,60 +566,7 @@ async function findOrCreateChecklist(cardId, checklistName) {
   return checklist;
 }
 
-/*async function handleCheckIn(reservation) {
-  try {
-    const card = await findCardByDate(reservation.arrivalDate);
-    if (!card) {
-      console.warn("Kartica za checkin ne postoji:", reservation.arrivalDate);
-      return;
-    }
 
-    // Dohvati sve checkliste na toj kartici
-    const checklistsRes = await axios.get(
-      `https://api.trello.com/1/cards/${card.id}/checklists`,
-      {
-        params: { key: TRELLO_KEY, token: TRELLO_TOKEN },
-      }
-    );
-
-    const checklists = checklistsRes.data;
-
-    for (const checklist of checklists) {
-      // preskoči cleaning liste
-      if (checklist.name.toLowerCase().includes("cleaning")) continue;
-
-      const item = checklist.checkItems.find(
-        ci =>
-          ci.name.includes(reservation.unitName) &&
-          ci.name.includes(reservation.guestName)
-      );
-
-      if (item) {
-        const state = reservation.checkedIn === "Y" ? "complete" : "incomplete";
-
-        await axios.put(
-          `https://api.trello.com/1/cards/${card.id}/checklist/${checklist.id}/checkItem/${item.id}`,
-          null,
-          {
-            params: {
-              key: TRELLO_KEY,
-              token: TRELLO_TOKEN,
-              state,
-            },
-          }
-        );
-
-        console.log(
-          `${state === "complete" ? "✅" : "⬜"} Check-in ${
-            state === "complete" ? "označen" : "poništen"
-          } za ${reservation.unitName} / ${reservation.guestName} (${checklist.name})`
-        );
-      }
-    }
-  } catch (err) {
-    console.error("❌ Greška kod check-ina:", err.response?.data || err.message);
-  }
-}*/
 
 async function findCardByDate(dateUnix) {
   const dateObj = new Date(dateUnix * 1000);
@@ -896,6 +581,10 @@ async function findCardByDate(dateUnix) {
 
   return cardsRes.data.find(card => card.name === cardName);
 }
+
+
+
+
 
 async function handleNewReservation(reservation, type = 'all') {
   const itemName = `${reservation.unitName} / ${reservation.guestName} / ${getShortChannelName(reservation.salesChannelName)} / ${reservation.guestNumber}pax`;
@@ -1137,12 +826,12 @@ async function checkForUpdates() {
   await fetchReservations("newData.json");
 
   // 2️⃣ Učitaj stare i nove podatke
-  const oldData = fs.existsSync("data.json")
-    ? JSON.parse(fs.readFileSync("data.json", "utf-8"))
+  const oldData = fs.existsSync(getDataPath("data.json"))
+    ? JSON.parse(fs.readFileSync(getDataPath("data.json"), "utf-8"))
     : { reservations: [] };
 
-  const newData = fs.existsSync("newData.json")
-    ? JSON.parse(fs.readFileSync("newData.json", "utf-8"))
+  const newData = fs.existsSync(getDataPath("newData.json"))
+    ? JSON.parse(fs.readFileSync(getDataPath("newData.json"), "utf-8"))
     : { reservations: [] };
 
   const oldReservations = oldData.reservations || [];
@@ -1221,154 +910,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-/*async function createCardForDay(dateObj, arrivalsGrouped, departuresGrouped) {
-  const dayName = dateObj.toLocaleDateString("en-US", { weekday: "long" });
-  const dateFormatted = dateObj.toLocaleDateString("en-GB").replace(/\//g, "/");
 
-  // 1️⃣ Kreiraj karticu
-  const cardName = `DAY TO DAY - ${dateFormatted} - ${dayName}`;
-  const cardRes = await axios.post(`https://api.trello.com/1/cards`, null, {
-    params: { key: TRELLO_KEY, token: TRELLO_TOKEN, idList: LIST_ID, name: cardName },
-  });
-  const cardId = cardRes.data.id;
-  console.log(`✅ Kreirana kartica: ${cardName}`);
-
-  // 2️⃣ Dodaj naslovnu sliku (ako postoji)
-  const imgPath = `./img/${dayName.toLowerCase()}.webp`;
-  if (fs.existsSync(imgPath)) {
-    try {
-      const form = new FormData();
-      form.append("file", fs.createReadStream(imgPath));
-      const attachRes = await axios.post(
-        `https://api.trello.com/1/cards/${cardId}/attachments?key=${TRELLO_KEY}&token=${TRELLO_TOKEN}`,
-        form,
-        { headers: form.getHeaders() }
-      );
-      await axios.put(
-        `https://api.trello.com/1/cards/${cardId}/idAttachmentCover`,
-        null,
-        { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, value: attachRes.data.id } }
-      );
-      console.log(`🖼️ Naslovna slika postavljena za ${cardName}`);
-    } catch (err) {
-      console.warn(`⚠️ Slika nije dodana (${imgPath}):`, err.response?.data || err.message);
-    }
-  }
-
-  const dateKey = toLocalDateKey(Math.floor(dateObj.getTime() / 1000));
-  let arrivalsForDay = (arrivalsGrouped[dateKey] || []).sort((a, b) => a.unitNumber - b.unitNumber);
-  let departuresForDay = (departuresGrouped[dateKey] || []).sort((a, b) => a.unitNumber - b.unitNumber);
-
-  // --- 3️⃣ Definiraj sve checkliste koje moraju postojati ---
-  const checklistNames = [
-    "OLD TOWN / Check-in 🛎️",
-    "VILLA SPINDLER / Check-in 🛎️",
-    "KALA LUXURY ROOMS/ OUTER APARTMENTS / Check-in 🛎️",
-    "TRANSFER DOLAZNI 🚐",
-    "TRANSFER ODLAZNI 🚐",
-    "EVISITOR ✍🏻",
-    "OLD TOWN / Cleaning 🪣🚽🪤🧹",
-    "VILLA SPINDLER / Cleaning 🪣🚽🪤🧹",
-    "KALA LUXURY ROOMS / Cleaning 🪣🚽🪤🧹",
-    "EXTRA CLEANING 🪣🚽🪤🧹",
-    "MAINTANANCE 🛠️",
-    "CALL CENTAR 📞",
-    "ERRAND BOY 🚐",
-  ];
-
-  const checklistMap = {};
-  for (const name of checklistNames) {
-    const checklistRes = await axios.post(
-      `https://api.trello.com/1/cards/${cardId}/checklists`,
-      null,
-      { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, name } }
-    );
-    checklistMap[name] = checklistRes.data.id;
-    await sleep(150); // lagani delay da izbjegnemo 429
-  }
-
-  // --- 4️⃣ Popuni check-in ---
-  for (const res of arrivalsForDay) {
-    const checklistGroup = getChecklistGroup(res.unitNumber, false);
-    if (!checklistGroup) continue;
-    const checklistId = checklistMap[checklistGroup];
-    const itemName = `${res.unitName} / ${res.guestName} / ${getShortChannelName(res.salesChannelName)} / ${res.guestNumber}pax`;
-
-    const itemRes = await axios.post(
-      `https://api.trello.com/1/checklists/${checklistId}/checkItems`,
-      null,
-      { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, name: itemName } }
-    );
-
-    if (res.checkedIn === "Y") {
-      await axios.put(
-        `https://api.trello.com/1/cards/${cardId}/checkItem/${itemRes.data.id}`,
-        null,
-        { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, state: "complete" } }
-      );
-    }
-  }
-
-  // --- 5️⃣ Transferi (samo u svoje checkliste) ---
-  const transfersDolazni = arrivalsForDay.filter(r => r.unitName.toLowerCase().includes("transfer dolazni"));
-  const transfersOdlazni = arrivalsForDay.filter(r => r.unitName.toLowerCase().includes("transfer odlazni"));
-
-  for (const res of transfersDolazni) {
-    const itemName = `${res.unitName} / ${res.guestName} / ${getShortChannelName(res.salesChannelName)} / ${res.guestNumber}pax`;
-    await axios.post(
-      `https://api.trello.com/1/checklists/${checklistMap["TRANSFER DOLAZNI 🚐"]}/checkItems`,
-      null,
-      { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, name: itemName } }
-    );
-  }
-
-  for (const res of transfersOdlazni) {
-    const itemName = `${res.unitName} / ${res.guestName} / ${getShortChannelName(res.salesChannelName)} / ${res.guestNumber}pax`;
-    await axios.post(
-      `https://api.trello.com/1/checklists/${checklistMap["TRANSFER ODLAZNI 🚐"]}/checkItems`,
-      null,
-      { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, name: itemName } }
-    );
-  }
-
-  // --- 6️⃣ eVisitor ---
-  const evisitorEntries = arrivalsForDay.map(res => ({
-    unitNumber: res.unitNumber,
-    itemName: `${res.unitName} / ${res.guestName} / ${getShortChannelName(res.salesChannelName)} / ${res.guestNumber}pax`,
-    checkedIn: res.checkedIn,
-  })).sort((a, b) => (a.unitNumber || 9999) - (b.unitNumber || 9999));
-
-  for (const entry of evisitorEntries) {
-    const itemRes = await axios.post(
-      `https://api.trello.com/1/checklists/${checklistMap["EVISITOR ✍🏻"]}/checkItems`,
-      null,
-      { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, name: entry.itemName } }
-    );
-    if (entry.checkedIn === "Y") {
-      await axios.put(
-        `https://api.trello.com/1/cards/${cardId}/checkItem/${itemRes.data.id}`,
-        null,
-        { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, state: "complete" } }
-      );
-    }
-  }
-
-  // --- 7️⃣ Cleaning ---
-  for (const res of departuresForDay) {
-    const checklistGroup = getChecklistGroup(res.unitNumber, true);
-    if (!checklistGroup) continue;
-    const checklistId = checklistMap[checklistGroup];
-    const itemName = `${res.unitName} / ${res.guestName} / ${getShortChannelName(res.salesChannelName)} / ${res.guestNumber}pax`;
-
-    await axios.post(
-      `https://api.trello.com/1/checklists/${checklistId}/checkItems`,
-      null,
-      { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, name: itemName } }
-    );
-  }
-
-  console.log(`📋 Gotova kartica: ${cardName}`);
-}*/
 
 
 

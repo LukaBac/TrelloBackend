@@ -2,8 +2,33 @@
   "name": "dubrovnik-apartmani",
   "version": "1.0.0",
   "description": "",
-  "main": "trello.js",
-  "bin": "trello.js",
+  "main": "main.js",
+  "build": {
+    "appId": "com.luka.dubrovniksync",
+    "productName": "Apartmani Recepcija",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "build/lib/index.js",
+        "to": "trello.js"
+      },
+      { "from": "config.json", "to": "config.json" },
+      { "from": "data.json", "to": "data.json" },
+      { "from": "newData.json", "to": "newData.json" },
+      { "from": "log.txt", "to": "log.txt" },
+      { "from": "img", "to": "img" },
+      { "from": ".env", "to": ".env" }
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "icon.ico"
+    }
+  },
   "pkg": {
     "assets": [
       ".env",
@@ -15,15 +40,19 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "build:ncc": "ncc build trello.js -o build/lib",
-      "build:exe": "pkg ./build/lib/index.js --targets node18-win-x64 --output dist/dubrovnik-apartmani.exe",
-      "build:copy": "copy .env dist\\.env && copy config.json dist\\config.json && copy data.json dist\\data.json && copy newData.json dist\\newData.json && copy log.txt dist\\log.txt && copy package.json dist\\package.json && xcopy img dist\\img /E /I /Y",
-      "build:all": "npm run build:ncc && npm run build:exe && npm run build:copy"
+    "electron": "electron .",
+    "build": "electron-builder",
+    "build:ncc": "ncc build trello.js -o build/lib",
+    "build:exe": "pkg ./build/lib/index.js --targets node18-win-x64 --output dist/dubrovnik-apartmani.exe",
+    "build:background_exe": "pkg ./build/lib/index.js --targets node18-win-x64 --output dist/dubrovnik-apartmani.exe --options hideConsole",
+    "build:copy": "copy .env dist\\.env && copy config.json dist\\config.json && copy data.json dist\\data.json && copy newData.json dist\\newData.json && copy log.txt dist\\log.txt && copy package.json dist\\package.json && xcopy img dist\\img /E /I /Y",
+    "build:all": "npm run build:ncc && npm run build:exe && npm run build:copy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "auto-launch": "^5.0.6",
     "axios": "^1.10.0",
     "dotenv": "^16.6.1",
     "form-data": "^4.0.4",
@@ -32,6 +61,8 @@
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.4",
+    "electron": "^40.2.1",
+    "electron-builder": "^26.4.0",
     "pkg": "^5.8.1"
   }
 }

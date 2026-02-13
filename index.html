@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dubrovnik Apartmani Sync</title>
+</head>
+<body style="font-family: monospace; background:#ffffff; color:rgb(12, 12, 12);">
+  <h3>Dubrovnik Apartmani Sync</h3>
+  <pre id="log"></pre>
+
+  <script>
+    const { ipcRenderer } = require('electron');
+
+    ipcRenderer.on('log', (event, data) => {
+      const log = document.getElementById('log');
+      log.textContent += data;
+      window.scrollTo(0, document.body.scrollHeight);
+    });
+  </script>
+</body>
+</html>
