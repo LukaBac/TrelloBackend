@@ -1,304 +1,60 @@
-[2025-10-17 18:48:57] ✅ 🗓️ Novi mjesec (10) otkriven — pokrećem izradu kartica...
+[2026-02-16 18:11:40] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
 
-[2025-10-17 18:49:19] ✅ ✅ Lista preimenovana u "OCTOBER" i sve kartice arhivirane.
+[2026-02-16 18:12:07] ✅ ✅ Lista preimenovana u "FEBRUARY" i sve kartice arhivirane.
 
-[2025-10-17 19:01:58] ✅ ✅ Novi mjesec kreiran i config ažuriran na 10.
+[2026-02-16 18:13:15] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
 
-[2025-11-10 12:17:25] ✅ 🗓️ Novi mjesec (11) otkriven — pokrećem izradu kartica...
+[2026-02-16 18:13:16] ✅ ✅ Lista preimenovana u "FEBRUARY" i sve kartice arhivirane.
 
-[2025-11-10 12:17:29] ✅ ✅ Lista preimenovana u "NOVEMBER" i sve kartice arhivirane.
+[2026-02-16 18:18:15] ✅ ✅ Novi mjesec kreiran i config ažuriran na 2.
 
-[2025-11-10 12:22:54] ✅ ✅ Novi mjesec kreiran i config ažuriran na 11.
+[2026-04-01 08:07:13] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
 
-[2025-11-10 15:06:27] ❌ ERROR: Kartica ne postoji: 29/10/2025: (9234822)
+[2026-04-01 08:07:39] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
 
-[2025-11-10 15:06:27] ❌ ERROR: Kartica ne postoji: 28/10/2025: (9350006)
+[2026-04-01 08:20:11] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
 
-[2025-11-10 15:06:28] ❌ ERROR: Kartica ne postoji: 29/10/2025: (9413028)
+[2026-04-01 08:20:16] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
 
-[2025-11-10 15:06:28] ❌ ERROR: Kartica ne postoji: 29/10/2025: (9413030)
+[2026-04-01 08:21:42] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
 
-[2025-11-10 15:06:29] ❌ ERROR: Kartica ne postoji: 29/10/2025: (9413036)
+[2026-04-01 08:22:09] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
 
-[2025-11-10 15:06:29] ❌ ERROR: Kartica ne postoji: 29/10/2025: (9413042)
+[2026-04-01 08:31:43] ✅ ✅ Novi mjesec kreiran i config ažuriran na 4.
 
-[2025-11-10 15:06:30] ❌ ERROR: Kartica ne postoji: 29/10/2025: (9413044)
+[2026-04-05 10:55:05] ❌ ERROR: Kartica ne postoji: 10/04/2026: (10006712)
 
-[2025-11-10 15:06:30] ❌ ERROR: Kartica ne postoji: 29/10/2025: (9413047)
+[2026-04-05 10:55:06] ❌ ERROR: Kartica ne postoji: 17/04/2026: (10007811)
 
-[2025-11-10 15:06:31] ❌ ERROR: Kartica ne postoji: 29/10/2025: (9413048)
+[2026-04-05 10:55:06] ❌ ERROR: Kartica ne postoji: 26/04/2026: (10007816)
 
-[2025-11-10 15:06:31] ❌ ERROR: Kartica ne postoji: 29/10/2025: (9413051)
+[2026-04-05 10:55:06] ❌ ERROR: Kartica ne postoji: 11/04/2026: (10008320)
 
-[2025-11-10 15:06:32] ❌ ERROR: Kartica ne postoji: 28/10/2025: (9415906)
+[2026-04-05 10:55:07] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (02/04/2026: 10008649) 
+31 - NORA - Andrii Bilyi
 
-[2025-11-10 15:06:32] ❌ ERROR: Kartica ne postoji: 29/10/2025: (9424348)
+[2026-04-05 10:55:08] ✅ Dodan EVISITOR: (02/04/2026: 10008649) 
+31 - NORA - Andrii Bilyi
 
-[2025-11-10 15:06:33] ❌ ERROR: Kartica ne postoji: 28/10/2025: (9430603)
+[2026-04-05 10:55:09] ✅ Dodan transfer dolazni: (02/04/2026: 10009054) 
+02 - TRANSFER DOLAZNI - Andrii Bilyi
 
-[2025-11-10 15:06:33] ❌ ERROR: Kartica ne postoji: 30/10/2025: (9433305)
+[2026-04-05 10:55:09] ❌ ERROR: Kartica ne postoji: 17/04/2026: (10009182)
 
-[2025-11-10 15:06:34] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (27/11/2025: 9436352) 
-54 - Two bedroom - Lucia Mesa
+[2026-04-05 10:55:10] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (03/04/2026: 10010106) 
+24 - AD Pobijana - Tomasz Kacper Boron
 
-[2025-11-10 15:06:35] ✅ Dodan EVISITOR: (27/11/2025: 9436352) 
-54 - Two bedroom - Lucia Mesa
+[2026-04-05 10:55:34] ❌ ERROR: Kartica ne postoji: 10/04/2026: (10006712)
 
-[2025-11-10 15:06:37] ✅ Dodan CLEANING: (30/11/2025: 9436352) 
-54 - Two bedroom - Lucia Mesa
+[2026-04-05 10:55:59] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
 
-[2025-11-10 15:06:38] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (03/11/2025: 9447972) 
-101 - VILLA KALA - ADRIATIC DREAM
+[2026-04-05 10:56:02] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
 
-[2025-11-10 15:06:39] ✅ Dodan EVISITOR: (03/11/2025: 9447972) 
-101 - VILLA KALA - ADRIATIC DREAM
+[2026-04-26 18:09:33] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
 
-[2025-11-10 15:06:41] ✅ Dodan CLEANING: (08/11/2025: 9447972) 
-101 - VILLA KALA - ADRIATIC DREAM
+[2026-04-26 18:09:57] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
 
-[2025-11-10 15:06:42] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (03/11/2025: 9447976) 
-103 - VILLA KALA - ADRIATIC DREAM
+[2026-04-26 18:20:50] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
 
-[2025-11-10 15:06:43] ✅ Dodan EVISITOR: (03/11/2025: 9447976) 
-103 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:45] ✅ Dodan CLEANING: (08/11/2025: 9447976) 
-103 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:46] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (03/11/2025: 9447980) 
-102 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:47] ✅ Dodan EVISITOR: (03/11/2025: 9447980) 
-102 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:48] ✅ Dodan CLEANING: (08/11/2025: 9447980) 
-102 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:49] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (03/11/2025: 9448008) 
-104 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:50] ✅ Dodan EVISITOR: (03/11/2025: 9448008) 
-104 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:52] ✅ Dodan CLEANING: (08/11/2025: 9448008) 
-104 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:54] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (03/11/2025: 9448009) 
-105 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:55] ✅ Dodan EVISITOR: (03/11/2025: 9448009) 
-105 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:56] ✅ Dodan CLEANING: (08/11/2025: 9448009) 
-105 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:57] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (03/11/2025: 9448010) 
-106 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:06:58] ✅ Dodan EVISITOR: (03/11/2025: 9448010) 
-106 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:07:00] ✅ Dodan CLEANING: (08/11/2025: 9448010) 
-106 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:07:01] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (03/11/2025: 9448011) 
-107 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:07:02] ✅ Dodan EVISITOR: (03/11/2025: 9448011) 
-107 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:07:03] ✅ Dodan CLEANING: (08/11/2025: 9448011) 
-107 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:07:05] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (03/11/2025: 9448046) 
-108 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:07:06] ✅ Dodan EVISITOR: (03/11/2025: 9448046) 
-108 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:07:07] ✅ Dodan CLEANING: (08/11/2025: 9448046) 
-108 - VILLA KALA - ADRIATIC DREAM
-
-[2025-11-10 15:10:07] ✅ 🗓️ Novi mjesec (11) otkriven — pokrećem izradu kartica...
-
-[2025-11-10 15:10:29] ✅ ✅ Lista preimenovana u "NOVEMBER" i sve kartice arhivirane.
-
-[2025-11-10 15:16:08] ✅ ✅ Novi mjesec kreiran i config ažuriran na 11.
-
-[2025-11-10 15:21:01] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (27/11/2025: 9436352) 
-54 - Two bedroom - Lucia Mesa
-
-[2025-11-10 15:21:02] ✅ Dodan EVISITOR: (27/11/2025: 9436352) 
-54 - Two bedroom - Lucia Mesa
-
-[2025-11-10 15:21:04] ✅ Dodan CLEANING: (30/11/2025: 9436352) 
-54 - Two bedroom - Lucia Mesa
-
-[2026-01-09 09:53:31] ✅ 🗓️ Novi mjesec (1) otkriven — pokrećem izradu kartica...
-
-[2026-01-09 09:54:11] ✅ ✅ Lista preimenovana u "JANUARY" i sve kartice arhivirane.
-
-[2026-01-09 09:59:37] ✅ ✅ Novi mjesec kreiran i config ažuriran na 1.
-
-[2026-01-09 13:21:00] ❌ ERROR: Kartica ne postoji: 30/12/2025: (9481625)
-
-[2026-01-09 13:21:01] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (23/01/2026: 9483658) 
-54 - Two bedroom - Anita Levanat
-
-[2026-01-09 13:21:02] ✅ Dodan EVISITOR: (23/01/2026: 9483658) 
-54 - Two bedroom - Anita Levanat
-
-[2026-01-09 13:21:03] ❌ ERROR: Kartica ne postoji: 31/12/2025: (9495127)
-
-[2026-01-09 13:21:04] ❌ ERROR: Kartica ne postoji: 31/12/2025: (9506647)
-
-[2026-01-09 13:21:04] ❌ ERROR: Kartica ne postoji: 31/12/2025: (9506652)
-
-[2026-01-09 13:21:05] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (11/01/2026: 9557302) 
-54 - Two bedroom - Kaylene Maretich
-
-[2026-01-09 13:21:06] ✅ Dodan EVISITOR: (11/01/2026: 9557302) 
-54 - Two bedroom - Kaylene Maretich
-
-[2026-01-09 13:21:08] ✅ Dodan CLEANING: (14/01/2026: 9557302) 
-54 - Two bedroom - Kaylene Maretich
-
-[2026-01-09 13:21:08] ❌ ERROR: Kartica ne postoji: 31/12/2025: (9568624)
-
-[2026-01-09 13:21:08] ❌ ERROR: Kartica ne postoji: 30/12/2025: (9586946)
-
-[2026-01-09 13:21:09] ❌ ERROR: Kartica ne postoji: 30/12/2025: (9602839)
-
-[2026-01-09 13:21:09] ❌ ERROR: Kartica ne postoji: 30/12/2025: (9606139)
-
-[2026-01-09 13:21:10] ❌ ERROR: Kartica ne postoji: 30/12/2025: (9612639)
-
-[2026-01-15 11:26:14] ❌ ERROR: MODIFY: Kartica ne postoji za datum 11/01/2026 - 9557302
-
-[2026-01-15 11:26:14] ❌ ERROR: MODIFY: Kartica ne postoji za datum 14/01/2026 - 9557302
-
-[2026-01-15 12:24:24] ✅ 🗓️ Novi mjesec (1) otkriven — pokrećem izradu kartica...
-
-[2026-01-15 12:24:26] ✅ ✅ Lista preimenovana u "JANUARY" i sve kartice arhivirane.
-
-[2026-01-22 10:35:50] ✅ 🗓️ Novi mjesec (1) otkriven — pokrećem izradu kartica...
-
-[2026-01-22 10:35:58] ✅ ✅ Lista preimenovana u "JANUARY" i sve kartice arhivirane.
-
-[2026-01-22 10:43:26] ✅ 🗓️ Novi mjesec (1) otkriven — pokrećem izradu kartica...
-
-[2026-01-22 10:44:21] ✅ 🗓️ Novi mjesec (1) otkriven — pokrećem izradu kartica...
-
-[2026-01-22 10:44:21] ✅ ✅ Lista preimenovana u "JANUARY" i sve kartice arhivirane.
-
-[2026-01-22 10:44:38] ✅ 🗓️ Novi mjesec (1) otkriven — pokrećem izradu kartica...
-
-[2026-01-22 10:44:40] ✅ ✅ Lista preimenovana u "JANUARY" i sve kartice arhivirane.
-
-[2026-01-22 10:50:26] ✅ ✅ Novi mjesec kreiran i config ažuriran na 1.
-
-[2026-01-22 13:27:00] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/12/2025 - 9612639
-
-[2026-01-22 13:27:01] ✅ Azurirana rezervacija 03/01/2026 - 9612639
-Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:27:01] ✅ Promjena dolaska, premjestam: 01/01/2026 - 9612639
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:27:09] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (01/01/2026: 9612639) 
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:27:10] ✅ Dodan EVISITOR: (01/01/2026: 9612639) 
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:28:00] ✅ Azurirana rezervacija 01/01/2026 - 9612639
-Checklist: OLD TOWN / Check-in 🛎️
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:28:01] ✅ Azurirana rezervacija 01/01/2026 - 9612639
-Checklist: EVISITOR ✍🏻
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:28:02] ✅ Azurirana rezervacija 03/01/2026 - 9612639
-Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:28:02] ✅ Promjena dolaska, premjestam: 30/12/2025 - 9612639
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:28:03] ✅ Obrisan checkbox (arrival): DOLAZAK: 01/01/2026, ODLAZAK: 03/01/2026 - 9612639
-Checklist: OLD TOWN / Check-in 🛎️
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:28:03] ✅ Obrisan checkbox (arrival): DOLAZAK: 01/01/2026, ODLAZAK: 03/01/2026 - 9612639
-Checklist: EVISITOR ✍🏻
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:28:09] ❌ ERROR: Kartica ne postoji: 30/12/2025: (9612639)
-
-[2026-01-22 13:29:02] ✅ Azurirana rezervacija 03/01/2026 - 9612639
-Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:29:02] ✅ Promjena dolaska, premjestam: 30/12/2025 - 9612639
-41 - SUMMER NIGHT - OWNER / VLASNIK
-
-[2026-01-22 13:29:09] ❌ ERROR: Kartica ne postoji: 30/12/2025: (9612639)
-
-[2026-01-22 17:01:49] ✅ 🗓️ Novi mjesec (1) otkriven — pokrećem izradu kartica...
-
-[2026-01-22 17:02:10] ✅ ✅ Lista preimenovana u "JANUARY" i sve kartice arhivirane.
-
-[2026-01-22 17:02:10] ✅ ❌ Greška u autoSync: reservations is not defined
-
-[2026-01-22 17:02:39] ✅ 🗓️ Novi mjesec (1) otkriven — pokrećem izradu kartica...
-
-[2026-01-22 17:02:40] ✅ ✅ Lista preimenovana u "JANUARY" i sve kartice arhivirane.
-
-[2026-01-22 17:03:35] ✅ 🗓️ Novi mjesec (1) otkriven — pokrećem izradu kartica...
-
-[2026-01-22 17:03:36] ✅ ✅ Lista preimenovana u "JANUARY" i sve kartice arhivirane.
-
-[2026-01-22 17:05:09] ✅ 🗓️ Novi mjesec (1) otkriven — pokrećem izradu kartica...
-
-[2026-01-22 17:05:11] ✅ ✅ Lista preimenovana u "JANUARY" i sve kartice arhivirane.
-
-[2026-01-22 17:14:28] ✅ 🗓️ Novi mjesec (1) otkriven — pokrećem izradu kartica...
-
-[2026-01-22 17:14:34] ✅ ✅ Lista preimenovana u "JANUARY" i sve kartice arhivirane.
-
-[2026-01-22 17:20:24] ✅ ✅ Novi mjesec kreiran i config ažuriran na 1.
-
-[2026-02-06 10:23:49] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
-
-[2026-02-06 10:43:34] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
-
-[2026-02-06 10:43:35] ✅ ❌ Greška kod arhiviranja ili preimenovanja liste: invalid id
-
-[2026-02-06 10:43:35] ✅ ❌ Greška u autoSync: Request failed with status code 400
-
-[2026-02-06 17:25:09] ✅ ❌ Greška u autoSync: loadConfig is not defined
-
-[2026-02-06 17:25:41] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
-
-[2026-02-06 17:25:41] ✅ ❌ Greška kod arhiviranja ili preimenovanja liste: invalid id
-
-[2026-02-06 17:25:41] ✅ ❌ Greška u autoSync: Request failed with status code 400
-
-[2026-02-06 17:33:31] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
-
-[2026-02-06 17:38:40] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
-
-[2026-02-06 17:42:38] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
-
-[2026-02-06 18:09:55] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
-
-[2026-02-13 17:31:51] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
-
-[2026-02-13 17:31:51] ✅ ✅ Lista preimenovana u "FEBRUARY" i sve kartice arhivirane.
-
-[2026-02-13 17:57:54] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
-
-[2026-02-13 17:57:55] ✅ ✅ Lista preimenovana u "FEBRUARY" i sve kartice arhivirane.
+[2026-04-26 18:20:53] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
 

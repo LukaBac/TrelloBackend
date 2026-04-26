@@ -6,6 +6,8 @@ let electronApp = null;
 let isElectron = false;
 let isPackaged = false;
 
+
+
 try {
   const electron = require("electron");
   electronApp = electron.app;
@@ -99,45 +101,166 @@ function updateConfig(newConfig) {
 let config = loadConfig();
 let isCreatingCards = false; // sprječava overlap
 
-// 🧠 PROVJERI MJESEC I ODRADI POTREBNO
+//STARI AUTOSYNC
+// async function autoSync() {
+//   try {
+//     const now = now();
+//     const currentMonth = now.getMonth() + 1; // 1-12
+//     config = loadConfig();
+//     const trackedMonth = config.monthTracker;
+
+//     if (currentMonth !== trackedMonth && !isCreatingCards) {
+//       console.log(`🗓️ Novi mjesec (${currentMonth}) otkriven! - Kreiram kartice`);
+//       logText(`🗓️ Novi mjesec (${currentMonth}) otkriven — pokrećem izradu kartica...`);
+
+//       isCreatingCards = true;
+
+//       // 📁 Arhiviraj stare kartice + preimenuj listu
+//       await archiveAndRenameList(currentMonth);
+
+//       // 🃏 Kreiraj nove kartice
+//       await createCardsForCurrentMonth();
+
+//       // 🔁 Ažuriraj config
+//       config.monthTracker = currentMonth;
+//       updateConfig(config);
+
+//       isCreatingCards = false;
+
+//       console.log("✅ Novi mjesec kreiran i config ažuriran.");
+//       logText(`✅ Novi mjesec kreiran i config ažuriran na ${currentMonth}.`);
+//     } else {
+//       // 🔄 Samo provjeri updatee (ako nije novi mjesec)
+//       console.log("🔄 Pokrećem sinkronizaciju s Rentlio API-jem...");
+//       await checkForUpdates();
+//     }
+//   } catch (err) {
+//     console.error("❌ Greška u autoSync:", err.message);
+//     logText(`❌ Greška u autoSync: ${err.message}`);
+//     isCreatingCards = false;
+//   }
+// }
+
+async function createMonth(monthNumber) {
+  console.log(`🃏 Kreiram kartice za mjesec ${monthNumber}`);
+  await createCardsForMonth(monthNumber);
+}
+
+async function syncMonth(monthNumber) {
+  console.log(`🔄 Sync mjeseca ${monthNumber}`);
+  await checkForUpdates(monthNumber);
+}
+
+async function archiveMonth(monthNumber) {
+  console.log(`📦 Arhiviram mjesec ${monthNumber}`);
+  await archiveAndRenameList(monthNumber);
+}
+
+function getMonthKey(month, year) {
+  return `${month}-${year}`;
+}
+
+function getMonthName(month, year) {
+  return new Date(year, month - 1)
+    .toLocaleString("en-US", { month: "long" }) + " " + year;
+}
+
+
+function getListIdForMonth(month, year) {
+  config = loadConfig();
+  return config.trelloLists?.[getMonthKey(month, year)];
+}
+
+function saveListIdForMonth(month, year, listId) {
+  config = loadConfig();
+  if (!config.trelloLists) config.trelloLists = {};
+  config.trelloLists[getMonthKey(month, year)] = listId;
+  updateConfig(config);
+}
+
+function getToday() {
+  // reload config svaki put → možeš mijenjati dok app radi
+  config = loadConfig();
+
+  if (config.debugDate) {
+    console.log("🧪 DEBUG DATE ACTIVE:", config.debugDate);
+    return new Date(config.debugDate);
+  }
+
+  return now();
+}
+
 async function autoSync() {
-  try {
-    const now = new Date();
-    const currentMonth = now.getMonth() + 1; // 1-12
+      try {
+        const today = getToday(); // debugDate aware
+    const year = today.getFullYear();
+    const month = today.getMonth() + 1;
+    const monthKey = `${year}-${String(month).padStart(2,"0")}`;
+
     config = loadConfig();
-    const trackedMonth = config.monthTracker;
 
-    if (currentMonth !== trackedMonth && !isCreatingCards) {
-      console.log(`🗓️ Novi mjesec (${currentMonth}) otkriven! - Kreiram kartice`);
-      logText(`🗓️ Novi mjesec (${currentMonth}) otkriven — pokrećem izradu kartica...`);
+    const hasCurrentMonthList = config.trelloLists?.[monthKey];
 
-      isCreatingCards = true;
+    // 🟢 FIRST RUN / MISMATCH FIX
+    if (!hasCurrentMonthList || config.monthTracker !== month) {
+      console.log("🆕 FIRST RUN DETECTED → kreiram trenutni mjesec");
 
-      // 📁 Arhiviraj stare kartice + preimenuj listu
-      await archiveAndRenameList(currentMonth);
+      const listId = await createTrelloListForMonth(year, month);
+      await createCardsForMonth(year, month, listId);
 
-      // 🃏 Kreiraj nove kartice
-      await createCardsForCurrentMonth();
-
-      // 🔁 Ažuriraj config
-      config.monthTracker = currentMonth;
+      config.monthTracker = month;
+      config.trelloLists[monthKey] = listId;
       updateConfig(config);
 
-      isCreatingCards = false;
-
-      console.log("✅ Novi mjesec kreiran i config ažuriran.");
-      logText(`✅ Novi mjesec kreiran i config ažuriran na ${currentMonth}.`);
-    } else {
-      // 🔄 Samo provjeri updatee (ako nije novi mjesec)
-      console.log("🔄 Pokrećem sinkronizaciju s Rentlio API-jem...");
-      await checkForUpdates();
+      console.log("✅ Current month inicijaliziran.");
+      return; // VERY IMPORTANT → prekini dalje logike
     }
+
+    const daysInMonth = new Date(year, currentMonth, 0).getDate();
+    const daysLeft = daysInMonth - today;
+
+    // 🟡 5 DANA PRIJE → dual mode
+    if (daysLeft <= 5 && !config.dualMode) {
+      console.log("🟡 Ulazim u DUAL MONTH MODE");
+
+      await ensureMonthReady(nextMonth, year);
+
+      config.dualMode = true;
+      config.nextMonth = nextMonth;
+      updateConfig(config);
+    }
+
+    // 🔵 DUAL MODE → update oba mjeseca
+    if (config.dualMode) {
+      console.log("🔵 Dual mode sync");
+
+      await checkForUpdates(currentMonth, year);
+      await checkForUpdates(nextMonth, year);
+    }
+    // 🟢 Normal mode → update samo current
+    else {
+      await checkForUpdates(currentMonth, year);
+    }
+
+    // 🟣 1. U MJESECU → arhiviraj stari
+    if (today === 1 && config.dualMode) {
+      console.log("🟣 Novi mjesec — gasim dual mode");
+
+      await archiveAndRenameList(currentMonth - 1 || 12, year);
+
+      config.dualMode = false;
+      config.currentMonth = currentMonth;
+      delete config.trelloLists[getMonthKey(currentMonth - 1 || 12, year)];
+
+      updateConfig(config);
+    }
+
   } catch (err) {
     console.error("❌ Greška u autoSync:", err.message);
-    logText(`❌ Greška u autoSync: ${err.message}`);
-    isCreatingCards = false;
   }
 }
+
+
 
 function readJSONSafe(filename, fallback) {
   try {
@@ -164,7 +287,9 @@ function writeJSONSafe(filename, data) {
 
 function loadConfig() {
   return readJSONSafe("config.json", {
-    monthTracker: 0,
+    currentMonth: 0,
+    nextMonth: 0,
+    dualMode: false,
     refreshMinutes: 3,
   });
 }
@@ -182,60 +307,92 @@ function loadConfig() {
 //   return path.join(__dirname, filename);
 // }
 
+async function ensureMonthReady(month, year) {
+  // 1️⃣ kreiraj listu ako ne postoji
+  await createTrelloListForMonth(month, year);
 
-// 📦 Dummy funkcija (preimenuj listu + arhiviraj stare kartice)
-async function archiveAndRenameList(currentMonth) {
+  // 2️⃣ kreiraj kartice za mjesec
+  await createCardsForMonth(month, year);
+}
+
+async function createTrelloListForMonth(monthNumber, year = now().getFullYear()) {
   try {
-    const monthName = new Date().toLocaleString("en-US", { month: "long" });
-    const year = new Date().getFullYear();
+    const monthKey = getMonthKey(monthNumber, year);
+    const existingList = getListIdForMonth(monthNumber, year);
 
-    console.log(`📦 Arhiviram sve kartice i preimenujem listu na "${monthName}"...`);
-    //logText(`📦 Arhiviram sve kartice i preimenujem listu na "${monthName} ${year}"...`);
-
-    // 🔹 1️⃣ Dohvati sve kartice u listi
-    const cardsRes = await axios.get(
-      `https://api.trello.com/1/lists/${LIST_ID}/cards`,
-      { params: { key: TRELLO_KEY, token: TRELLO_TOKEN } }
-    );
-
-    const cards = cardsRes.data;
-    console.log(`📋 Pronađeno ${cards.length} kartica za arhiviranje...`);
-
-    // 🔹 2️⃣ Arhiviraj svaku karticu (staviti closed=true)
-    for (const card of cards) {
-      await axios.put(
-        `https://api.trello.com/1/cards/${card.id}/closed`,
-        null,
-        {
-          params: {
-            key: TRELLO_KEY,
-            token: TRELLO_TOKEN,
-            value: true,
-          },
-        }
-      );
-      console.log(`🗃️ Arhivirana kartica: ${card.name}`);
-      await new Promise((res) => setTimeout(res, 300)); // mali delay da izbjegnemo 429
+    // ako lista već postoji → ništa ne radi
+    if (existingList) {
+      console.log(`📋 Lista za ${monthKey} već postoji`);
+      return existingList;
     }
 
-    // 🔹 3️⃣ Preimenuj listu
-    await axios.put(
-      `https://api.trello.com/1/lists/${LIST_ID}/name`,
+    const listName = getMonthName(monthNumber, year);
+    console.log(`🆕 Kreiram Trello listu: ${listName}`);
+
+    const res = await axios.post(
+      "https://api.trello.com/1/lists",
       null,
       {
         params: {
+          name: listName,
+          idBoard: BOARD_ID,
+          pos: "bottom",
           key: TRELLO_KEY,
           token: TRELLO_TOKEN,
-          value: `${monthName}`,
         },
       }
     );
 
-    console.log(`✅ Lista preimenovana u "${monthName.toUpperCase()}" i sve kartice arhivirane.`);
-    logText(`✅ Lista preimenovana u "${monthName.toUpperCase()}" i sve kartice arhivirane.`);
+    const newListId = res.data.id;
+
+    console.log(`✅ Kreirana lista ${listName} (${newListId})`);
+
+    // spremi u config
+    saveListIdForMonth(monthNumber, year, newListId);
+
+    return newListId;
   } catch (err) {
-    console.error("❌ Greška kod arhiviranja ili preimenovanja liste:", err.response?.data || err.message);
-    logText(`❌ Greška kod arhiviranja ili preimenovanja liste: ${err.response?.data || err.message}`);
+    console.error("❌ Greška kod kreiranja Trello liste:", err.response?.data || err.message);
+  }
+}
+
+// 📦 Dummy funkcija (preimenuj listu + arhiviraj stare kartice)
+async function archiveAndRenameList(monthNumber, year = now().getFullYear()) {
+  try {
+    const listId = getListIdForMonth(monthNumber, year);
+    if (!listId) {
+      console.log("⚠️ Lista za mjesec ne postoji → preskačem arhiviranje");
+      return;
+    }
+
+    const monthName = new Date(year, monthNumber - 1)
+      .toLocaleString("en-US", { month: "long" });
+
+    console.log(`📦 Arhiviram listu ${monthName}`);
+
+    const cardsRes = await axios.get(
+      `https://api.trello.com/1/lists/${listId}/cards`,
+      { params: { key: TRELLO_KEY, token: TRELLO_TOKEN } }
+    );
+
+    for (const card of cardsRes.data) {
+      await axios.put(
+        `https://api.trello.com/1/cards/${card.id}/closed`,
+        null,
+        { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, value: true } }
+      );
+      await sleep(250);
+    }
+
+    await axios.put(
+      `https://api.trello.com/1/lists/${listId}/closed`,
+      null,
+      { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, value: true } }
+    );
+
+    console.log(`✅ Lista ${monthName} arhivirana`);
+  } catch (err) {
+    console.error("❌ Archive error:", err.response?.data || err.message);
   }
 }
 
@@ -258,6 +415,24 @@ cron.schedule(`*/${config.refreshMinutes} * * * *`, async () => {
 
 //fetchReservations("newData.json");
 
+function getMonthInfo() {
+  const now = now();
+
+  const currentMonth = now.getMonth() + 1;
+  const currentYear = now.getFullYear();
+
+  const lastDayOfMonth = new Date(currentYear, currentMonth, 0).getDate();
+  const daysLeft = lastDayOfMonth - now.getDate();
+
+  const nextMonth = currentMonth === 12 ? 1 : currentMonth + 1;
+
+  return {
+    today: now.getDate(),
+    daysLeft,
+    currentMonth,
+    nextMonth
+  };
+}
 
 function getMonthKey(timestamp) {
   const d = new Date(timestamp * 1000);
@@ -265,7 +440,7 @@ function getMonthKey(timestamp) {
 }
 
 function getActiveMonths() {
-  const now = new Date();
+  const now = now();
 
   const currentMonth = new Date(now.getFullYear(), now.getMonth(), 1);
   const nextMonth = new Date(now.getFullYear(), now.getMonth() + 1, 1);
@@ -284,7 +459,22 @@ function getActiveMonths() {
   return [getMonthKey(currentMonth.getTime() / 1000)];
 }
 
+function now() {
+  // uvijek vraća "trenutni" datum (debug aware)
+  return new Date(getToday().getTime());
+}
 
+function currentYear() {
+  return now().getFullYear();
+}
+
+function currentMonthIndex() {
+  return now().getMonth(); // 0-11
+}
+
+function currentMonthNumber() {
+  return now().getMonth() + 1; // 1-12
+}
 
 
 
@@ -298,7 +488,7 @@ function getActiveMonths() {
 // }
 
 function timestamp() {
-  const now = new Date();
+  const now = now();
   return now.toISOString().replace("T", " ").split(".")[0]; // npr. "2025-10-02 15:42:10"
 }
 
@@ -382,8 +572,8 @@ function getChecklistGroup(unitNumber, isCleaning = false, unitName = "") {
   const lowerName = unitName.toLowerCase();
 
   // 🟢 Ako je TRANSFER → vraćamo posebne checkliste
-  if (lowerName.includes("transfer dolazni")) return "TRANSFER Dolazni 🚐";
-  if (lowerName.includes("transfer odlazni")) return "TRANSFER Odlazni 🚐";
+  if (lowerName.includes("transfer dolazni")) return "TRANSFER / Dolazni 🚐";
+  if (lowerName.includes("transfer odlazni")) return "TRANSFER / Odlazni 🚐";
 
   // Ako nije transfer → normalne grupe
   const suffix = isCleaning ? " / Cleaning 🪣🚽🪤🧹" : " / Check-in 🛎️";
@@ -426,9 +616,7 @@ async function createCardForDay(dateObj, arrivalsGrouped, departuresGrouped) {
   console.log(`✅ Kreirana kartica: ${cardName}`);
 
   // 2️⃣ Dodaj naslovnu sliku
-  const imgPath = getImagePath(`${dayName.toLowerCase()}.webp`);
-  //console.log("IMG PATH:", imgPath);
-  //console.log("EXISTS:", fs.existsSync(imgPath));
+  const imgPath = `./img/${dayName.toLowerCase()}.webp`;
   if (fs.existsSync(imgPath)) {
     try {
       const form = new FormData();
@@ -465,7 +653,7 @@ async function createCardForDay(dateObj, arrivalsGrouped, departuresGrouped) {
     "EVISITOR ✍🏻",
     "OLD TOWN / Cleaning 🪣🚽🪤🧹",
     "VILLA SPINDLER / Cleaning 🪣🚽🪤🧹",
-    "KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹",
+    "KALA LUXURY ROOMS / Cleaning 🪣🚽🪤🧹",
     "EXTRA CLEANING 🪣🚽🪤🧹",
     "MAINTANANCE 🛠️",
     "CALL CENTAR 📞",
@@ -538,15 +726,7 @@ async function createCardForDay(dateObj, arrivalsGrouped, departuresGrouped) {
 
 
 
-function getImagePath(filename) {
-  // 📦 build
-  if (isElectron && isPackaged) {
-    return path.join(process.resourcesPath, "img", filename);
-  }
 
-  // 🧪 dev / CLI
-  return path.join(__dirname, "img", filename);
-}
 
 
 
@@ -640,7 +820,7 @@ async function handleNewReservation(reservation, type = 'all') {
 
   // 🔀 TRANSFER DOLAZNI
   if ((type === 'arrival' || type === 'all') && lowerUnitName.includes("transfer dolazni")) {
-    const checklist = await findOrCreateChecklist(card.id, "TRANSFER DOLAZNI 🚐");
+    const checklist = await findOrCreateChecklist(card.id, "TRANSFERS - DOLAZNI 🚖");
     await addSortedCheckItem(checklist.id, reservation, itemName);
     console.log(`🚖 Dodan transfer dolazni za ${reservation.unitName}`);
     logText(`Dodan transfer dolazni: (${formatDate(reservation.arrivalDate)}: ${reservation.id}) \n${reservation.unitName} - ${reservation.guestName}`);
@@ -649,7 +829,7 @@ async function handleNewReservation(reservation, type = 'all') {
 
   // 🔀 TRANSFER ODLAZNI
   if ((type === 'arrival' || type === 'all') && lowerUnitName.includes("transfer odlazni")) {
-    const checklist = await findOrCreateChecklist(card.id, "TRANSFER ODLAZNI 🚐");
+    const checklist = await findOrCreateChecklist(card.id, "TRANSFERS - ODLASCI 🚕");
     await addSortedCheckItem(checklist.id, reservation, itemName);
     console.log(`🚕 Dodan transfer odlazni za ${reservation.unitName}`);
     logText(`Dodan transfer odlazni: (${formatDate(reservation.arrivalDate)}: ${reservation.id}) \n${reservation.unitName} - ${reservation.guestName}`);
@@ -831,86 +1011,60 @@ async function handleModifyReservation(oldReservation, newReservation) {
 }
 
 
-async function checkForUpdates() {
-  // 1️⃣ Povuci svježe rezervacije i spremi u newData.json
-  await fetchReservations("newData.json");
+async function checkForUpdates(monthNumber, year = now().getFullYear()) {
+  console.log(`🔄 Provjera updatea za mjesec ${monthNumber}/${year}`);
 
-  // 2️⃣ Učitaj stare i nove podatke
-  const oldData = fs.existsSync(getDataPath("data.json"))
-    ? JSON.parse(fs.readFileSync(getDataPath("data.json"), "utf-8"))
-    : { reservations: [] };
+  // await fetchReservations("newData.json");
 
-  const newData = fs.existsSync(getDataPath("newData.json"))
-    ? JSON.parse(fs.readFileSync(getDataPath("newData.json"), "utf-8"))
-    : { reservations: [] };
+  const oldData = readJSONSafe("data.json", { reservations: [] });
+  const newData = readJSONSafe("newData.json", { reservations: [] });
 
-  const oldReservations = oldData.reservations || [];
-  const newReservations = newData.reservations || [];
+  const filterMonth = (res) => {
+    const arrival = new Date(res.arrivalDate);
+    const departure = new Date(res.departureDate);
 
-  // Pretvori u mape radi lakšeg uspoređivanja
+    const m = monthNumber - 1;
+
+    return (
+      arrival.getMonth() === m ||
+      departure.getMonth() === m
+    );
+  };
+
+  const oldReservations = (oldData.reservations || []).filter(filterMonth);
+  const newReservations = (newData.reservations || []).filter(filterMonth);
+
   const oldMap = new Map(oldReservations.map(r => [r.id, r]));
   const newMap = new Map(newReservations.map(r => [r.id, r]));
 
-  // 3️⃣ Detekcija promjena
-  // ➕ NOVE rezervacije
+  // ➕ NEW
   for (const res of newReservations) {
     if (!oldMap.has(res.id)) {
-      console.log(`🆕 Nova rezervacija: ${res.unitName} (${res.id})`);
-      await handleNewReservation(res);
+      console.log(`🆕 Nova rezervacija (${monthNumber}): ${res.unitName}`);
+      await handleNewReservation(res, monthNumber);
     }
   }
 
-  // 🔄 MODIFICIRANE rezervacije
+  // 🔄 MODIFIED
   for (const res of newReservations) {
-  const oldRes = oldMap.get(res.id);
-  if (oldRes) {
-    // Usporedi polja
-    const changes = [];
-    for (const key of Object.keys(res)) {
-      if (JSON.stringify(oldRes[key]) !== JSON.stringify(res[key])) {
-        changes.push(`${key}: "${oldRes[key]}" → "${res[key]}"`);
-      }
-    }
+    const oldRes = oldMap.get(res.id);
+    if (!oldRes) continue;
 
-    if (changes.length > 0) {
-      // Ako su promjene samo checkin/checkout — preskoči
-      const relevantChanges = changes.filter(change => {
-        return !change.startsWith("checkedIn") && !change.startsWith("checkedOut");
-      });
-
-      if (relevantChanges.length > 0) {
-        console.log(`🔄 Promijenjena rezervacija: ${res.unitName} (${res.id})`);
-        console.log("   Promjene:", relevantChanges.join(", "));
-        await handleModifyReservation(oldRes, res);
-      } else {
-        console.log(`⚙️ Promjena samo check-in/out statusa → preskačem modify (${res.unitName})`);
-      }
+    if (JSON.stringify(oldRes) !== JSON.stringify(res)) {
+      console.log(`🔄 Promjena rezervacije (${monthNumber}): ${res.unitName}`);
+      await handleModifyReservation(oldRes, res, monthNumber);
     }
   }
-}
 
-  // ❌ OBRISANE rezervacije
+  // ❌ DELETED
   for (const oldRes of oldReservations) {
     if (!newMap.has(oldRes.id)) {
-      console.log(`❌ Obrisana rezervacija: ${oldRes.unitName} (${oldRes.id})`);
-      await handleDeleteReservation(oldRes);
+      console.log(`❌ Obrisana rezervacija (${monthNumber}): ${oldRes.unitName}`);
+      await handleDeleteReservation(oldRes, monthNumber);
     }
   }
 
-  // ✅ CHECK-IN statusi
-  /*for (const res of newReservations) {
-    const oldRes = oldMap.get(res.id);
-    if (oldRes && oldRes.checkedIn !== res.checkedIn) {
-      console.log(
-        `✔️ Promjena check-in statusa za ${res.unitName} (${res.id}): ${oldRes.checkedIn} → ${res.checkedIn}`
-      );
-      await handleCheckIn(res);
-    }
-  }*/
-
-  // 4️⃣ Na kraju, zamijeni data.json novim stanjem
-  fs.writeFileSync(getDataPath("data.json"), JSON.stringify(newData, null, 2));
-  console.log("✅ data.json ažuriran");
+  writeJSONSafe("data.json", newData);
 }
 
 
@@ -921,13 +1075,35 @@ function sleep(ms) {
 }
 
 
+async function createCardsForMonth(monthNumber, year = now().getFullYear()) {
+  console.log(`🃏 Kreiram kartice za mjesec ${monthNumber}/${year}`);
 
+  await fetchReservations("data.json");
+
+  const data = readJSONSafe("data.json", { reservations: [] });
+  const reservations = data.reservations || [];
+
+  const monthIndex = monthNumber - 1;
+
+  const arrivalsGrouped = groupReservationsByArrivalDate(reservations, monthIndex, year);
+  const departuresGrouped = groupReservationsByDepartureDate(reservations, monthIndex, year);
+
+  const firstDay = new Date(year, monthIndex, 1);
+  const lastDay = new Date(year, monthIndex + 1, 0);
+
+  for (let d = new Date(firstDay); d <= lastDay; d.setDate(d.getDate() + 1)) {
+    await createCardForDay(new Date(d), arrivalsGrouped, departuresGrouped, monthNumber, year);
+    await sleep(500);
+  }
+
+  console.log(`✅ Kartice kreirane za mjesec ${monthNumber}`);
+}
 
 
 
 async function createCardsForCurrentMonth() {
   await fetchReservations("data.json");
-  const today = new Date();
+  const today = now();
   const year = today.getFullYear();
   const month = today.getMonth();
 
@@ -1013,3 +1189,4 @@ const testReservationNew = {
   /*console.log('\n🔄 [CRON] Sinkronizacija u tijeku...');
   await checkForUpdates();
 });*/
+

@@ -104,5 +104,3 @@ app.whenReady().then(() => {
 
   require(trelloPath);
 });
-
-

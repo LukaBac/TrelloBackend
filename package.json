@@ -31,8 +31,7 @@
   },
   "pkg": {
     "assets": [
-      ".env",
-      "img/**/*"
+      ".env"
     ],
     "scripts": [
       "rentlio.js"
