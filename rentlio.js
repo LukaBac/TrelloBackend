@@ -224,16 +224,22 @@ async function fetchReservationsSeptember2025() {
   }
 }
 
-async function fetchReservations(fileName) {
+function formatDateLocal(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+async function fetchReservations(fileName, targetDate = new Date()) {
   try {
     // 📅 Odredi početak i kraj trenutnog mjeseca
-    const now = new Date();
-    const firstDay = new Date(now.getFullYear(), now.getMonth(), 1)
-      .toISOString()
-      .split('T')[0];
-    const lastDay = new Date(now.getFullYear(), now.getMonth() + 1, 0)
-      .toISOString()
-      .split('T')[0];
+    const year = targetDate.getFullYear();
+    const month = targetDate.getMonth();
+
+    // 📅 početak ciljanog mjeseca
+    const firstDay = formatDateLocal(new Date(year, month, 0));
+    const lastDay = formatDateLocal(new Date(year, month + 1, 0));
 
     console.log(`📅 Dohvaćam rezervacije od ${firstDay} do ${lastDay}...`);
 

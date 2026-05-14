@@ -1,60 +1,3927 @@
-[2026-02-16 18:11:40] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
+[2026-04-26 22:06:50] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (31/05/2026: 10131447) 
+05 Superior Double room - Ground Floor - Lesley Murdoch
 
-[2026-02-16 18:12:07] ✅ ✅ Lista preimenovana u "FEBRUARY" i sve kartice arhivirane.
+[2026-04-26 22:06:51] ✅ Dodan EVISITOR: (31/05/2026: 10131447) 
+05 Superior Double room - Ground Floor - Lesley Murdoch
 
-[2026-02-16 18:13:15] ✅ 🗓️ Novi mjesec (2) otkriven — pokrećem izradu kartica...
+[2026-04-27 08:12:41] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (14/05/2026: 10131524) 
+69 - LINCUN - Fernando Pastore
 
-[2026-02-16 18:13:16] ✅ ✅ Lista preimenovana u "FEBRUARY" i sve kartice arhivirane.
+[2026-04-27 08:12:41] ✅ Dodan EVISITOR: (14/05/2026: 10131524) 
+69 - LINCUN - Fernando Pastore
 
-[2026-02-16 18:18:15] ✅ ✅ Novi mjesec kreiran i config ažuriran na 2.
+[2026-04-27 08:12:43] ✅ Dodan CLEANING: (17/05/2026: 10131524) 
+69 - LINCUN - Fernando Pastore
 
-[2026-04-01 08:07:13] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
+[2026-04-27 08:12:43] ❌ ERROR: Kartica ne postoji: 29/04/2026: (10131613)
 
-[2026-04-01 08:07:39] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
+[2026-04-27 08:12:45] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (21/05/2026: 10131710) 
+23 - AD Pobijana - Jaren Day
 
-[2026-04-01 08:20:11] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
+[2026-04-27 08:12:45] ✅ Dodan EVISITOR: (21/05/2026: 10131710) 
+23 - AD Pobijana - Jaren Day
 
-[2026-04-01 08:20:16] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
+[2026-04-27 08:12:47] ✅ Dodan CLEANING: (24/05/2026: 10131710) 
+23 - AD Pobijana - Jaren Day
 
-[2026-04-01 08:21:42] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
+[2026-04-27 08:12:48] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (24/05/2026: 10131962) 
+57 - CENTRAL W APARTMENT - Sydney Carlson
 
-[2026-04-01 08:22:09] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
+[2026-04-27 08:12:48] ✅ Dodan EVISITOR: (24/05/2026: 10131962) 
+57 - CENTRAL W APARTMENT - Sydney Carlson
 
-[2026-04-01 08:31:43] ✅ ✅ Novi mjesec kreiran i config ažuriran na 4.
+[2026-04-27 08:12:50] ✅ Dodan CLEANING: (27/05/2026: 10131962) 
+57 - CENTRAL W APARTMENT - Sydney Carlson
 
-[2026-04-05 10:55:05] ❌ ERROR: Kartica ne postoji: 10/04/2026: (10006712)
+[2026-04-27 08:12:51] ✅ Dodan transfer dolazni: (16/05/2026: 10132606) 
+02 - TRANSFER DOLAZNI - Gordon William Johnstone
 
-[2026-04-05 10:55:06] ❌ ERROR: Kartica ne postoji: 17/04/2026: (10007811)
+[2026-04-27 08:12:52] ✅ Azurirana rezervacija 05/05/2026 - 9999773
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+103 - VILLA KALA - Sandra Weiten Zimmermann
 
-[2026-04-05 10:55:06] ❌ ERROR: Kartica ne postoji: 26/04/2026: (10007816)
+[2026-04-27 08:12:52] ✅ Azurirana rezervacija 05/05/2026 - 9999773
+Checklist: EVISITOR ✍🏻
+103 - VILLA KALA - Sandra Weiten Zimmermann
 
-[2026-04-05 10:55:06] ❌ ERROR: Kartica ne postoji: 11/04/2026: (10008320)
+[2026-04-27 08:12:53] ✅ Azurirana rezervacija 09/05/2026 - 9999773
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+103 - VILLA KALA - Sandra Weiten Zimmermann
 
-[2026-04-05 10:55:07] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (02/04/2026: 10008649) 
-31 - NORA - Andrii Bilyi
+[2026-04-27 08:12:54] ✅ Azurirana rezervacija 02/05/2026 - 10004218
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+101 - VILLA KALA - SEBASTIEN ROCHE
 
-[2026-04-05 10:55:08] ✅ Dodan EVISITOR: (02/04/2026: 10008649) 
-31 - NORA - Andrii Bilyi
+[2026-04-27 08:12:55] ✅ Azurirana rezervacija 02/05/2026 - 10004218
+Checklist: EVISITOR ✍🏻
+101 - VILLA KALA - SEBASTIEN ROCHE
 
-[2026-04-05 10:55:09] ✅ Dodan transfer dolazni: (02/04/2026: 10009054) 
-02 - TRANSFER DOLAZNI - Andrii Bilyi
+[2026-04-27 08:12:56] ✅ Azurirana rezervacija 06/05/2026 - 10004218
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+101 - VILLA KALA - SEBASTIEN ROCHE
 
-[2026-04-05 10:55:09] ❌ ERROR: Kartica ne postoji: 17/04/2026: (10009182)
+[2026-04-27 08:12:57] ✅ Azurirana rezervacija 31/05/2026 - 10131447
+Checklist: OLD TOWN / Check-in 🛎️
+05 Superior Double room - Ground Floor - Lesley Murdoch
 
-[2026-04-05 10:55:10] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (03/04/2026: 10010106) 
-24 - AD Pobijana - Tomasz Kacper Boron
+[2026-04-27 08:12:57] ✅ Azurirana rezervacija 31/05/2026 - 10131447
+Checklist: EVISITOR ✍🏻
+05 Superior Double room - Ground Floor - Lesley Murdoch
 
-[2026-04-05 10:55:34] ❌ ERROR: Kartica ne postoji: 10/04/2026: (10006712)
+[2026-04-27 08:12:58] ❌ ERROR: MODIFY: Kartica ne postoji za datum 04/06/2026 - 10131447
 
-[2026-04-05 10:55:59] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
+[2026-04-27 08:13:00] ✅ Obrisan checkbox (all): DOLAZAK: 07/05/2026, ODLAZAK: 12/05/2026 - 10101723
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+108 - VILLA KALA - adam fairbrother
 
-[2026-04-05 10:56:02] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
+[2026-04-27 08:13:00] ✅ Obrisan checkbox (all): DOLAZAK: 07/05/2026, ODLAZAK: 12/05/2026 - 10101723
+Checklist: EVISITOR ✍🏻
+108 - VILLA KALA - adam fairbrother
 
-[2026-04-26 18:09:33] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
+[2026-04-27 08:13:02] ✅ Obrisan checkbox (all): DOLAZAK: 07/05/2026, ODLAZAK: 12/05/2026 - 10101723
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+108 - VILLA KALA - adam fairbrother
 
-[2026-04-26 18:09:57] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
+[2026-04-28 09:01:34] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (05/05/2026: 10133374) 
+24 - AD Pobijana - Dean Clark
 
-[2026-04-26 18:20:50] ✅ 🗓️ Novi mjesec (4) otkriven — pokrećem izradu kartica...
+[2026-04-28 09:01:34] ✅ Dodan EVISITOR: (05/05/2026: 10133374) 
+24 - AD Pobijana - Dean Clark
 
-[2026-04-26 18:20:53] ✅ ✅ Lista preimenovana u "APRIL" i sve kartice arhivirane.
+[2026-04-28 09:01:36] ✅ Dodan CLEANING: (08/05/2026: 10133374) 
+24 - AD Pobijana - Dean Clark
+
+[2026-04-28 09:01:36] ❌ ERROR: Kartica ne postoji: 30/04/2026: (10134716)
+
+[2026-04-28 09:01:38] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (26/05/2026: 10135847) 
+66 - LINCUN - Adam Seymour
+
+[2026-04-28 09:01:38] ✅ Dodan EVISITOR: (26/05/2026: 10135847) 
+66 - LINCUN - Adam Seymour
+
+[2026-04-28 09:01:40] ✅ Dodan CLEANING: (29/05/2026: 10135847) 
+66 - LINCUN - Adam Seymour
+
+[2026-04-28 09:01:41] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (31/05/2026: 10136205) 
+107 - VILLA KALA - Sebaga Ralebala
+
+[2026-04-28 09:01:42] ✅ Dodan EVISITOR: (31/05/2026: 10136205) 
+107 - VILLA KALA - Sebaga Ralebala
+
+[2026-04-28 09:01:43] ❌ ERROR: Kartica ne postoji: 28/04/2026: (10136244)
+
+[2026-04-28 09:01:44] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (03/05/2026: 10136574) 
+50 - AMOROZO - Agnieszka Mróz
+
+[2026-04-28 09:01:45] ✅ Dodan EVISITOR: (03/05/2026: 10136574) 
+50 - AMOROZO - Agnieszka Mróz
+
+[2026-04-28 09:01:46] ✅ Dodan CLEANING: (06/05/2026: 10136574) 
+50 - AMOROZO - Agnieszka Mróz
+
+[2026-04-28 09:01:48] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (24/05/2026: 10137806) 
+10 -Deluxe Doube room with side Sea View  - S - Sean Curtis
+
+[2026-04-28 09:01:48] ✅ Dodan EVISITOR: (24/05/2026: 10137806) 
+10 -Deluxe Doube room with side Sea View  - S - Sean Curtis
+
+[2026-04-28 09:01:50] ✅ Dodan CLEANING: (28/05/2026: 10137806) 
+10 -Deluxe Doube room with side Sea View  - S - Sean Curtis
+
+[2026-04-28 09:01:52] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (23/05/2026: 10137848) 
+70 - LINCUN - Jennifer Ding
+
+[2026-04-28 09:01:53] ✅ Dodan EVISITOR: (23/05/2026: 10137848) 
+70 - LINCUN - Jennifer Ding
+
+[2026-04-28 09:01:54] ✅ Dodan CLEANING: (27/05/2026: 10137848) 
+70 - LINCUN - Jennifer Ding
+
+[2026-04-28 09:01:54] ❌ ERROR: MODIFY: Kartica ne postoji za datum 27/04/2026 - 9823374
+
+[2026-04-28 09:01:55] ✅ Azurirana rezervacija 01/05/2026 - 9823374
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+54 - Two bedroom - Sreekanth Sreedharan
+
+[2026-04-28 09:01:56] ❌ ERROR: MODIFY: Kartica ne postoji za datum 27/04/2026 - 10000018
+
+[2026-04-28 09:01:56] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 10000018
+
+[2026-04-28 09:01:57] ❌ ERROR: MODIFY: Kartica ne postoji za datum 27/04/2026 - 10035734
+
+[2026-04-28 09:01:58] ✅ Azurirana rezervacija 02/05/2026 - 10035734
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+63 - RAFAEL - Elloise Zena Matthews Edgerton
+
+[2026-04-28 09:01:59] ❌ ERROR: MODIFY: Kartica ne postoji za datum 27/04/2026 - 10084797
+
+[2026-04-28 09:02:00] ✅ Azurirana rezervacija 02/05/2026 - 10084797
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+102 - VILLA KALA - Pawel Piotr Wachowski
+
+[2026-04-28 09:02:00] ❌ ERROR: MODIFY: Kartica ne postoji za datum 27/04/2026 - 10084798
+
+[2026-04-28 09:02:01] ✅ Azurirana rezervacija 02/05/2026 - 10084798
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+104 - VILLA KALA - Radoslaw Sokalski
+
+[2026-04-28 09:02:01] ✅ Azurirana rezervacija 02/05/2026 - 10084798
+Checklist: EVISITOR ✍🏻
+104 - VILLA KALA - Radoslaw Sokalski
+
+[2026-04-28 09:02:02] ✅ Azurirana rezervacija 02/05/2026 - 10084798
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+104 - VILLA KALA - Radoslaw Sokalski
+
+[2026-04-28 09:02:02] ❌ ERROR: MODIFY: Kartica ne postoji za datum 27/04/2026 - 10127525
+
+[2026-04-28 09:02:03] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 10127525
+
+[2026-04-29 12:07:21] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (16/05/2026: 10139633) 
+77 - VILLA SPINDLER - Terpsichore - AYUSH RAJESH KOTHARI
+
+[2026-04-29 12:07:22] ✅ Dodan EVISITOR: (16/05/2026: 10139633) 
+77 - VILLA SPINDLER - Terpsichore - AYUSH RAJESH KOTHARI
+
+[2026-04-29 12:07:24] ✅ Dodan CLEANING: (18/05/2026: 10139633) 
+77 - VILLA SPINDLER - Terpsichore - AYUSH RAJESH KOTHARI
+
+[2026-04-29 12:07:25] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (04/05/2026: 10140181) 
+102 - VILLA KALA - Xuemeng Liu
+
+[2026-04-29 12:07:26] ✅ Dodan EVISITOR: (04/05/2026: 10140181) 
+102 - VILLA KALA - Xuemeng Liu
+
+[2026-04-29 12:07:27] ✅ Dodan CLEANING: (08/05/2026: 10140181) 
+102 - VILLA KALA - Xuemeng Liu
+
+[2026-04-29 12:07:28] ❌ ERROR: Kartica ne postoji: 30/04/2026: (10140326)
+
+[2026-04-29 12:07:29] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (01/05/2026: 10141568) 
+106 - VILLA KALA - Ana Agaraj
+
+[2026-04-29 12:07:30] ✅ Dodan EVISITOR: (01/05/2026: 10141568) 
+106 - VILLA KALA - Ana Agaraj
+
+[2026-04-29 12:07:32] ✅ Dodan CLEANING: (03/05/2026: 10141568) 
+106 - VILLA KALA - Ana Agaraj
+
+[2026-04-29 12:07:33] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (18/05/2026: 10142131) 
+63 - RAFAEL - Javier Chaverri
+
+[2026-04-29 12:07:34] ✅ Dodan EVISITOR: (18/05/2026: 10142131) 
+63 - RAFAEL - Javier Chaverri
+
+[2026-04-29 12:07:36] ✅ Dodan CLEANING: (20/05/2026: 10142131) 
+63 - RAFAEL - Javier Chaverri
+
+[2026-04-29 12:07:37] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (18/05/2026: 10142132) 
+64 - RAFAEL - Javier Chaverri
+
+[2026-04-29 12:07:38] ✅ Dodan EVISITOR: (18/05/2026: 10142132) 
+64 - RAFAEL - Javier Chaverri
+
+[2026-04-29 12:07:39] ✅ Dodan CLEANING: (20/05/2026: 10142132) 
+64 - RAFAEL - Javier Chaverri
+
+[2026-04-29 12:07:40] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (29/05/2026: 10143164) 
+62 - RAFAEL - Emma Young
+
+[2026-04-29 12:07:41] ✅ Dodan EVISITOR: (29/05/2026: 10143164) 
+62 - RAFAEL - Emma Young
+
+[2026-04-29 12:07:43] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (07/05/2026: 10143463) 
+108 - VILLA KALA - Amir Omerovič
+
+[2026-04-29 12:07:44] ✅ Dodan EVISITOR: (07/05/2026: 10143463) 
+108 - VILLA KALA - Amir Omerovič
+
+[2026-04-29 12:07:46] ✅ Dodan CLEANING: (10/05/2026: 10143463) 
+108 - VILLA KALA - Amir Omerovič
+
+[2026-04-29 12:07:48] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (30/05/2026: 10144349) 
+51 - AMOROZO - Bahareh Motlagh
+
+[2026-04-29 12:07:48] ✅ Dodan EVISITOR: (30/05/2026: 10144349) 
+51 - AMOROZO - Bahareh Motlagh
+
+[2026-04-29 12:07:50] ❌ ERROR: MODIFY: Kartica ne postoji za datum 28/04/2026 - 9823804
+
+[2026-04-29 12:07:51] ✅ Azurirana rezervacija 02/05/2026 - 9823804
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+72 - VILLA SPINDLER - Thalia - Shana Leeanne Golden
+
+[2026-04-29 12:07:52] ❌ ERROR: MODIFY: Kartica ne postoji za datum 28/04/2026 - 9917698
+
+[2026-04-29 12:07:53] ✅ Azurirana rezervacija 02/05/2026 - 9917698
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+77 - VILLA SPINDLER - Terpsichore - Breana Diane Muller
+
+[2026-04-29 12:07:53] ❌ ERROR: MODIFY: Kartica ne postoji za datum 28/04/2026 - 9928845
+
+[2026-04-29 12:07:54] ✅ Azurirana rezervacija 01/05/2026 - 9928845
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+71 - VILLA SPINDLER - Euterpe - Sarah Jo Burkett
+
+[2026-04-29 12:07:55] ❌ ERROR: MODIFY: Kartica ne postoji za datum 28/04/2026 - 10000328
+
+[2026-04-29 12:07:56] ✅ Azurirana rezervacija 08/05/2026 - 10000328
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+44 - Elegant Double - Old Town Street view - Hugo Estrada Alvarado
+
+[2026-04-29 12:07:57] ❌ ERROR: MODIFY: Kartica ne postoji za datum 29/04/2026 - 10025220
+
+[2026-04-29 12:07:58] ✅ Azurirana rezervacija 02/05/2026 - 10025220
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+24 - AD Pobijana - Matthijs Arjan Alexander Leenen
+
+[2026-04-29 12:07:58] ❌ ERROR: MODIFY: Kartica ne postoji za datum 28/04/2026 - 10052220
+
+[2026-04-29 12:07:59] ✅ Azurirana rezervacija 01/05/2026 - 10052220
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+67 - LINCUN - Shannon Louise Bell
+
+[2026-04-29 12:08:00] ❌ ERROR: MODIFY: Kartica ne postoji za datum 28/04/2026 - 10052439
+
+[2026-04-29 12:08:00] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 10052439
+
+[2026-04-29 12:08:01] ❌ ERROR: MODIFY: Kartica ne postoji za datum 29/04/2026 - 10089374
+
+[2026-04-29 12:08:02] ✅ Azurirana rezervacija 01/05/2026 - 10089374
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+05 Superior Double room - Ground Floor - Umur Ozkal
+
+[2026-04-29 12:08:02] ❌ ERROR: MODIFY: Kartica ne postoji za datum 28/04/2026 - 10136244
+
+[2026-04-29 12:08:08] ✅ Obrisan checkbox (all): DOLAZAK: 13/05/2026, ODLAZAK: 17/05/2026 - 10004704
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+106 - VILLA KALA - Ståhl Monica
+
+[2026-04-29 12:08:08] ✅ Obrisan checkbox (all): DOLAZAK: 13/05/2026, ODLAZAK: 17/05/2026 - 10004704
+Checklist: EVISITOR ✍🏻
+106 - VILLA KALA - Ståhl Monica
+
+[2026-04-29 12:08:10] ✅ Obrisan checkbox (all): DOLAZAK: 13/05/2026, ODLAZAK: 17/05/2026 - 10004704
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+106 - VILLA KALA - Ståhl Monica
+
+[2026-04-29 12:08:17] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 17/05/2026 - 10055269
+Checklist: OLD TOWN / Check-in 🛎️
+09 - Studio with a sea view - Second floor Vi - Jasmine Raes
+
+[2026-04-29 12:08:17] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 17/05/2026 - 10055269
+Checklist: EVISITOR ✍🏻
+09 - Studio with a sea view - Second floor Vi - Jasmine Raes
+
+[2026-04-29 12:08:18] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 17/05/2026 - 10055269
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+09 - Studio with a sea view - Second floor Vi - Jasmine Raes
+
+[2026-04-29 19:08:38] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (25/05/2026: 10146531) 
+77 - VILLA SPINDLER - Terpsichore - Nathalie Sullivan
+
+[2026-04-29 19:08:39] ✅ Dodan EVISITOR: (25/05/2026: 10146531) 
+77 - VILLA SPINDLER - Terpsichore - Nathalie Sullivan
+
+[2026-04-29 19:08:40] ✅ Dodan CLEANING: (28/05/2026: 10146531) 
+77 - VILLA SPINDLER - Terpsichore - Nathalie Sullivan
+
+[2026-04-29 19:08:42] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (02/05/2026: 10147364) 
+24 - AD Pobijana - Hegy Stafleu
+
+[2026-04-29 19:08:43] ✅ Dodan EVISITOR: (02/05/2026: 10147364) 
+24 - AD Pobijana - Hegy Stafleu
+
+[2026-04-29 19:08:44] ✅ Dodan CLEANING: (05/05/2026: 10147364) 
+24 - AD Pobijana - Hegy Stafleu
+
+[2026-04-29 19:08:45] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (15/05/2026: 10147632) 
+108 - VILLA KALA - Farah Savitri Dompas
+
+[2026-04-29 19:08:46] ✅ Dodan EVISITOR: (15/05/2026: 10147632) 
+108 - VILLA KALA - Farah Savitri Dompas
+
+[2026-04-29 19:08:47] ✅ Dodan CLEANING: (20/05/2026: 10147632) 
+108 - VILLA KALA - Farah Savitri Dompas
+
+[2026-04-29 19:08:47] ❌ ERROR: MODIFY: Kartica ne postoji za datum 29/04/2026 - 9841228
+
+[2026-04-29 19:08:49] ✅ Azurirana rezervacija 05/05/2026 - 9841228
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+07 - Studio with Balcony - First floor - Richard Demers
+
+[2026-04-29 19:08:49] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 10055106
+
+[2026-04-29 19:08:50] ✅ Azurirana rezervacija 04/05/2026 - 10055106
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+52 - AMOROZO - Christopher Istchenko
+
+[2026-04-29 19:08:51] ❌ ERROR: MODIFY: Kartica ne postoji za datum 29/04/2026 - 10061005
+
+[2026-04-29 19:08:52] ✅ Azurirana rezervacija 02/05/2026 - 10061005
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+49 Petit ground-floor room - César Augusto Morales Martinez
+
+[2026-04-29 19:08:52] ❌ ERROR: MODIFY: Kartica ne postoji za datum 29/04/2026 - 10082808
+
+[2026-04-29 19:08:53] ✅ Azurirana rezervacija 03/05/2026 - 10082808
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+69 - LINCUN - David Richardson
+
+[2026-04-29 19:08:54] ❌ ERROR: MODIFY: Kartica ne postoji za datum 29/04/2026 - 10096600
+
+[2026-04-29 19:08:55] ✅ Azurirana rezervacija 02/05/2026 - 10096600
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+38 - SWEET ROOM - Catherine Heather Brewin
+
+[2026-04-29 19:08:55] ❌ ERROR: MODIFY: Kartica ne postoji za datum 29/04/2026 - 10131613
+
+[2026-04-29 19:08:57] ✅ Obrisan checkbox (all): DOLAZAK: 01/05/2026, ODLAZAK: 05/05/2026 - 9582061
+Checklist: VILLA SPINDLER / Check-in 🛎️
+71 - VILLA SPINDLER - Euterpe - Tomas O’Brien
+
+[2026-04-29 19:08:57] ✅ Obrisan checkbox (all): DOLAZAK: 01/05/2026, ODLAZAK: 05/05/2026 - 9582061
+Checklist: EVISITOR ✍🏻
+71 - VILLA SPINDLER - Euterpe - Tomas O’Brien
+
+[2026-04-29 19:08:58] ✅ Obrisan checkbox (all): DOLAZAK: 01/05/2026, ODLAZAK: 05/05/2026 - 9582061
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+71 - VILLA SPINDLER - Euterpe - Tomas O’Brien
+
+[2026-04-29 19:09:08] ✅ Obrisan checkbox (all): DOLAZAK: 07/05/2026, ODLAZAK: 10/05/2026 - 9852688
+Checklist: OLD TOWN / Check-in 🛎️
+55 - CENTRAL W ROOM - Dominik Staniszewski
+
+[2026-04-29 19:09:08] ✅ Obrisan checkbox (all): DOLAZAK: 07/05/2026, ODLAZAK: 10/05/2026 - 9852688
+Checklist: EVISITOR ✍🏻
+55 - CENTRAL W ROOM - Dominik Staniszewski
+
+[2026-04-29 19:09:09] ✅ Obrisan checkbox (all): DOLAZAK: 07/05/2026, ODLAZAK: 10/05/2026 - 9852688
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+55 - CENTRAL W ROOM - Dominik Staniszewski
+
+[2026-04-29 19:09:18] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 19/05/2026 - 9933813
+Checklist: OLD TOWN / Check-in 🛎️
+11 - GREY NEST - Julie Midwood
+
+[2026-04-29 19:09:19] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 19/05/2026 - 9933813
+Checklist: EVISITOR ✍🏻
+11 - GREY NEST - Julie Midwood
+
+[2026-04-29 19:09:20] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 19/05/2026 - 9933813
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+11 - GREY NEST - Julie Midwood
+
+[2026-05-01 14:45:12] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (14/05/2026: 9921127) 
+75 - VILLA SPINDLER - Melpomene - Antoine Bordas
+
+[2026-05-01 14:45:13] ✅ Dodan EVISITOR: (14/05/2026: 9921127) 
+75 - VILLA SPINDLER - Melpomene - Antoine Bordas
+
+[2026-05-01 14:45:14] ✅ Dodan CLEANING: (17/05/2026: 9921127) 
+75 - VILLA SPINDLER - Melpomene - Antoine Bordas
+
+[2026-05-01 14:45:16] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (01/05/2026: 10148601) 
+15 - ADRIATIC VIEW APARTMENT - Skenobarda Bilalli
+
+[2026-05-01 14:45:16] ✅ Dodan EVISITOR: (01/05/2026: 10148601) 
+15 - ADRIATIC VIEW APARTMENT - Skenobarda Bilalli
+
+[2026-05-01 14:45:18] ✅ Dodan CLEANING: (04/05/2026: 10148601) 
+15 - ADRIATIC VIEW APARTMENT - Skenobarda Bilalli
+
+[2026-05-01 14:45:19] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (15/05/2026: 10148697) 
+70 - LINCUN - Daiki Matsuura
+
+[2026-05-01 14:45:20] ✅ Dodan EVISITOR: (15/05/2026: 10148697) 
+70 - LINCUN - Daiki Matsuura
+
+[2026-05-01 14:45:21] ✅ Dodan CLEANING: (18/05/2026: 10148697) 
+70 - LINCUN - Daiki Matsuura
+
+[2026-05-01 14:45:22] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (26/05/2026: 10148715) 
+30 - SEA PEARL - Izabela Kasperek
+
+[2026-05-01 14:45:23] ✅ Dodan EVISITOR: (26/05/2026: 10148715) 
+30 - SEA PEARL - Izabela Kasperek
+
+[2026-05-01 14:45:24] ✅ Dodan CLEANING: (30/05/2026: 10148715) 
+30 - SEA PEARL - Izabela Kasperek
+
+[2026-05-01 14:45:26] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (27/05/2026: 10150591) 
+75 - VILLA SPINDLER - Melpomene - Jessica Carlson
+
+[2026-05-01 14:45:26] ✅ Dodan EVISITOR: (27/05/2026: 10150591) 
+75 - VILLA SPINDLER - Melpomene - Jessica Carlson
+
+[2026-05-01 14:45:28] ✅ Dodan CLEANING: (29/05/2026: 10150591) 
+75 - VILLA SPINDLER - Melpomene - Jessica Carlson
+
+[2026-05-01 14:45:29] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (03/05/2026: 10150913) 
+106 - VILLA KALA - Irene Kalt
+
+[2026-05-01 14:45:30] ✅ Dodan EVISITOR: (03/05/2026: 10150913) 
+106 - VILLA KALA - Irene Kalt
+
+[2026-05-01 14:45:31] ✅ Dodan CLEANING: (04/05/2026: 10150913) 
+106 - VILLA KALA - Irene Kalt
+
+[2026-05-01 14:45:32] ✅ Dodan transfer odlazni: (01/05/2026: 10151036) 
+03 - TRANSFER ODLAZNI - Sreekanth Sreedharan
+
+[2026-05-01 14:45:34] ✅ Dodan transfer dolazni: (02/05/2026: 10154663) 
+05 - TRANSFER DOLAZNI - Karen Mclean
+
+[2026-05-01 14:45:35] ✅ Dodan transfer dolazni: (01/05/2026: 10155249) 
+05 - TRANSFER DOLAZNI - Kathryn Christine Francetic
+
+[2026-05-01 14:45:37] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (04/05/2026: 10155373) 
+19 - SANTA CROCE SUITE - Vlasnik
+
+[2026-05-01 14:45:38] ✅ Dodan EVISITOR: (04/05/2026: 10155373) 
+19 - SANTA CROCE SUITE - Vlasnik
+
+[2026-05-01 14:45:40] ✅ Dodan CLEANING: (05/05/2026: 10155373) 
+19 - SANTA CROCE SUITE - Vlasnik
+
+[2026-05-01 14:45:41] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (02/05/2026: 10155507) 
+71 - VILLA SPINDLER - Euterpe - Siddharth Chauhan
+
+[2026-05-01 14:45:42] ✅ Dodan EVISITOR: (02/05/2026: 10155507) 
+71 - VILLA SPINDLER - Euterpe - Siddharth Chauhan
+
+[2026-05-01 14:45:44] ✅ Dodan CLEANING: (05/05/2026: 10155507) 
+71 - VILLA SPINDLER - Euterpe - Siddharth Chauhan
+
+[2026-05-01 14:45:45] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (01/05/2026: 10155655) 
+45 Cozy Double Room retreat - Valeria Barbano Arenas
+
+[2026-05-01 14:45:46] ✅ Dodan EVISITOR: (01/05/2026: 10155655) 
+45 Cozy Double Room retreat - Valeria Barbano Arenas
+
+[2026-05-01 14:45:47] ✅ Dodan CLEANING: (04/05/2026: 10155655) 
+45 Cozy Double Room retreat - Valeria Barbano Arenas
+
+[2026-05-01 14:45:48] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (22/05/2026: 10156264) 
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-01 14:45:49] ✅ Dodan EVISITOR: (22/05/2026: 10156264) 
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-01 14:45:50] ✅ Dodan CLEANING: (25/05/2026: 10156264) 
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-01 14:45:51] ✅ Dodan transfer odlazni: (05/05/2026: 10156519) 
+01 - TRANSFER ODLAZNI - Jagoda Soltysiak
+
+[2026-05-01 14:45:53] ✅ Dodan transfer odlazni: (02/05/2026: 10156861) 
+04 - TRANSFER ODLAZNI - Martin Telfer
+
+[2026-05-01 14:45:54] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (19/05/2026: 10157229) 
+55 - CENTRAL W ROOM - Herve BAGOT
+
+[2026-05-01 14:45:55] ✅ Dodan EVISITOR: (19/05/2026: 10157229) 
+55 - CENTRAL W ROOM - Herve BAGOT
+
+[2026-05-01 14:45:56] ✅ Dodan CLEANING: (22/05/2026: 10157229) 
+55 - CENTRAL W ROOM - Herve BAGOT
+
+[2026-05-01 14:45:57] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (16/05/2026: 10157470) 
+106 - VILLA KALA - Filip Van Hoeck
+
+[2026-05-01 14:45:58] ✅ Dodan EVISITOR: (16/05/2026: 10157470) 
+106 - VILLA KALA - Filip Van Hoeck
+
+[2026-05-01 14:45:59] ✅ Dodan CLEANING: (21/05/2026: 10157470) 
+106 - VILLA KALA - Filip Van Hoeck
+
+[2026-05-01 14:46:00] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (07/05/2026: 10157855) 
+55 - CENTRAL W ROOM - Holly Johns
+
+[2026-05-01 14:46:01] ✅ Dodan EVISITOR: (07/05/2026: 10157855) 
+55 - CENTRAL W ROOM - Holly Johns
+
+[2026-05-01 14:46:03] ✅ Dodan CLEANING: (10/05/2026: 10157855) 
+55 - CENTRAL W ROOM - Holly Johns
+
+[2026-05-01 14:46:04] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (02/05/2026: 10157857) 
+102 - VILLA KALA - Dëbora Sallauka
+
+[2026-05-01 14:46:05] ✅ Dodan EVISITOR: (02/05/2026: 10157857) 
+102 - VILLA KALA - Dëbora Sallauka
+
+[2026-05-01 14:46:06] ✅ Dodan CLEANING: (04/05/2026: 10157857) 
+102 - VILLA KALA - Dëbora Sallauka
+
+[2026-05-01 14:46:09] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (04/05/2026: 10158036) 
+68 - LINCUN - RAQUEL FIZ
+
+[2026-05-01 14:46:10] ✅ Dodan EVISITOR: (04/05/2026: 10158036) 
+68 - LINCUN - RAQUEL FIZ
+
+[2026-05-01 14:46:11] ✅ Dodan CLEANING: (09/05/2026: 10158036) 
+68 - LINCUN - RAQUEL FIZ
+
+[2026-05-01 14:46:12] ✅ Azurirana rezervacija 01/05/2026 - 9826271
+Checklist: OLD TOWN / Check-in 🛎️
+23 - AD Pobijana - Stuart Andrew Taylor
+
+[2026-05-01 14:46:12] ✅ Azurirana rezervacija 01/05/2026 - 9826271
+Checklist: EVISITOR ✍🏻
+23 - AD Pobijana - Stuart Andrew Taylor
+
+[2026-05-01 14:46:13] ✅ Azurirana rezervacija 07/05/2026 - 9826271
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+23 - AD Pobijana - Stuart Andrew Taylor
+
+[2026-05-01 14:46:14] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 9851472
+
+[2026-05-01 14:46:15] ✅ Azurirana rezervacija 04/05/2026 - 9851472
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+39 - LUAN - Laurenne Heli Quehen
+
+[2026-05-01 14:46:16] ✅ Azurirana rezervacija 01/05/2026 - 9855441
+Checklist: VILLA SPINDLER / Check-in 🛎️
+74 - VILLA SPINDLER - Calliope - Ligia Maria Goelzer Alfano
+
+[2026-05-01 14:46:16] ✅ Azurirana rezervacija 01/05/2026 - 9855441
+Checklist: EVISITOR ✍🏻
+74 - VILLA SPINDLER - Calliope - Ligia Maria Goelzer Alfano
+
+[2026-05-01 14:46:17] ✅ Azurirana rezervacija 04/05/2026 - 9855441
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+74 - VILLA SPINDLER - Calliope - Ligia Maria Goelzer Alfano
+
+[2026-05-01 14:46:17] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 9878560
+
+[2026-05-01 14:46:18] ✅ Azurirana rezervacija 03/05/2026 - 9878560
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+50 - AMOROZO - Adam Mark Philo
+
+[2026-05-01 14:46:19] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 9882465
+
+[2026-05-01 14:46:20] ✅ Azurirana rezervacija 04/05/2026 - 9882465
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+75 - VILLA SPINDLER - Melpomene - Anna Carlotta Linder
+
+[2026-05-01 14:46:20] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 9888167
+
+[2026-05-01 14:46:21] ✅ Azurirana rezervacija 05/05/2026 - 9888167
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+10 -Deluxe Doube room with side Sea View  - S - Kurt Andrew Freeman
+
+[2026-05-01 14:46:22] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 9892418
+
+[2026-05-01 14:46:23] ✅ Azurirana rezervacija 04/05/2026 - 9892418
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+76 - VILLA SPINDLER - Erato - Maddison Rachel Digger
+
+[2026-05-01 14:46:25] ✅ Azurirana rezervacija 04/05/2026 - 9893728
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+105 - VILLA KALA - Irene Kalt
+
+[2026-05-01 14:46:25] ✅ Azurirana rezervacija 04/05/2026 - 9893728
+Checklist: EVISITOR ✍🏻
+105 - VILLA KALA - Irene Kalt
+
+[2026-05-01 14:46:26] ✅ Azurirana rezervacija 06/05/2026 - 9893728
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+105 - VILLA KALA - Irene Kalt
+
+[2026-05-01 14:46:26] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 9900027
+
+[2026-05-01 14:46:27] ✅ Azurirana rezervacija 03/05/2026 - 9900027
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+78 - VILLA SPINDLER - Urania - Sandie Sandrine Manuella Catala
+
+[2026-05-01 14:46:28] ✅ Azurirana rezervacija 01/05/2026 - 9938813
+Checklist: OLD TOWN / Check-in 🛎️
+67 - LINCUN - Fiona Elizabeth Roberts
+
+[2026-05-01 14:46:28] ✅ Azurirana rezervacija 01/05/2026 - 9938813
+Checklist: EVISITOR ✍🏻
+67 - LINCUN - Fiona Elizabeth Roberts
+
+[2026-05-01 14:46:30] ✅ Azurirana rezervacija 06/05/2026 - 9938813
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+67 - LINCUN - Fiona Elizabeth Roberts
+
+[2026-05-01 14:46:30] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 9939334
+
+[2026-05-01 14:46:31] ✅ Azurirana rezervacija 03/05/2026 - 9939334
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+06 Superior Double room - Ground Floor - Lindsey Lee Holmes
+
+[2026-05-01 14:46:32] ✅ Azurirana rezervacija 01/05/2026 - 9950013
+Checklist: OLD TOWN / Check-in 🛎️
+37 - OCEAN - Kathryn Christine Francetic
+
+[2026-05-01 14:46:33] ✅ Azurirana rezervacija 01/05/2026 - 9950013
+Checklist: EVISITOR ✍🏻
+37 - OCEAN - Kathryn Christine Francetic
+
+[2026-05-01 14:46:34] ✅ Azurirana rezervacija 06/05/2026 - 9950013
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+37 - OCEAN - Kathryn Christine Francetic
+
+[2026-05-01 14:46:35] ✅ Azurirana rezervacija 01/05/2026 - 9960528
+Checklist: OLD TOWN / Check-in 🛎️
+13 - OLD TOWN ELEGANCE APARTMENT - Agnieszka Elzbie Stankiewicz Edvardsen
+
+[2026-05-01 14:46:35] ✅ Azurirana rezervacija 01/05/2026 - 9960528
+Checklist: EVISITOR ✍🏻
+13 - OLD TOWN ELEGANCE APARTMENT - Agnieszka Elzbie Stankiewicz Edvardsen
+
+[2026-05-01 14:46:36] ✅ Azurirana rezervacija 04/05/2026 - 9960528
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+13 - OLD TOWN ELEGANCE APARTMENT - Agnieszka Elzbie Stankiewicz Edvardsen
+
+[2026-05-01 14:46:37] ✅ Azurirana rezervacija 02/05/2026 - 9992323
+Checklist: OLD TOWN / Check-in 🛎️
+17 - ADRIATIC ABOVE APARTMENT - Guillaume Marie Gabriel Schwartz
+
+[2026-05-01 14:46:37] ✅ Azurirana rezervacija 02/05/2026 - 9992323
+Checklist: EVISITOR ✍🏻
+17 - ADRIATIC ABOVE APARTMENT - Guillaume Marie Gabriel Schwartz
+
+[2026-05-01 14:46:38] ✅ Azurirana rezervacija 09/05/2026 - 9992323
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+17 - ADRIATIC ABOVE APARTMENT - Guillaume Marie Gabriel Schwartz
+
+[2026-05-01 14:46:39] ✅ Azurirana rezervacija 01/05/2026 - 10067389
+Checklist: OLD TOWN / Check-in 🛎️
+55 - CENTRAL W ROOM - Carolina Joyce Gray
+
+[2026-05-01 14:46:39] ✅ Azurirana rezervacija 01/05/2026 - 10067389
+Checklist: EVISITOR ✍🏻
+55 - CENTRAL W ROOM - Carolina Joyce Gray
+
+[2026-05-01 14:46:40] ✅ Azurirana rezervacija 06/05/2026 - 10067389
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+55 - CENTRAL W ROOM - Carolina Joyce Gray
+
+[2026-05-01 14:46:41] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 10074290
+
+[2026-05-01 14:46:42] ✅ Azurirana rezervacija 03/05/2026 - 10074290
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+26 - PANORAMA - Kaitlyn Rose Keating
+
+[2026-05-01 14:46:42] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 10076277
+
+[2026-05-01 14:46:44] ✅ Azurirana rezervacija 03/05/2026 - 10076277
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+18 - DUBROVNIK VISTA RESIDENCE - Piotr Antoni Bienkowski
+
+[2026-05-01 14:46:45] ✅ Azurirana rezervacija 01/05/2026 - 10091378
+Checklist: OLD TOWN / Check-in 🛎️
+54 - Two bedroom - Olivia Joy Zito
+
+[2026-05-01 14:46:45] ✅ Azurirana rezervacija 01/05/2026 - 10091378
+Checklist: EVISITOR ✍🏻
+54 - Two bedroom - Olivia Joy Zito
+
+[2026-05-01 14:46:46] ✅ Azurirana rezervacija 03/05/2026 - 10091378
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+54 - Two bedroom - Olivia Joy Zito
+
+[2026-05-01 14:46:46] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 10098105
+
+[2026-05-01 14:46:49] ✅ Azurirana rezervacija 03/05/2026 - 10098105
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+09 - Studio with a sea view - Second floor Vi - Rocio Lucia Tau
+
+[2026-05-01 14:46:50] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 10108151
+
+[2026-05-01 14:46:51] ✅ Azurirana rezervacija 03/05/2026 - 10108151
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+68 - LINCUN - Kristina Andrlon Pogacic
+
+[2026-05-01 14:46:52] ✅ Azurirana rezervacija 01/05/2026 - 10112686
+Checklist: OLD TOWN / Check-in 🛎️
+41 - SUMMER NIGHT - Visa Jasper Alexander Tommila
+
+[2026-05-01 14:46:52] ✅ Azurirana rezervacija 01/05/2026 - 10112686
+Checklist: EVISITOR ✍🏻
+41 - SUMMER NIGHT - Visa Jasper Alexander Tommila
+
+[2026-05-01 14:46:53] ✅ Azurirana rezervacija 06/05/2026 - 10112686
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+41 - SUMMER NIGHT - Visa Jasper Alexander Tommila
+
+[2026-05-01 14:46:54] ✅ Azurirana rezervacija 01/05/2026 - 10116769
+Checklist: TRANSFER DOLAZNI 🚐
+01 - TRANSFER DOLAZNI - Stuart Andrew Taylor
+
+[2026-05-01 14:46:56] ✅ Azurirana rezervacija 07/05/2026 - 10117675
+Checklist: TRANSFER ODLAZNI 🚐
+01 - TRANSFER ODLAZNI - Stuart Andrew Taylor
+
+[2026-05-01 14:46:57] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 10125201
+
+[2026-05-01 14:46:59] ✅ Azurirana rezervacija 01/05/2026 - 10126291
+Checklist: OLD TOWN / Check-in 🛎️
+03 - Arthur Superior Double Room - Jagoda Soltysiak
+
+[2026-05-01 14:46:59] ✅ Azurirana rezervacija 01/05/2026 - 10126291
+Checklist: EVISITOR ✍🏻
+03 - Arthur Superior Double Room - Jagoda Soltysiak
+
+[2026-05-01 14:47:01] ✅ Azurirana rezervacija 05/05/2026 - 10126291
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+03 - Arthur Superior Double Room - Jagoda Soltysiak
+
+[2026-05-01 14:47:03] ✅ Azurirana rezervacija 01/05/2026 - 10126564
+Checklist: TRANSFER DOLAZNI 🚐
+03 - TRANSFER DOLAZNI - Jagoda Soltysiak
+
+[2026-05-01 14:47:05] ✅ Azurirana rezervacija 05/05/2026 - 10126572
+Checklist: TRANSFER ODLAZNI 🚐
+02 - TRANSFER ODLAZNI - Jagoda Soltysiak
+
+[2026-05-01 14:47:06] ❌ ERROR: MODIFY: Kartica ne postoji za datum 30/04/2026 - 10140326
+
+[2026-05-01 14:47:09] ✅ Obrisan checkbox (all): DOLAZAK: 08/05/2026, ODLAZAK: 15/05/2026 - 9949834
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+107 - VILLA KALA - Salman Butt
+
+[2026-05-01 14:47:10] ✅ Obrisan checkbox (all): DOLAZAK: 08/05/2026, ODLAZAK: 15/05/2026 - 9949834
+Checklist: EVISITOR ✍🏻
+107 - VILLA KALA - Salman Butt
+
+[2026-05-01 14:47:11] ✅ Obrisan checkbox (all): DOLAZAK: 08/05/2026, ODLAZAK: 15/05/2026 - 9949834
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+107 - VILLA KALA - Salman Butt
+
+[2026-05-01 14:47:20] ✅ Obrisan checkbox (all): DOLAZAK: 23/05/2026, ODLAZAK: 26/05/2026 - 10036611
+Checklist: OLD TOWN / Check-in 🛎️
+50 - AMOROZO - Mauro Garcia Angonesi
+
+[2026-05-01 14:47:21] ✅ Obrisan checkbox (all): DOLAZAK: 23/05/2026, ODLAZAK: 26/05/2026 - 10036611
+Checklist: EVISITOR ✍🏻
+50 - AMOROZO - Mauro Garcia Angonesi
+
+[2026-05-01 14:47:22] ✅ Obrisan checkbox (all): DOLAZAK: 23/05/2026, ODLAZAK: 26/05/2026 - 10036611
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+50 - AMOROZO - Mauro Garcia Angonesi
+
+[2026-05-01 14:47:27] ✅ Obrisan checkbox (all): DOLAZAK: 16/05/2026, ODLAZAK: 19/05/2026 - 10077906
+Checklist: VILLA SPINDLER / Check-in 🛎️
+73 - VILLA SPINDLER - Clio - Ziyu Shi
+
+[2026-05-01 14:47:27] ✅ Obrisan checkbox (all): DOLAZAK: 16/05/2026, ODLAZAK: 19/05/2026 - 10077906
+Checklist: EVISITOR ✍🏻
+73 - VILLA SPINDLER - Clio - Ziyu Shi
+
+[2026-05-01 14:47:29] ✅ Obrisan checkbox (all): DOLAZAK: 16/05/2026, ODLAZAK: 19/05/2026 - 10077906
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+73 - VILLA SPINDLER - Clio - Ziyu Shi
+
+[2026-05-01 17:20:58] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (08/05/2026: 10158788) 
+45 Cozy Double Room retreat - Priyanka Desai
+
+[2026-05-01 17:20:59] ✅ Dodan EVISITOR: (08/05/2026: 10158788) 
+45 Cozy Double Room retreat - Priyanka Desai
+
+[2026-05-01 17:21:01] ✅ Dodan CLEANING: (11/05/2026: 10158788) 
+45 Cozy Double Room retreat - Priyanka Desai
+
+[2026-05-01 17:21:02] ✅ Dodan transfer odlazni: (05/05/2026: 10158792) 
+03 - TRANSFER ODLAZNI - Mio Shibuya
+
+[2026-05-01 17:21:03] ✅ Dodan transfer odlazni: (06/05/2026: 10158800) 
+04 - TRANSFER ODLAZNI - Rumi Kono
+
+[2026-05-01 17:21:04] ✅ Azurirana rezervacija 08/05/2026 - 9962025
+Checklist: OLD TOWN / Check-in 🛎️
+44 - Elegant Double - Old Town Street view - Mario Stark
+
+[2026-05-01 17:21:04] ✅ Azurirana rezervacija 08/05/2026 - 9962025
+Checklist: EVISITOR ✍🏻
+44 - Elegant Double - Old Town Street view - Mario Stark
+
+[2026-05-01 17:21:05] ✅ Azurirana rezervacija 11/05/2026 - 9962025
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+44 - Elegant Double - Old Town Street view - Mario Stark
+
+[2026-05-01 17:21:06] ✅ Azurirana rezervacija 04/05/2026 - 10089803
+Checklist: OLD TOWN / Check-in 🛎️
+02 - Arthur Premium Double Room - Jose Luis Molina Padilla
+
+[2026-05-01 17:21:07] ✅ Azurirana rezervacija 04/05/2026 - 10089803
+Checklist: EVISITOR ✍🏻
+02 - Arthur Premium Double Room - Jose Luis Molina Padilla
+
+[2026-05-01 17:21:08] ✅ Azurirana rezervacija 07/05/2026 - 10089803
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+02 - Arthur Premium Double Room - Jose Luis Molina Padilla
+
+[2026-05-01 17:21:11] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 19/05/2026 - 10128496
+Checklist: OLD TOWN / Check-in 🛎️
+19 - SANTA CROCE SUITE - tik tok
+
+[2026-05-01 17:21:12] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 19/05/2026 - 10128496
+Checklist: EVISITOR ✍🏻
+19 - SANTA CROCE SUITE - tik tok
+
+[2026-05-01 17:21:14] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 19/05/2026 - 10128496
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+19 - SANTA CROCE SUITE - tik tok
+
+[2026-05-02 10:30:14] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (03/05/2026: 10159057) 
+01- Arthur Premiun Double Room - Jamie Parr
+
+[2026-05-02 10:30:15] ✅ Dodan EVISITOR: (03/05/2026: 10159057) 
+01- Arthur Premiun Double Room - Jamie Parr
+
+[2026-05-02 10:30:16] ✅ Dodan CLEANING: (05/05/2026: 10159057) 
+01- Arthur Premiun Double Room - Jamie Parr
+
+[2026-05-02 10:30:17] ✅ Dodan transfer dolazni: (03/05/2026: 10159212) 
+03 - TRANSFER DOLAZNI - Jamie Parr
+
+[2026-05-02 10:30:18] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (07/05/2026: 10159855) 
+06 Superior Double room - Ground Floor - Malgorzata Skwarko
+
+[2026-05-02 10:30:19] ✅ Dodan EVISITOR: (07/05/2026: 10159855) 
+06 Superior Double room - Ground Floor - Malgorzata Skwarko
+
+[2026-05-02 10:30:20] ✅ Dodan CLEANING: (10/05/2026: 10159855) 
+06 Superior Double room - Ground Floor - Malgorzata Skwarko
+
+[2026-05-02 10:30:21] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (24/05/2026: 10160011) 
+07 - Studio with Balcony - First floor - Nadine Salam
+
+[2026-05-02 10:30:22] ✅ Dodan EVISITOR: (24/05/2026: 10160011) 
+07 - Studio with Balcony - First floor - Nadine Salam
+
+[2026-05-02 10:30:23] ✅ Dodan CLEANING: (26/05/2026: 10160011) 
+07 - Studio with Balcony - First floor - Nadine Salam
+
+[2026-05-02 10:30:24] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (20/05/2026: 10160360) 
+68 - LINCUN - Michael Walsh
+
+[2026-05-02 10:30:25] ✅ Dodan EVISITOR: (20/05/2026: 10160360) 
+68 - LINCUN - Michael Walsh
+
+[2026-05-02 10:30:26] ✅ Dodan CLEANING: (24/05/2026: 10160360) 
+68 - LINCUN - Michael Walsh
+
+[2026-05-02 10:30:27] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (14/05/2026: 10160982) 
+09 - Studio with a sea view - Second floor Vi - Berta Sarrias
+
+[2026-05-02 10:30:28] ✅ Dodan EVISITOR: (14/05/2026: 10160982) 
+09 - Studio with a sea view - Second floor Vi - Berta Sarrias
+
+[2026-05-02 10:30:29] ✅ Dodan CLEANING: (17/05/2026: 10160982) 
+09 - Studio with a sea view - Second floor Vi - Berta Sarrias
+
+[2026-05-02 10:30:30] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (27/05/2026: 10161215) 
+08 Premium Double room - First floor Villa Mo - Victoria Abbott
+
+[2026-05-02 10:30:31] ✅ Dodan EVISITOR: (27/05/2026: 10161215) 
+08 Premium Double room - First floor Villa Mo - Victoria Abbott
+
+[2026-05-02 10:30:32] ✅ Dodan CLEANING: (31/05/2026: 10161215) 
+08 Premium Double room - First floor Villa Mo - Victoria Abbott
+
+[2026-05-02 10:30:33] ✅ Dodan transfer odlazni: (03/05/2026: 10161238) 
+02 - TRANSFER ODLAZNI - Serdjo Car
+
+[2026-05-02 10:30:34] ✅ Azurirana rezervacija 02/05/2026 - 9887812
+Checklist: VILLA SPINDLER / Check-in 🛎️
+73 - VILLA SPINDLER - Clio - Thierry Paul Marcel Mirbeau
+
+[2026-05-02 10:30:34] ✅ Azurirana rezervacija 02/05/2026 - 9887812
+Checklist: EVISITOR ✍🏻
+73 - VILLA SPINDLER - Clio - Thierry Paul Marcel Mirbeau
+
+[2026-05-02 10:30:35] ✅ Azurirana rezervacija 06/05/2026 - 9887812
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+73 - VILLA SPINDLER - Clio - Thierry Paul Marcel Mirbeau
+
+[2026-05-02 10:30:36] ✅ Azurirana rezervacija 02/05/2026 - 10004218
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+101 - VILLA KALA - Sebastien Claude Roche
+
+[2026-05-02 10:30:37] ✅ Azurirana rezervacija 02/05/2026 - 10004218
+Checklist: EVISITOR ✍🏻
+101 - VILLA KALA - Sebastien Claude Roche
+
+[2026-05-02 10:30:37] ✅ Azurirana rezervacija 06/05/2026 - 10004218
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+101 - VILLA KALA - Sebastien Claude Roche
+
+[2026-05-02 10:30:38] ✅ Azurirana rezervacija 08/05/2026 - 10158788
+Checklist: OLD TOWN / Check-in 🛎️
+45 Cozy Double Room retreat - Priyanka Desai
+
+[2026-05-02 10:30:39] ✅ Azurirana rezervacija 08/05/2026 - 10158788
+Checklist: EVISITOR ✍🏻
+45 Cozy Double Room retreat - Priyanka Desai
+
+[2026-05-02 10:30:40] ✅ Azurirana rezervacija 11/05/2026 - 10158788
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+45 Cozy Double Room retreat - Priyanka Desai
+
+[2026-05-02 10:30:42] ✅ Obrisan checkbox (all): DOLAZAK: 10/05/2026, ODLAZAK: 12/05/2026 - 9817429
+Checklist: VILLA SPINDLER / Check-in 🛎️
+72 - VILLA SPINDLER - Thalia - Inés Ruiz De Villa Suárez
+
+[2026-05-02 10:30:43] ✅ Obrisan checkbox (all): DOLAZAK: 10/05/2026, ODLAZAK: 12/05/2026 - 9817429
+Checklist: EVISITOR ✍🏻
+72 - VILLA SPINDLER - Thalia - Inés Ruiz De Villa Suárez
+
+[2026-05-02 10:30:43] ✅ Obrisan checkbox (all): DOLAZAK: 10/05/2026, ODLAZAK: 12/05/2026 - 9817429
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+72 - VILLA SPINDLER - Thalia - Inés Ruiz De Villa Suárez
+
+[2026-05-02 10:35:05] ✅ Obrisan checkbox (all): DOLAZAK: 03/05/2026, ODLAZAK: 04/05/2026 - 10161238
+Checklist: TRANSFER ODLAZNI 🚐
+02 - TRANSFER ODLAZNI - Serdjo Car
+
+[2026-05-02 10:49:03] ✅ Dodan transfer odlazni: (03/05/2026: 10161312) 
+02 - TRANSFER ODLAZNI - Serdjo Car
+
+[2026-05-02 11:07:03] ✅ Azurirana rezervacija 04/05/2026 - 9968771
+Checklist: OLD TOWN / Check-in 🛎️
+15 - ADRIATIC VIEW APARTMENT - 裕龙 韩 - Yulong Han
+
+[2026-05-02 11:07:03] ✅ Azurirana rezervacija 04/05/2026 - 9968771
+Checklist: EVISITOR ✍🏻
+15 - ADRIATIC VIEW APARTMENT - 裕龙 韩 - Yulong Han
+
+[2026-05-02 11:07:05] ✅ Azurirana rezervacija 07/05/2026 - 9968771
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+15 - ADRIATIC VIEW APARTMENT - 裕龙 韩 - Yulong Han
+
+[2026-05-02 16:02:33] ✅ ❌ Greška u autoSync: Unexpected token ' ', "          "... is not valid JSON
+
+[2026-05-03 00:36:21] ✅ Dodan transfer dolazni: (04/05/2026: 10162724) 
+03 - TRANSFER DOLAZNI - 裕龙 韩 - Yulong Han
+
+[2026-05-03 00:36:22] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (20/05/2026: 10163517) 
+46 - Cozy loft retreat - Teresa Walker
+
+[2026-05-03 00:36:23] ✅ Dodan EVISITOR: (20/05/2026: 10163517) 
+46 - Cozy loft retreat - Teresa Walker
+
+[2026-05-03 00:36:24] ✅ Dodan CLEANING: (26/05/2026: 10163517) 
+46 - Cozy loft retreat - Teresa Walker
+
+[2026-05-03 00:36:25] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (08/05/2026: 10163538) 
+63 - RAFAEL - David HUBERT
+
+[2026-05-03 00:36:25] ✅ Dodan EVISITOR: (08/05/2026: 10163538) 
+63 - RAFAEL - David HUBERT
+
+[2026-05-03 00:36:26] ✅ Dodan CLEANING: (10/05/2026: 10163538) 
+63 - RAFAEL - David HUBERT
+
+[2026-05-03 00:36:27] ✅ Azurirana rezervacija 02/05/2026 - 9963416
+Checklist: OLD TOWN / Check-in 🛎️
+12 - PETIT NOOK - Veronique Hugron
+
+[2026-05-03 00:36:28] ✅ Azurirana rezervacija 02/05/2026 - 9963416
+Checklist: EVISITOR ✍🏻
+12 - PETIT NOOK - Veronique Hugron
+
+[2026-05-03 00:36:28] ✅ Azurirana rezervacija 06/05/2026 - 9963416
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+12 - PETIT NOOK - Veronique Hugron
+
+[2026-05-03 11:11:47] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (17/05/2026: 10163967) 
+104 - VILLA KALA - Julia Prestes Chuffi Barros
+
+[2026-05-03 11:11:48] ✅ Dodan EVISITOR: (17/05/2026: 10163967) 
+104 - VILLA KALA - Julia Prestes Chuffi Barros
+
+[2026-05-03 11:11:49] ✅ Dodan CLEANING: (20/05/2026: 10163967) 
+104 - VILLA KALA - Julia Prestes Chuffi Barros
+
+[2026-05-03 11:11:50] ✅ Dodan transfer odlazni: (04/05/2026: 10164431) 
+03 - TRANSFER ODLAZNI - Ligia Maria Goelzer Alfano
+
+[2026-05-03 11:11:51] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (09/05/2026: 10164855) 
+04 - Standard singe room - EUNMI JANG
+
+[2026-05-03 11:11:52] ✅ Dodan EVISITOR: (09/05/2026: 10164855) 
+04 - Standard singe room - EUNMI JANG
+
+[2026-05-03 11:11:53] ✅ Dodan CLEANING: (12/05/2026: 10164855) 
+04 - Standard singe room - EUNMI JANG
+
+[2026-05-03 11:11:54] ✅ Dodan transfer odlazni: (05/05/2026: 10165160) 
+04 - TRANSFER ODLAZNI - Siddharth Chauhan
+
+[2026-05-03 11:11:56] ✅ Dodan transfer odlazni: (04/05/2026: 10165211) 
+01 - TRANSFER ODLAZNI - Aleksandra Dombaeva
+
+[2026-05-03 11:11:56] ✅ Azurirana rezervacija 05/05/2026 - 9843277
+Checklist: VILLA SPINDLER / Check-in 🛎️
+76 - VILLA SPINDLER - Erato - Roger Michael Kaye
+
+[2026-05-03 11:11:57] ✅ Azurirana rezervacija 05/05/2026 - 9843277
+Checklist: EVISITOR ✍🏻
+76 - VILLA SPINDLER - Erato - Roger Michael Kaye
+
+[2026-05-03 11:11:58] ✅ Azurirana rezervacija 12/05/2026 - 9843277
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+76 - VILLA SPINDLER - Erato - Roger Michael Kaye
+
+[2026-05-03 11:11:58] ✅ Azurirana rezervacija 04/05/2026 - 9891663
+Checklist: OLD TOWN / Check-in 🛎️
+42 - BLUE HORIZON - Lorraine Shirley Thiel
+
+[2026-05-03 11:11:59] ✅ Azurirana rezervacija 04/05/2026 - 9891663
+Checklist: EVISITOR ✍🏻
+42 - BLUE HORIZON - Lorraine Shirley Thiel
+
+[2026-05-03 11:12:00] ✅ Azurirana rezervacija 08/05/2026 - 9891663
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+42 - BLUE HORIZON - Lorraine Shirley Thiel
+
+[2026-05-03 11:12:00] ✅ Azurirana rezervacija 03/05/2026 - 10057074
+Checklist: VILLA SPINDLER / Check-in 🛎️
+78 - VILLA SPINDLER - Urania - Peter Janssen Weets
+
+[2026-05-03 11:12:01] ✅ Azurirana rezervacija 03/05/2026 - 10057074
+Checklist: EVISITOR ✍🏻
+78 - VILLA SPINDLER - Urania - Peter Janssen Weets
+
+[2026-05-03 11:12:02] ✅ Azurirana rezervacija 06/05/2026 - 10057074
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+78 - VILLA SPINDLER - Urania - Peter Janssen Weets
+
+[2026-05-03 11:12:03] ✅ Azurirana rezervacija 03/05/2026 - 10159057
+Checklist: OLD TOWN / Check-in 🛎️
+01- Arthur Premiun Double Room - Jamie  Lee Parr
+
+[2026-05-03 11:12:03] ✅ Azurirana rezervacija 03/05/2026 - 10159057
+Checklist: EVISITOR ✍🏻
+01- Arthur Premiun Double Room - Jamie  Lee Parr
+
+[2026-05-03 11:12:04] ✅ Azurirana rezervacija 05/05/2026 - 10159057
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+01- Arthur Premiun Double Room - Jamie  Lee Parr
+
+[2026-05-03 11:12:05] ✅ Azurirana rezervacija 03/05/2026 - 10159212
+Checklist: TRANSFER DOLAZNI 🚐
+03 - TRANSFER DOLAZNI - Jamie  Lee Parr
+
+[2026-05-03 11:12:07] ✅ Azurirana rezervacija 20/05/2026 - 10163517
+Checklist: OLD TOWN / Check-in 🛎️
+46 - Cozy loft retreat - Teresa Walker
+
+[2026-05-03 11:12:07] ✅ Azurirana rezervacija 20/05/2026 - 10163517
+Checklist: EVISITOR ✍🏻
+46 - Cozy loft retreat - Teresa Walker
+
+[2026-05-03 11:12:08] ✅ Azurirana rezervacija 26/05/2026 - 10163517
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+46 - Cozy loft retreat - Teresa Walker
+
+[2026-05-03 11:12:13] ✅ Obrisan checkbox (all): DOLAZAK: 25/05/2026, ODLAZAK: 30/05/2026 - 10057000
+Checklist: OLD TOWN / Check-in 🛎️
+43 - Elegant Double - Old Town Street view - Kevin De Silva
+
+[2026-05-03 11:12:14] ✅ Obrisan checkbox (all): DOLAZAK: 25/05/2026, ODLAZAK: 30/05/2026 - 10057000
+Checklist: EVISITOR ✍🏻
+43 - Elegant Double - Old Town Street view - Kevin De Silva
+
+[2026-05-03 11:12:15] ✅ Obrisan checkbox (all): DOLAZAK: 25/05/2026, ODLAZAK: 30/05/2026 - 10057000
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+43 - Elegant Double - Old Town Street view - Kevin De Silva
+
+[2026-05-03 11:12:20] ✅ Obrisan checkbox (all): DOLAZAK: 23/05/2026, ODLAZAK: 26/05/2026 - 10119113
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+108 - VILLA KALA - Ainhoa Rodríguez Hernandez
+
+[2026-05-03 11:12:21] ✅ Obrisan checkbox (all): DOLAZAK: 23/05/2026, ODLAZAK: 26/05/2026 - 10119113
+Checklist: EVISITOR ✍🏻
+108 - VILLA KALA - Ainhoa Rodríguez Hernandez
+
+[2026-05-03 11:12:22] ✅ Obrisan checkbox (all): DOLAZAK: 23/05/2026, ODLAZAK: 26/05/2026 - 10119113
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+108 - VILLA KALA - Ainhoa Rodríguez Hernandez
+
+[2026-05-03 18:43:38] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (21/05/2026: 10165399) 
+52 - AMOROZO - JOSE MARIA PEREZ OTERO
+
+[2026-05-03 18:43:39] ✅ Dodan EVISITOR: (21/05/2026: 10165399) 
+52 - AMOROZO - JOSE MARIA PEREZ OTERO
+
+[2026-05-03 18:43:41] ✅ Dodan CLEANING: (24/05/2026: 10165399) 
+52 - AMOROZO - JOSE MARIA PEREZ OTERO
+
+[2026-05-03 18:43:42] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (13/05/2026: 10166172) 
+10 -Deluxe Doube room with side Sea View  - S - Kenneth Hui
+
+[2026-05-03 18:43:43] ✅ Dodan EVISITOR: (13/05/2026: 10166172) 
+10 -Deluxe Doube room with side Sea View  - S - Kenneth Hui
+
+[2026-05-03 18:43:44] ✅ Dodan CLEANING: (15/05/2026: 10166172) 
+10 -Deluxe Doube room with side Sea View  - S - Kenneth Hui
+
+[2026-05-03 18:43:45] ✅ Dodan transfer dolazni: (03/05/2026: 10166425) 
+04 - TRANSFER DOLAZNI - Misuzu Noguchi
+
+[2026-05-03 18:43:46] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (16/05/2026: 10166676) 
+68 - LINCUN - Andreas Schopper
+
+[2026-05-03 18:43:47] ✅ Dodan EVISITOR: (16/05/2026: 10166676) 
+68 - LINCUN - Andreas Schopper
+
+[2026-05-03 18:43:48] ✅ Dodan CLEANING: (20/05/2026: 10166676) 
+68 - LINCUN - Andreas Schopper
+
+[2026-05-03 18:43:49] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (30/05/2026: 10167122) 
+08 Premium Double room - First floor Villa Mo - Han Xing
+
+[2026-05-03 18:43:50] ✅ Dodan EVISITOR: (30/05/2026: 10167122) 
+08 Premium Double room - First floor Villa Mo - Han Xing
+
+[2026-05-03 18:43:51] ✅ Azurirana rezervacija 03/05/2026 - 9821274
+Checklist: OLD TOWN / Check-in 🛎️
+54 - Two bedroom - Dorota Bilinska
+
+[2026-05-03 18:43:52] ✅ Azurirana rezervacija 03/05/2026 - 9821274
+Checklist: EVISITOR ✍🏻
+54 - Two bedroom - Dorota Bilinska
+
+[2026-05-03 18:43:53] ✅ Azurirana rezervacija 07/05/2026 - 9821274
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+54 - Two bedroom - Dorota Bilinska
+
+[2026-05-03 18:43:54] ✅ Azurirana rezervacija 04/05/2026 - 9893728
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+105 - VILLA KALA - Irene Verena Kalt
+
+[2026-05-03 18:43:54] ✅ Azurirana rezervacija 04/05/2026 - 9893728
+Checklist: EVISITOR ✍🏻
+105 - VILLA KALA - Irene Verena Kalt
+
+[2026-05-03 18:43:55] ✅ Azurirana rezervacija 06/05/2026 - 9893728
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+105 - VILLA KALA - Irene Verena Kalt
+
+[2026-05-03 18:43:56] ✅ Azurirana rezervacija 03/05/2026 - 9977855
+Checklist: OLD TOWN / Check-in 🛎️
+51 - AMOROZO - Luiz Cezar Coelho Souto De Araujo
+
+[2026-05-03 18:43:56] ✅ Azurirana rezervacija 03/05/2026 - 9977855
+Checklist: EVISITOR ✍🏻
+51 - AMOROZO - Luiz Cezar Coelho Souto De Araujo
+
+[2026-05-03 18:43:57] ✅ Azurirana rezervacija 06/05/2026 - 9977855
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+51 - AMOROZO - Luiz Cezar Coelho Souto De Araujo
+
+[2026-05-03 18:43:58] ✅ Azurirana rezervacija 03/05/2026 - 10022862
+Checklist: OLD TOWN / Check-in 🛎️
+16 - ADRIATIC GALLERY APARTMENT - Valerie Ann Quirk
+
+[2026-05-03 18:43:58] ✅ Azurirana rezervacija 03/05/2026 - 10022862
+Checklist: EVISITOR ✍🏻
+16 - ADRIATIC GALLERY APARTMENT - Valerie Ann Quirk
+
+[2026-05-03 18:43:59] ✅ Azurirana rezervacija 07/05/2026 - 10022862
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+16 - ADRIATIC GALLERY APARTMENT - Valerie Ann Quirk
+
+[2026-05-03 18:44:00] ✅ Azurirana rezervacija 03/05/2026 - 10022886
+Checklist: OLD TOWN / Check-in 🛎️
+65 - RAFAEL - Susan Hauver Martin
+
+[2026-05-03 18:44:01] ✅ Azurirana rezervacija 03/05/2026 - 10022886
+Checklist: EVISITOR ✍🏻
+65 - RAFAEL - Susan Hauver Martin
+
+[2026-05-03 18:44:02] ✅ Azurirana rezervacija 10/05/2026 - 10022886
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+65 - RAFAEL - Susan Hauver Martin
+
+[2026-05-03 18:44:03] ✅ Azurirana rezervacija 03/05/2026 - 10025835
+Checklist: TRANSFER DOLAZNI 🚐
+01 - TRANSFER DOLAZNI - Susan Hauver Martin
+
+[2026-05-03 18:44:04] ✅ Azurirana rezervacija 03/05/2026 - 10150913
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+106 - VILLA KALA - Irene Verena Kalt
+
+[2026-05-03 18:44:04] ✅ Azurirana rezervacija 03/05/2026 - 10150913
+Checklist: EVISITOR ✍🏻
+106 - VILLA KALA - Irene Verena Kalt
+
+[2026-05-03 18:44:08] ✅ Obrisan checkbox (all): DOLAZAK: 12/05/2026, ODLAZAK: 15/05/2026 - 10021691
+Checklist: OLD TOWN / Check-in 🛎️
+37 - OCEAN - Aurelie Bouchet
+
+[2026-05-03 18:44:09] ✅ Obrisan checkbox (all): DOLAZAK: 12/05/2026, ODLAZAK: 15/05/2026 - 10021691
+Checklist: EVISITOR ✍🏻
+37 - OCEAN - Aurelie Bouchet
+
+[2026-05-03 18:44:10] ✅ Obrisan checkbox (all): DOLAZAK: 12/05/2026, ODLAZAK: 15/05/2026 - 10021691
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+37 - OCEAN - Aurelie Bouchet
+
+[2026-05-03 18:44:19] ✅ Obrisan checkbox (all): DOLAZAK: 23/05/2026, ODLAZAK: 25/05/2026 - 10057094
+Checklist: OLD TOWN / Check-in 🛎️
+03 - Arthur Superior Double Room - James Lu
+
+[2026-05-03 18:44:19] ✅ Obrisan checkbox (all): DOLAZAK: 23/05/2026, ODLAZAK: 25/05/2026 - 10057094
+Checklist: EVISITOR ✍🏻
+03 - Arthur Superior Double Room - James Lu
+
+[2026-05-03 18:44:20] ✅ Obrisan checkbox (all): DOLAZAK: 23/05/2026, ODLAZAK: 25/05/2026 - 10057094
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+03 - Arthur Superior Double Room - James Lu
+
+[2026-05-03 18:44:25] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 17/05/2026 - 10160982
+Checklist: OLD TOWN / Check-in 🛎️
+09 - Studio with a sea view - Second floor Vi - Berta Sarrias
+
+[2026-05-03 18:44:25] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 17/05/2026 - 10160982
+Checklist: EVISITOR ✍🏻
+09 - Studio with a sea view - Second floor Vi - Berta Sarrias
+
+[2026-05-03 18:44:26] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 17/05/2026 - 10160982
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+09 - Studio with a sea view - Second floor Vi - Berta Sarrias
+
+[2026-05-04 10:09:03] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (15/05/2026: 10167841) 
+06 Superior Double room - Ground Floor - Ronan McGarry
+
+[2026-05-04 10:09:04] ✅ Dodan EVISITOR: (15/05/2026: 10167841) 
+06 Superior Double room - Ground Floor - Ronan McGarry
+
+[2026-05-04 10:09:05] ✅ Dodan CLEANING: (18/05/2026: 10167841) 
+06 Superior Double room - Ground Floor - Ronan McGarry
+
+[2026-05-04 10:09:07] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (08/05/2026: 10168131) 
+64 - RAFAEL - Mariana Briones Hugues
+
+[2026-05-04 10:09:07] ✅ Dodan EVISITOR: (08/05/2026: 10168131) 
+64 - RAFAEL - Mariana Briones Hugues
+
+[2026-05-04 10:09:09] ✅ Dodan CLEANING: (10/05/2026: 10168131) 
+64 - RAFAEL - Mariana Briones Hugues
+
+[2026-05-04 10:09:10] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (15/05/2026: 10168133) 
+19 - SANTA CROCE SUITE - Edwin Ladd
+
+[2026-05-04 10:09:11] ✅ Dodan EVISITOR: (15/05/2026: 10168133) 
+19 - SANTA CROCE SUITE - Edwin Ladd
+
+[2026-05-04 10:09:12] ✅ Dodan CLEANING: (19/05/2026: 10168133) 
+19 - SANTA CROCE SUITE - Edwin Ladd
+
+[2026-05-04 10:09:13] ✅ Dodan transfer odlazni: (05/05/2026: 10168857) 
+05 - TRANSFER ODLAZNI - Kurt Andrew Freeman
+
+[2026-05-04 10:09:15] ✅ Azurirana rezervacija 04/05/2026 - 10027609
+Checklist: VILLA SPINDLER / Check-in 🛎️
+72 - VILLA SPINDLER - Thalia - Aarre Juhani Lukkarila
+
+[2026-05-04 10:09:15] ✅ Azurirana rezervacija 04/05/2026 - 10027609
+Checklist: EVISITOR ✍🏻
+72 - VILLA SPINDLER - Thalia - Aarre Juhani Lukkarila
+
+[2026-05-04 10:09:16] ✅ Azurirana rezervacija 07/05/2026 - 10027609
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+72 - VILLA SPINDLER - Thalia - Aarre Juhani Lukkarila
+
+[2026-05-04 10:09:18] ✅ Azurirana rezervacija 04/05/2026 - 10028082
+Checklist: TRANSFER DOLAZNI 🚐
+02 - TRANSFER DOLAZNI - Aarre Juhani Lukkarila
+
+[2026-05-04 23:45:26] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (18/05/2026: 9768786) 
+29 - SEA PEARL - Olga Gloeckler
+
+[2026-05-04 23:45:27] ✅ Dodan EVISITOR: (18/05/2026: 9768786) 
+29 - SEA PEARL - Olga Gloeckler
+
+[2026-05-04 23:45:28] ✅ Dodan CLEANING: (23/05/2026: 9768786) 
+29 - SEA PEARL - Olga Gloeckler
+
+[2026-05-04 23:45:29] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (20/05/2026: 10174813) 
+12 - PETIT NOOK - Catherine Rose Cashin
+
+[2026-05-04 23:45:30] ✅ Dodan EVISITOR: (20/05/2026: 10174813) 
+12 - PETIT NOOK - Catherine Rose Cashin
+
+[2026-05-04 23:45:31] ✅ Dodan CLEANING: (26/05/2026: 10174813) 
+12 - PETIT NOOK - Catherine Rose Cashin
+
+[2026-05-04 23:45:33] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (05/05/2026: 10175042) 
+01- Arthur Premiun Double Room - Jamie  Lee Parr
+
+[2026-05-04 23:45:33] ✅ Dodan EVISITOR: (05/05/2026: 10175042) 
+01- Arthur Premiun Double Room - Jamie  Lee Parr
+
+[2026-05-04 23:45:35] ✅ Dodan CLEANING: (06/05/2026: 10175042) 
+01- Arthur Premiun Double Room - Jamie  Lee Parr
+
+[2026-05-04 23:45:36] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (22/05/2026: 10175351) 
+108 - VILLA KALA - Krzysztof Gerłach
+
+[2026-05-04 23:45:36] ✅ Dodan EVISITOR: (22/05/2026: 10175351) 
+108 - VILLA KALA - Krzysztof Gerłach
+
+[2026-05-04 23:45:38] ✅ Dodan CLEANING: (26/05/2026: 10175351) 
+108 - VILLA KALA - Krzysztof Gerłach
+
+[2026-05-04 23:45:39] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (15/05/2026: 10176163) 
+11 - GREY NEST - Martin Ehinger
+
+[2026-05-04 23:45:40] ✅ Dodan EVISITOR: (15/05/2026: 10176163) 
+11 - GREY NEST - Martin Ehinger
+
+[2026-05-04 23:45:41] ✅ Dodan CLEANING: (19/05/2026: 10176163) 
+11 - GREY NEST - Martin Ehinger
+
+[2026-05-04 23:45:42] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (14/05/2026: 10176492) 
+29 - SEA PEARL - Urszula Mazurek
+
+[2026-05-04 23:45:43] ✅ Dodan EVISITOR: (14/05/2026: 10176492) 
+29 - SEA PEARL - Urszula Mazurek
+
+[2026-05-04 23:45:44] ✅ Dodan CLEANING: (17/05/2026: 10176492) 
+29 - SEA PEARL - Urszula Mazurek
+
+[2026-05-04 23:45:45] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (26/05/2026: 10176682) 
+45 Cozy Double Room retreat - Mark Archer
+
+[2026-05-04 23:45:46] ✅ Dodan EVISITOR: (26/05/2026: 10176682) 
+45 Cozy Double Room retreat - Mark Archer
+
+[2026-05-04 23:45:47] ✅ Dodan CLEANING: (28/05/2026: 10176682) 
+45 Cozy Double Room retreat - Mark Archer
+
+[2026-05-04 23:45:49] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (28/05/2026: 10176824) 
+107 - VILLA KALA - 
+
+[2026-05-04 23:45:49] ✅ Dodan EVISITOR: (28/05/2026: 10176824) 
+107 - VILLA KALA - 
+
+[2026-05-04 23:45:51] ✅ Dodan CLEANING: (31/05/2026: 10176824) 
+107 - VILLA KALA - 
+
+[2026-05-04 23:45:52] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (29/05/2026: 10177428) 
+76 - VILLA SPINDLER - Erato - Nikolai Blaich
+
+[2026-05-04 23:45:53] ✅ Dodan EVISITOR: (29/05/2026: 10177428) 
+76 - VILLA SPINDLER - Erato - Nikolai Blaich
+
+[2026-05-04 23:45:55] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (12/05/2026: 10177831) 
+42 - BLUE HORIZON - Nysa Shah
+
+[2026-05-04 23:45:56] ✅ Dodan EVISITOR: (12/05/2026: 10177831) 
+42 - BLUE HORIZON - Nysa Shah
+
+[2026-05-04 23:45:57] ✅ Dodan CLEANING: (15/05/2026: 10177831) 
+42 - BLUE HORIZON - Nysa Shah
+
+[2026-05-04 23:45:58] ✅ Azurirana rezervacija 04/05/2026 - 9845003
+Checklist: OLD TOWN / Check-in 🛎️
+09 - Studio with a sea view - Second floor Vi - Joshua Richard Houchen
+
+[2026-05-04 23:45:59] ✅ Azurirana rezervacija 04/05/2026 - 9845003
+Checklist: EVISITOR ✍🏻
+09 - Studio with a sea view - Second floor Vi - Joshua Richard Houchen
+
+[2026-05-04 23:46:00] ✅ Azurirana rezervacija 08/05/2026 - 9845003
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+09 - Studio with a sea view - Second floor Vi - Joshua Richard Houchen
+
+[2026-05-04 23:46:01] ✅ Azurirana rezervacija 04/05/2026 - 9863334
+Checklist: OLD TOWN / Check-in 🛎️
+13 - OLD TOWN ELEGANCE APARTMENT - Irina Anatolievna Rouzaeva
+
+[2026-05-04 23:46:01] ✅ Azurirana rezervacija 04/05/2026 - 9863334
+Checklist: EVISITOR ✍🏻
+13 - OLD TOWN ELEGANCE APARTMENT - Irina Anatolievna Rouzaeva
+
+[2026-05-04 23:46:02] ✅ Azurirana rezervacija 09/05/2026 - 9863334
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+13 - OLD TOWN ELEGANCE APARTMENT - Irina Anatolievna Rouzaeva
+
+[2026-05-04 23:46:03] ✅ Azurirana rezervacija 04/05/2026 - 10155373
+Checklist: OLD TOWN / Check-in 🛎️
+19 - SANTA CROCE SUITE - Vlasnik
+
+[2026-05-04 23:46:03] ✅ Azurirana rezervacija 04/05/2026 - 10155373
+Checklist: EVISITOR ✍🏻
+19 - SANTA CROCE SUITE - Vlasnik
+
+[2026-05-04 23:46:04] ✅ Promjena odlaska, premjestam: 04/05/2026 - 10155373
+19 - SANTA CROCE SUITE - Vlasnik
+
+[2026-05-04 23:46:06] ✅ Obrisan checkbox (departure): DOLAZAK: 04/05/2026, ODLAZAK: 05/05/2026 - 10155373
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+19 - SANTA CROCE SUITE - Vlasnik
+
+[2026-05-04 23:46:13] ✅ Dodan CLEANING: (06/05/2026: 10155373) 
+19 - SANTA CROCE SUITE - Vlasnik
+
+[2026-05-04 23:46:14] ✅ Azurirana rezervacija 04/05/2026 - 10158036
+Checklist: OLD TOWN / Check-in 🛎️
+68 - LINCUN - Raquel Fiz Zaro
+
+[2026-05-04 23:46:15] ✅ Azurirana rezervacija 04/05/2026 - 10158036
+Checklist: EVISITOR ✍🏻
+68 - LINCUN - Raquel Fiz Zaro
+
+[2026-05-04 23:46:15] ✅ Azurirana rezervacija 09/05/2026 - 10158036
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+68 - LINCUN - Raquel Fiz Zaro
+
+[2026-05-04 23:46:17] ✅ Obrisan checkbox (all): DOLAZAK: 05/05/2026, ODLAZAK: 06/05/2026 - 10126572
+Checklist: TRANSFER ODLAZNI 🚐
+02 - TRANSFER ODLAZNI - Jagoda Soltysiak
+
+[2026-05-05 15:55:50] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (12/05/2026: 10178492) 
+77 - VILLA SPINDLER - Terpsichore - CRISTINE AGUSTINA SIREGAR
+
+[2026-05-05 15:55:51] ✅ Dodan EVISITOR: (12/05/2026: 10178492) 
+77 - VILLA SPINDLER - Terpsichore - CRISTINE AGUSTINA SIREGAR
+
+[2026-05-05 15:55:52] ✅ Dodan CLEANING: (14/05/2026: 10178492) 
+77 - VILLA SPINDLER - Terpsichore - CRISTINE AGUSTINA SIREGAR
+
+[2026-05-05 15:55:53] ✅ Dodan transfer odlazni: (06/05/2026: 10178670) 
+02 - TRANSFER ODLAZNI - Irene Verena Kalt
+
+[2026-05-05 15:55:55] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (10/05/2026: 10178812) 
+37 - OCEAN - Tanzila Rubayat
+
+[2026-05-05 15:55:56] ✅ Dodan EVISITOR: (10/05/2026: 10178812) 
+37 - OCEAN - Tanzila Rubayat
+
+[2026-05-05 15:55:58] ✅ Dodan CLEANING: (14/05/2026: 10178812) 
+37 - OCEAN - Tanzila Rubayat
+
+[2026-05-05 15:56:00] ✅ Dodan transfer odlazni: (24/05/2026: 10179677) 
+01 - TRANSFER ODLAZNI - Stefanie Servello
+
+[2026-05-05 15:56:01] ✅ Dodan transfer odlazni: (06/05/2026: 10181129) 
+06 - TRANSFER ODLAZNI - Peter Janssen Weets
+
+[2026-05-05 15:56:02] ✅ Azurirana rezervacija 04/05/2026 - 9893728
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+105 - VILLA KALA - Miroslav Sabljo
+
+[2026-05-05 15:56:02] ✅ Azurirana rezervacija 04/05/2026 - 9893728
+Checklist: EVISITOR ✍🏻
+105 - VILLA KALA - Miroslav Sabljo
+
+[2026-05-05 15:56:04] ✅ Azurirana rezervacija 06/05/2026 - 9893728
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+105 - VILLA KALA - Miroslav Sabljo
+
+[2026-05-05 15:56:05] ✅ Azurirana rezervacija 04/05/2026 - 9893729
+Checklist: EVISITOR ✍🏻
+106 - VILLA KALA - Miroslav Sabljo
+
+[2026-05-05 15:56:06] ✅ Azurirana rezervacija 06/05/2026 - 9893729
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+106 - VILLA KALA - Miroslav Sabljo
+
+[2026-05-05 15:56:07] ✅ Azurirana rezervacija 31/05/2026 - 10061020
+Checklist: OLD TOWN / Check-in 🛎️
+53 - Studio Apartment - Christine Coleman
+
+[2026-05-05 15:56:08] ✅ Azurirana rezervacija 31/05/2026 - 10061020
+Checklist: EVISITOR ✍🏻
+53 - Studio Apartment - Christine Coleman
+
+[2026-05-05 15:56:08] ❌ ERROR: MODIFY: Kartica ne postoji za datum 03/06/2026 - 10061020
+
+[2026-05-05 15:56:09] ✅ Azurirana rezervacija 05/05/2026 - 10124891
+Checklist: OLD TOWN / Check-in 🛎️
+07 - Studio with Balcony - First floor - John Andrew Reynolds
+
+[2026-05-05 15:56:09] ✅ Azurirana rezervacija 05/05/2026 - 10124891
+Checklist: EVISITOR ✍🏻
+07 - Studio with Balcony - First floor - John Andrew Reynolds
+
+[2026-05-05 15:56:10] ✅ Azurirana rezervacija 09/05/2026 - 10124891
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+07 - Studio with Balcony - First floor - John Andrew Reynolds
+
+[2026-05-05 15:56:11] ✅ Azurirana rezervacija 03/05/2026 - 10150913
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+106 - VILLA KALA - Miroslav Sabljo
+
+[2026-05-05 15:56:12] ✅ Azurirana rezervacija 03/05/2026 - 10150913
+Checklist: EVISITOR ✍🏻
+106 - VILLA KALA - Miroslav Sabljo
+
+[2026-05-05 15:56:14] ✅ Azurirana rezervacija 28/05/2026 - 10176824
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+107 - VILLA KALA - Vlasnik / Owner
+
+[2026-05-05 15:56:14] ✅ Azurirana rezervacija 28/05/2026 - 10176824
+Checklist: EVISITOR ✍🏻
+107 - VILLA KALA - Vlasnik / Owner
+
+[2026-05-05 15:56:15] ✅ Azurirana rezervacija 31/05/2026 - 10176824
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+107 - VILLA KALA - Vlasnik / Owner
+
+[2026-05-05 15:56:15] ✅ Azurirana rezervacija 31/05/2026 - 10176824
+Checklist: EVISITOR ✍🏻
+107 - VILLA KALA - Vlasnik / Owner
+
+[2026-05-05 15:56:16] ✅ Azurirana rezervacija 31/05/2026 - 10176824
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+107 - VILLA KALA - Vlasnik / Owner
+
+[2026-05-05 15:56:16] ✅ Azurirana rezervacija 29/05/2026 - 10177428
+Checklist: VILLA SPINDLER / Check-in 🛎️
+76 - VILLA SPINDLER - Erato - Nikolai Blaich
+
+[2026-05-05 15:56:17] ✅ Azurirana rezervacija 29/05/2026 - 10177428
+Checklist: EVISITOR ✍🏻
+76 - VILLA SPINDLER - Erato - Nikolai Blaich
+
+[2026-05-05 15:56:17] ❌ ERROR: MODIFY: Kartica ne postoji za datum 01/06/2026 - 10177428
+
+[2026-05-05 15:56:18] ✅ Azurirana rezervacija 12/05/2026 - 10177831
+Checklist: OLD TOWN / Check-in 🛎️
+42 - BLUE HORIZON - Nysa Shah
+
+[2026-05-05 15:56:19] ✅ Azurirana rezervacija 12/05/2026 - 10177831
+Checklist: EVISITOR ✍🏻
+42 - BLUE HORIZON - Nysa Shah
+
+[2026-05-05 15:56:20] ✅ Azurirana rezervacija 15/05/2026 - 10177831
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+42 - BLUE HORIZON - Nysa Shah
+
+[2026-05-05 15:56:26] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 9876414
+Checklist: OLD TOWN / Check-in 🛎️
+23 - AD Pobijana - Shidokht Yousefi
+
+[2026-05-05 15:56:26] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 9876414
+Checklist: EVISITOR ✍🏻
+23 - AD Pobijana - Shidokht Yousefi
+
+[2026-05-05 15:56:27] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 9876414
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+23 - AD Pobijana - Shidokht Yousefi
+
+[2026-05-05 15:56:34] ✅ Obrisan checkbox (all): DOLAZAK: 19/05/2026, ODLAZAK: 26/05/2026 - 10070995
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+103 - VILLA KALA - Shaidar Ilupeju
+
+[2026-05-05 15:56:35] ✅ Obrisan checkbox (all): DOLAZAK: 19/05/2026, ODLAZAK: 26/05/2026 - 10070995
+Checklist: EVISITOR ✍🏻
+103 - VILLA KALA - Shaidar Ilupeju
+
+[2026-05-05 15:56:36] ✅ Obrisan checkbox (all): DOLAZAK: 19/05/2026, ODLAZAK: 26/05/2026 - 10070995
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+103 - VILLA KALA - Shaidar Ilupeju
+
+[2026-05-05 20:26:49] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (16/05/2026: 10183571) 
+05 Superior Double room - Ground Floor - Hannah Younger
+
+[2026-05-05 20:26:51] ✅ Dodan EVISITOR: (16/05/2026: 10183571) 
+05 Superior Double room - Ground Floor - Hannah Younger
+
+[2026-05-05 20:26:52] ✅ Dodan CLEANING: (19/05/2026: 10183571) 
+05 Superior Double room - Ground Floor - Hannah Younger
+
+[2026-05-05 20:26:53] ✅ Azurirana rezervacija 05/05/2026 - 9836094
+Checklist: OLD TOWN / Check-in 🛎️
+10 -Deluxe Doube room with side Sea View  - S - Lukas Thomas Werle
+
+[2026-05-05 20:26:54] ✅ Azurirana rezervacija 05/05/2026 - 9836094
+Checklist: EVISITOR ✍🏻
+10 -Deluxe Doube room with side Sea View  - S - Lukas Thomas Werle
+
+[2026-05-05 20:26:55] ✅ Azurirana rezervacija 08/05/2026 - 9836094
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+10 -Deluxe Doube room with side Sea View  - S - Lukas Thomas Werle
+
+[2026-05-05 20:26:56] ✅ Azurirana rezervacija 05/05/2026 - 9972387
+Checklist: OLD TOWN / Check-in 🛎️
+69 - LINCUN - Diana Patric Da Costa Martins
+
+[2026-05-05 20:26:57] ✅ Azurirana rezervacija 05/05/2026 - 9972387
+Checklist: EVISITOR ✍🏻
+69 - LINCUN - Diana Patric Da Costa Martins
+
+[2026-05-05 20:26:57] ✅ Azurirana rezervacija 09/05/2026 - 9972387
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+69 - LINCUN - Diana Patric Da Costa Martins
+
+[2026-05-05 20:26:58] ✅ Azurirana rezervacija 05/05/2026 - 9991921
+Checklist: OLD TOWN / Check-in 🛎️
+05 Superior Double room - Ground Floor - Ko Akimoto
+
+[2026-05-05 20:26:59] ✅ Azurirana rezervacija 05/05/2026 - 9991921
+Checklist: EVISITOR ✍🏻
+05 Superior Double room - Ground Floor - Ko Akimoto
+
+[2026-05-05 20:27:00] ✅ Azurirana rezervacija 08/05/2026 - 9991921
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+05 Superior Double room - Ground Floor - Ko Akimoto
+
+[2026-05-05 20:27:01] ✅ Azurirana rezervacija 05/05/2026 - 10114621
+Checklist: OLD TOWN / Check-in 🛎️
+26 - PANORAMA - Ronan Cian Hurley
+
+[2026-05-05 20:27:01] ✅ Azurirana rezervacija 05/05/2026 - 10114621
+Checklist: EVISITOR ✍🏻
+26 - PANORAMA - Ronan Cian Hurley
+
+[2026-05-05 20:27:02] ✅ Azurirana rezervacija 09/05/2026 - 10114621
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+26 - PANORAMA - Ronan Cian Hurley
+
+[2026-05-05 20:27:07] ✅ Obrisan checkbox (all): DOLAZAK: 22/05/2026, ODLAZAK: 26/05/2026 - 9824562
+Checklist: OLD TOWN / Check-in 🛎️
+26 - PANORAMA - Parul Desai
+
+[2026-05-05 20:27:07] ✅ Obrisan checkbox (all): DOLAZAK: 22/05/2026, ODLAZAK: 26/05/2026 - 9824562
+Checklist: EVISITOR ✍🏻
+26 - PANORAMA - Parul Desai
+
+[2026-05-05 20:27:09] ✅ Obrisan checkbox (all): DOLAZAK: 22/05/2026, ODLAZAK: 26/05/2026 - 9824562
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+26 - PANORAMA - Parul Desai
+
+[2026-05-06 16:02:06] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (19/05/2026: 9859758) 
+75 - VILLA SPINDLER - Melpomene - JWPA Willemsen
+
+[2026-05-06 16:02:06] ✅ Dodan EVISITOR: (19/05/2026: 9859758) 
+75 - VILLA SPINDLER - Melpomene - JWPA Willemsen
+
+[2026-05-06 16:02:08] ✅ Dodan CLEANING: (22/05/2026: 9859758) 
+75 - VILLA SPINDLER - Melpomene - JWPA Willemsen
+
+[2026-05-06 16:02:09] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (19/05/2026: 9859759) 
+72 - VILLA SPINDLER - Thalia - JWPA Willemsen
+
+[2026-05-06 16:02:10] ✅ Dodan EVISITOR: (19/05/2026: 9859759) 
+72 - VILLA SPINDLER - Thalia - JWPA Willemsen
+
+[2026-05-06 16:02:11] ✅ Dodan CLEANING: (22/05/2026: 9859759) 
+72 - VILLA SPINDLER - Thalia - JWPA Willemsen
+
+[2026-05-06 16:02:13] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (19/05/2026: 9859760) 
+74 - VILLA SPINDLER - Calliope - JWPA Willemsen
+
+[2026-05-06 16:02:14] ✅ Dodan EVISITOR: (19/05/2026: 9859760) 
+74 - VILLA SPINDLER - Calliope - JWPA Willemsen
+
+[2026-05-06 16:02:15] ✅ Dodan CLEANING: (22/05/2026: 9859760) 
+74 - VILLA SPINDLER - Calliope - JWPA Willemsen
+
+[2026-05-06 16:02:17] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (19/05/2026: 9859761) 
+77 - VILLA SPINDLER - Terpsichore - 
+
+[2026-05-06 16:02:17] ✅ Dodan EVISITOR: (19/05/2026: 9859761) 
+77 - VILLA SPINDLER - Terpsichore - 
+
+[2026-05-06 16:02:19] ✅ Dodan CLEANING: (22/05/2026: 9859761) 
+77 - VILLA SPINDLER - Terpsichore - 
+
+[2026-05-06 16:02:20] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (19/05/2026: 9859762) 
+76 - VILLA SPINDLER - Erato - JWPA Willemsen
+
+[2026-05-06 16:02:21] ✅ Dodan EVISITOR: (19/05/2026: 9859762) 
+76 - VILLA SPINDLER - Erato - JWPA Willemsen
+
+[2026-05-06 16:02:23] ✅ Dodan CLEANING: (22/05/2026: 9859762) 
+76 - VILLA SPINDLER - Erato - JWPA Willemsen
+
+[2026-05-06 16:02:24] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (19/05/2026: 9859763) 
+73 - VILLA SPINDLER - Clio - 
+
+[2026-05-06 16:02:25] ✅ Dodan EVISITOR: (19/05/2026: 9859763) 
+73 - VILLA SPINDLER - Clio - 
+
+[2026-05-06 16:02:26] ✅ Dodan CLEANING: (22/05/2026: 9859763) 
+73 - VILLA SPINDLER - Clio - 
+
+[2026-05-06 16:02:27] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (19/05/2026: 9859764) 
+78 - VILLA SPINDLER - Urania - JWPA Willemsen
+
+[2026-05-06 16:02:28] ✅ Dodan EVISITOR: (19/05/2026: 9859764) 
+78 - VILLA SPINDLER - Urania - JWPA Willemsen
+
+[2026-05-06 16:02:29] ✅ Dodan CLEANING: (22/05/2026: 9859764) 
+78 - VILLA SPINDLER - Urania - JWPA Willemsen
+
+[2026-05-06 16:02:31] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (14/05/2026: 10183842) 
+09 - Studio with a sea view - Second floor Vi - Daire Conway
+
+[2026-05-06 16:02:32] ✅ Dodan EVISITOR: (14/05/2026: 10183842) 
+09 - Studio with a sea view - Second floor Vi - Daire Conway
+
+[2026-05-06 16:02:33] ✅ Dodan CLEANING: (18/05/2026: 10183842) 
+09 - Studio with a sea view - Second floor Vi - Daire Conway
+
+[2026-05-06 16:02:34] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (28/05/2026: 10183974) 
+16 - ADRIATIC GALLERY APARTMENT - Anais Lewis
+
+[2026-05-06 16:02:35] ✅ Dodan EVISITOR: (28/05/2026: 10183974) 
+16 - ADRIATIC GALLERY APARTMENT - Anais Lewis
+
+[2026-05-06 16:02:37] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (21/05/2026: 10184207) 
+50 - AMOROZO - Mark Latimer
+
+[2026-05-06 16:02:38] ✅ Dodan EVISITOR: (21/05/2026: 10184207) 
+50 - AMOROZO - Mark Latimer
+
+[2026-05-06 16:02:39] ✅ Dodan CLEANING: (24/05/2026: 10184207) 
+50 - AMOROZO - Mark Latimer
+
+[2026-05-06 16:02:41] ✅ Dodan transfer odlazni: (07/05/2026: 10184888) 
+07- TRANSFER ODLAZNI - Aarre Juhani Lukkarila
+
+[2026-05-06 16:02:42] ✅ Dodan transfer dolazni: (12/05/2026: 10184987) 
+01 - TRANSFER DOLAZNI - CRISTINE AGUSTINA SIREGAR
+
+[2026-05-06 16:02:43] ✅ Dodan transfer odlazni: (08/05/2026: 10185764) 
+01 - TRANSFER ODLAZNI - Lorraine Shirley Thiel
+
+[2026-05-06 16:02:44] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (14/05/2026: 10186044) 
+32 - SECRET ORANGE - Jospeh Hughes
+
+[2026-05-06 16:02:45] ✅ Dodan EVISITOR: (14/05/2026: 10186044) 
+32 - SECRET ORANGE - Jospeh Hughes
+
+[2026-05-06 16:02:46] ✅ Dodan CLEANING: (17/05/2026: 10186044) 
+32 - SECRET ORANGE - Jospeh Hughes
+
+[2026-05-06 16:02:47] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (10/05/2026: 10186949) 
+107 - VILLA KALA - Jadesola Fakuade
+
+[2026-05-06 16:02:48] ✅ Dodan EVISITOR: (10/05/2026: 10186949) 
+107 - VILLA KALA - Jadesola Fakuade
+
+[2026-05-06 16:02:50] ✅ Dodan CLEANING: (13/05/2026: 10186949) 
+107 - VILLA KALA - Jadesola Fakuade
+
+[2026-05-06 16:02:51] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (11/05/2026: 10187847) 
+43 - Elegant Double - Old Town Street view - Brian Collins
+
+[2026-05-06 16:02:52] ✅ Dodan EVISITOR: (11/05/2026: 10187847) 
+43 - Elegant Double - Old Town Street view - Brian Collins
+
+[2026-05-06 16:02:53] ✅ Dodan CLEANING: (13/05/2026: 10187847) 
+43 - Elegant Double - Old Town Street view - Brian Collins
+
+[2026-05-06 16:02:54] ✅ Azurirana rezervacija 06/05/2026 - 9831712
+Checklist: OLD TOWN / Check-in 🛎️
+39 - LUAN - Scott Edward Meath
+
+[2026-05-06 16:02:55] ✅ Azurirana rezervacija 06/05/2026 - 9831712
+Checklist: EVISITOR ✍🏻
+39 - LUAN - Scott Edward Meath
+
+[2026-05-06 16:02:56] ✅ Azurirana rezervacija 10/05/2026 - 9831712
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+39 - LUAN - Scott Edward Meath
+
+[2026-05-06 16:02:57] ✅ Azurirana rezervacija 06/05/2026 - 9841706
+Checklist: VILLA SPINDLER / Check-in 🛎️
+73 - VILLA SPINDLER - Clio - Lauren Ashley Maxwell
+
+[2026-05-06 16:02:57] ✅ Azurirana rezervacija 06/05/2026 - 9841706
+Checklist: EVISITOR ✍🏻
+73 - VILLA SPINDLER - Clio - Lauren Ashley Maxwell
+
+[2026-05-06 16:02:59] ✅ Azurirana rezervacija 11/05/2026 - 9841706
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+73 - VILLA SPINDLER - Clio - Lauren Ashley Maxwell
+
+[2026-05-06 16:03:00] ✅ Azurirana rezervacija 06/05/2026 - 9857085
+Checklist: OLD TOWN / Check-in 🛎️
+50 - AMOROZO - Jennifer Lucile Mery Gressier
+
+[2026-05-06 16:03:00] ✅ Azurirana rezervacija 06/05/2026 - 9857085
+Checklist: EVISITOR ✍🏻
+50 - AMOROZO - Jennifer Lucile Mery Gressier
+
+[2026-05-06 16:03:01] ✅ Azurirana rezervacija 09/05/2026 - 9857085
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+50 - AMOROZO - Jennifer Lucile Mery Gressier
+
+[2026-05-06 16:03:02] ✅ Azurirana rezervacija 18/05/2026 - 9888140
+Checklist: OLD TOWN / Check-in 🛎️
+06 Superior Double room - Ground Floor - David Houdek
+
+[2026-05-06 16:03:03] ✅ Azurirana rezervacija 18/05/2026 - 9888140
+Checklist: EVISITOR ✍🏻
+06 Superior Double room - Ground Floor - David Houdek
+
+[2026-05-06 16:03:04] ✅ Azurirana rezervacija 25/05/2026 - 9888140
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+06 Superior Double room - Ground Floor - David Houdek
+
+[2026-05-06 16:03:05] ✅ Azurirana rezervacija 04/05/2026 - 9893729
+Checklist: EVISITOR ✍🏻
+106 - VILLA KALA - Irene Verena Kalt
+
+[2026-05-06 16:03:06] ✅ Azurirana rezervacija 06/05/2026 - 9893729
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+106 - VILLA KALA - Irene Verena Kalt
+
+[2026-05-06 16:03:07] ✅ Azurirana rezervacija 19/05/2026 - 9894640
+Checklist: OLD TOWN / Check-in 🛎️
+05 Superior Double room - Ground Floor - 
+
+[2026-05-06 16:03:08] ✅ Azurirana rezervacija 19/05/2026 - 9894640
+Checklist: EVISITOR ✍🏻
+05 Superior Double room - Ground Floor - 
+
+[2026-05-06 16:03:09] ✅ Azurirana rezervacija 22/05/2026 - 9894640
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+05 Superior Double room - Ground Floor - 
+
+[2026-05-06 16:03:10] ✅ Azurirana rezervacija 05/05/2026 - 9960052
+Checklist: OLD TOWN / Check-in 🛎️
+57 - CENTRAL W APARTMENT - Takuya Kondo
+
+[2026-05-06 16:03:11] ✅ Azurirana rezervacija 05/05/2026 - 9960052
+Checklist: EVISITOR ✍🏻
+57 - CENTRAL W APARTMENT - Takuya Kondo
+
+[2026-05-06 16:03:12] ✅ Azurirana rezervacija 08/05/2026 - 9960052
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+57 - CENTRAL W APARTMENT - Takuya Kondo
+
+[2026-05-06 16:03:13] ✅ Azurirana rezervacija 06/05/2026 - 9960763
+Checklist: OLD TOWN / Check-in 🛎️
+41 - SUMMER NIGHT - Jack Harry Hansford
+
+[2026-05-06 16:03:14] ✅ Azurirana rezervacija 06/05/2026 - 9960763
+Checklist: EVISITOR ✍🏻
+41 - SUMMER NIGHT - Jack Harry Hansford
+
+[2026-05-06 16:03:15] ✅ Azurirana rezervacija 13/05/2026 - 9960763
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+41 - SUMMER NIGHT - Jack Harry Hansford
+
+[2026-05-06 16:03:16] ✅ Azurirana rezervacija 07/05/2026 - 9972006
+Checklist: OLD TOWN / Check-in 🛎️
+37 - OCEAN - Aurélie Roulet Beauvillain
+
+[2026-05-06 16:03:16] ✅ Azurirana rezervacija 07/05/2026 - 9972006
+Checklist: EVISITOR ✍🏻
+37 - OCEAN - Aurélie Roulet Beauvillain
+
+[2026-05-06 16:03:17] ✅ Azurirana rezervacija 10/05/2026 - 9972006
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+37 - OCEAN - Aurélie Roulet Beauvillain
+
+[2026-05-06 16:03:18] ✅ Azurirana rezervacija 07/05/2026 - 10020272
+Checklist: OLD TOWN / Check-in 🛎️
+02 - Arthur Premium Double Room - David Fengyu Ke
+
+[2026-05-06 16:03:19] ✅ Azurirana rezervacija 07/05/2026 - 10020272
+Checklist: EVISITOR ✍🏻
+02 - Arthur Premium Double Room - David Fengyu Ke
+
+[2026-05-06 16:03:20] ✅ Azurirana rezervacija 10/05/2026 - 10020272
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+02 - Arthur Premium Double Room - David Fengyu Ke
+
+[2026-05-06 16:03:21] ✅ Azurirana rezervacija 07/05/2026 - 10057949
+Checklist: OLD TOWN / Check-in 🛎️
+19 - SANTA CROCE SUITE - Izabela Alicja Szyperska Urban
+
+[2026-05-06 16:03:21] ✅ Azurirana rezervacija 07/05/2026 - 10057949
+Checklist: EVISITOR ✍🏻
+19 - SANTA CROCE SUITE - Izabela Alicja Szyperska Urban
+
+[2026-05-06 16:03:22] ✅ Azurirana rezervacija 10/05/2026 - 10057949
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+19 - SANTA CROCE SUITE - Izabela Alicja Szyperska Urban
+
+[2026-05-06 16:03:23] ✅ Azurirana rezervacija 06/05/2026 - 10075021
+Checklist: OLD TOWN / Check-in 🛎️
+18 - DUBROVNIK VISTA RESIDENCE - Dominika Micunkova
+
+[2026-05-06 16:03:23] ✅ Azurirana rezervacija 06/05/2026 - 10075021
+Checklist: EVISITOR ✍🏻
+18 - DUBROVNIK VISTA RESIDENCE - Dominika Micunkova
+
+[2026-05-06 16:03:24] ✅ Azurirana rezervacija 09/05/2026 - 10075021
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+18 - DUBROVNIK VISTA RESIDENCE - Dominika Micunkova
+
+[2026-05-06 16:03:26] ✅ Azurirana rezervacija 24/05/2026 - 10077810
+Checklist: OLD TOWN / Check-in 🛎️
+05 Superior Double room - Ground Floor - Jessica Hann
+
+[2026-05-06 16:03:26] ✅ Azurirana rezervacija 24/05/2026 - 10077810
+Checklist: EVISITOR ✍🏻
+05 Superior Double room - Ground Floor - Jessica Hann
+
+[2026-05-06 16:03:27] ✅ Azurirana rezervacija 28/05/2026 - 10077810
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+05 Superior Double room - Ground Floor - Jessica Hann
+
+[2026-05-06 16:03:28] ✅ Azurirana rezervacija 06/05/2026 - 10092542
+Checklist: TRANSFER DOLAZNI 🚐
+02 - TRANSFER DOLAZNI - Jack Harry Hansford
+
+[2026-05-06 16:03:30] ✅ Azurirana rezervacija 03/05/2026 - 10150913
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+106 - VILLA KALA - Irene Verena Kalt
+
+[2026-05-06 16:03:30] ✅ Azurirana rezervacija 03/05/2026 - 10150913
+Checklist: EVISITOR ✍🏻
+106 - VILLA KALA - Irene Verena Kalt
+
+[2026-05-06 16:03:32] ✅ Azurirana rezervacija 16/05/2026 - 10183571
+Checklist: OLD TOWN / Check-in 🛎️
+05 Superior Double room - Ground Floor - Hannah Younger
+
+[2026-05-06 16:03:33] ✅ Azurirana rezervacija 16/05/2026 - 10183571
+Checklist: EVISITOR ✍🏻
+05 Superior Double room - Ground Floor - Hannah Younger
+
+[2026-05-06 16:03:34] ✅ Azurirana rezervacija 19/05/2026 - 10183571
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+05 Superior Double room - Ground Floor - Hannah Younger
+
+[2026-05-06 16:03:37] ✅ Obrisan checkbox (all): DOLAZAK: 13/05/2026, ODLAZAK: 18/05/2026 - 9842078
+Checklist: OLD TOWN / Check-in 🛎️
+32 - SECRET ORANGE - Laura Mars
+
+[2026-05-06 16:03:38] ✅ Obrisan checkbox (all): DOLAZAK: 13/05/2026, ODLAZAK: 18/05/2026 - 9842078
+Checklist: EVISITOR ✍🏻
+32 - SECRET ORANGE - Laura Mars
+
+[2026-05-06 16:03:39] ✅ Obrisan checkbox (all): DOLAZAK: 13/05/2026, ODLAZAK: 18/05/2026 - 9842078
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+32 - SECRET ORANGE - Laura Mars
+
+[2026-05-06 16:03:48] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 9876454
+Checklist: OLD TOWN / Check-in 🛎️
+24 - AD Pobijana - Violet Yousefi
+
+[2026-05-06 16:03:48] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 9876454
+Checklist: EVISITOR ✍🏻
+24 - AD Pobijana - Violet Yousefi
+
+[2026-05-06 16:03:49] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 9876454
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+24 - AD Pobijana - Violet Yousefi
+
+[2026-05-06 16:03:54] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 17/05/2026 - 9877834
+Checklist: OLD TOWN / Check-in 🛎️
+66 - LINCUN - Akshat shreemali
+
+[2026-05-06 16:03:54] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 17/05/2026 - 9877834
+Checklist: EVISITOR ✍🏻
+66 - LINCUN - Akshat shreemali
+
+[2026-05-06 16:03:55] ✅ Obrisan checkbox (all): DOLAZAK: 14/05/2026, ODLAZAK: 17/05/2026 - 9877834
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+66 - LINCUN - Akshat shreemali
+
+[2026-05-06 16:04:05] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 31/05/2026 - 10077102
+Checklist: OLD TOWN / Check-in 🛎️
+19 - SANTA CROCE SUITE - Mark Taams
+
+[2026-05-06 16:04:06] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 31/05/2026 - 10077102
+Checklist: EVISITOR ✍🏻
+19 - SANTA CROCE SUITE - Mark Taams
+
+[2026-05-06 16:04:07] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 31/05/2026 - 10077102
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+19 - SANTA CROCE SUITE - Mark Taams
+
+[2026-05-06 16:04:14] ✅ Obrisan checkbox (all): DOLAZAK: 29/05/2026, ODLAZAK: 01/06/2026 - 10177428
+Checklist: VILLA SPINDLER / Check-in 🛎️
+76 - VILLA SPINDLER - Erato - Nikolai Blaich
+
+[2026-05-06 16:04:14] ✅ Obrisan checkbox (all): DOLAZAK: 29/05/2026, ODLAZAK: 01/06/2026 - 10177428
+Checklist: EVISITOR ✍🏻
+76 - VILLA SPINDLER - Erato - Nikolai Blaich
+
+[2026-05-06 22:00:07] ✅ Dodan transfer odlazni: (07/05/2026: 10188497) 
+08 - TRANSFER ODLAZNI - Mehak Khanduja
+
+[2026-05-06 22:00:08] ✅ Azurirana rezervacija 06/05/2026 - 9765862
+Checklist: OLD TOWN / Check-in 🛎️
+40 - ZENITH - Bruce Garrison Kurtz
+
+[2026-05-06 22:00:09] ✅ Azurirana rezervacija 06/05/2026 - 9765862
+Checklist: EVISITOR ✍🏻
+40 - ZENITH - Bruce Garrison Kurtz
+
+[2026-05-06 22:00:10] ✅ Azurirana rezervacija 10/05/2026 - 9765862
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+40 - ZENITH - Bruce Garrison Kurtz
+
+[2026-05-07 08:09:14] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (28/05/2026: 10190008) 
+10 -Deluxe Doube room with side Sea View  - S - Danielle Fischer
+
+[2026-05-07 08:09:15] ✅ Dodan EVISITOR: (28/05/2026: 10190008) 
+10 -Deluxe Doube room with side Sea View  - S - Danielle Fischer
+
+[2026-05-07 08:09:16] ✅ Dodan CLEANING: (31/05/2026: 10190008) 
+10 -Deluxe Doube room with side Sea View  - S - Danielle Fischer
+
+[2026-05-07 16:02:38] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (26/05/2026: 10191060) 
+42 - BLUE HORIZON - Crina Barabas
+
+[2026-05-07 16:02:39] ✅ Dodan EVISITOR: (26/05/2026: 10191060) 
+42 - BLUE HORIZON - Crina Barabas
+
+[2026-05-07 16:02:41] ✅ Dodan CLEANING: (30/05/2026: 10191060) 
+42 - BLUE HORIZON - Crina Barabas
+
+[2026-05-07 16:02:42] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (09/05/2026: 10191409) 
+56 - CENTRAL W ROOM - Eduard Iskandaryan
+
+[2026-05-07 16:02:43] ✅ Dodan EVISITOR: (09/05/2026: 10191409) 
+56 - CENTRAL W ROOM - Eduard Iskandaryan
+
+[2026-05-07 16:02:44] ✅ Dodan CLEANING: (11/05/2026: 10191409) 
+56 - CENTRAL W ROOM - Eduard Iskandaryan
+
+[2026-05-07 16:02:46] ✅ Dodan transfer odlazni: (08/05/2026: 10191600) 
+02 - TRANSFER ODLAZNI - Xuemeng Liu
+
+[2026-05-07 16:02:48] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (11/05/2026: 10191859) 
+68 - LINCUN - Christopher Daigle
+
+[2026-05-07 16:02:48] ✅ Dodan EVISITOR: (11/05/2026: 10191859) 
+68 - LINCUN - Christopher Daigle
+
+[2026-05-07 16:02:50] ✅ Dodan CLEANING: (13/05/2026: 10191859) 
+68 - LINCUN - Christopher Daigle
+
+[2026-05-07 16:02:51] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (26/05/2026: 10192428) 
+12 - PETIT NOOK - Anastasiia Petrova
+
+[2026-05-07 16:02:52] ✅ Dodan EVISITOR: (26/05/2026: 10192428) 
+12 - PETIT NOOK - Anastasiia Petrova
+
+[2026-05-07 16:02:54] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (12/05/2026: 10192532) 
+02 - Arthur Premium Double Room - Jay Sv
+
+[2026-05-07 16:02:55] ✅ Dodan EVISITOR: (12/05/2026: 10192532) 
+02 - Arthur Premium Double Room - Jay Sv
+
+[2026-05-07 16:02:57] ✅ Dodan CLEANING: (15/05/2026: 10192532) 
+02 - Arthur Premium Double Room - Jay Sv
+
+[2026-05-07 16:02:58] ✅ Azurirana rezervacija 07/05/2026 - 9822014
+Checklist: VILLA SPINDLER / Check-in 🛎️
+74 - VILLA SPINDLER - Calliope - Amie Catherine Stanford
+
+[2026-05-07 16:02:58] ✅ Azurirana rezervacija 07/05/2026 - 9822014
+Checklist: EVISITOR ✍🏻
+74 - VILLA SPINDLER - Calliope - Amie Catherine Stanford
+
+[2026-05-07 16:03:00] ✅ Azurirana rezervacija 10/05/2026 - 9822014
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+74 - VILLA SPINDLER - Calliope - Amie Catherine Stanford
+
+[2026-05-07 16:03:01] ✅ Azurirana rezervacija 07/05/2026 - 9822015
+Checklist: VILLA SPINDLER / Check-in 🛎️
+72 - VILLA SPINDLER - Thalia - Nicola Catherine Gibson
+
+[2026-05-07 16:03:01] ✅ Azurirana rezervacija 07/05/2026 - 9822015
+Checklist: EVISITOR ✍🏻
+72 - VILLA SPINDLER - Thalia - Nicola Catherine Gibson
+
+[2026-05-07 16:03:01] ✅ Azurirana rezervacija 07/05/2026 - 9822015
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+72 - VILLA SPINDLER - Thalia - Nicola Catherine Gibson
+
+[2026-05-07 16:03:04] ✅ Azurirana rezervacija 10/05/2026 - 9822015
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+72 - VILLA SPINDLER - Thalia - Nicola Catherine Gibson
+
+[2026-05-07 16:03:05] ✅ Azurirana rezervacija 07/05/2026 - 9846508
+Checklist: VILLA SPINDLER / Check-in 🛎️
+77 - VILLA SPINDLER - Terpsichore - Erin Michelle Wampole
+
+[2026-05-07 16:03:05] ✅ Azurirana rezervacija 07/05/2026 - 9846508
+Checklist: EVISITOR ✍🏻
+77 - VILLA SPINDLER - Terpsichore - Erin Michelle Wampole
+
+[2026-05-07 16:03:06] ✅ Azurirana rezervacija 09/05/2026 - 9846508
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+77 - VILLA SPINDLER - Terpsichore - Erin Michelle Wampole
+
+[2026-05-07 16:03:08] ✅ Azurirana rezervacija 08/05/2026 - 9886704
+Checklist: OLD TOWN / Check-in 🛎️
+23 - AD Pobijana - Marie Ellen Pacelli
+
+[2026-05-07 16:03:08] ✅ Azurirana rezervacija 08/05/2026 - 9886704
+Checklist: EVISITOR ✍🏻
+23 - AD Pobijana - Marie Ellen Pacelli
+
+[2026-05-07 16:03:09] ✅ Azurirana rezervacija 11/05/2026 - 9886704
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+23 - AD Pobijana - Marie Ellen Pacelli
+
+[2026-05-07 16:03:10] ✅ Azurirana rezervacija 09/05/2026 - 10031406
+Checklist: EVISITOR ✍🏻
+101 - VILLA KALA - Jamie Tan
+
+[2026-05-07 16:03:11] ✅ Azurirana rezervacija 12/05/2026 - 10031406
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+101 - VILLA KALA - Jamie Tan
+
+[2026-05-07 16:03:11] ✅ Azurirana rezervacija 12/05/2026 - 10031406
+Checklist: EVISITOR ✍🏻
+101 - VILLA KALA - Jamie Tan
+
+[2026-05-07 16:03:12] ✅ Azurirana rezervacija 12/05/2026 - 10031406
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+101 - VILLA KALA - Jamie Tan
+
+[2026-05-07 16:03:13] ✅ Azurirana rezervacija 07/05/2026 - 10130522
+Checklist: OLD TOWN / Check-in 🛎️
+03 - Arthur Superior Double Room - Dakota Spencer Clarence Warren
+
+[2026-05-07 16:03:13] ✅ Azurirana rezervacija 07/05/2026 - 10130522
+Checklist: EVISITOR ✍🏻
+03 - Arthur Superior Double Room - Dakota Spencer Clarence Warren
+
+[2026-05-07 16:03:15] ✅ Azurirana rezervacija 10/05/2026 - 10130522
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+03 - Arthur Superior Double Room - Dakota Spencer Clarence Warren
+
+[2026-05-07 16:03:16] ✅ Azurirana rezervacija 07/05/2026 - 10143463
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+108 - VILLA KALA - Amir Omerovic
+
+[2026-05-07 16:03:16] ✅ Azurirana rezervacija 07/05/2026 - 10143463
+Checklist: EVISITOR ✍🏻
+108 - VILLA KALA - Amir Omerovic
+
+[2026-05-07 16:03:18] ✅ Azurirana rezervacija 10/05/2026 - 10143463
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+108 - VILLA KALA - Amir Omerovic
+
+[2026-05-07 16:03:19] ✅ Azurirana rezervacija 07/05/2026 - 10157855
+Checklist: OLD TOWN / Check-in 🛎️
+55 - CENTRAL W ROOM - Holly Rebecca Johns
+
+[2026-05-07 16:03:20] ✅ Azurirana rezervacija 07/05/2026 - 10157855
+Checklist: EVISITOR ✍🏻
+55 - CENTRAL W ROOM - Holly Rebecca Johns
+
+[2026-05-07 16:03:21] ✅ Azurirana rezervacija 10/05/2026 - 10157855
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+55 - CENTRAL W ROOM - Holly Rebecca Johns
+
+[2026-05-07 16:03:28] ✅ Obrisan checkbox (all): DOLAZAK: 21/05/2026, ODLAZAK: 25/05/2026 - 9858560
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+104 - VILLA KALA - Idil Ugurnal Gelisgen
+
+[2026-05-07 16:03:28] ✅ Obrisan checkbox (all): DOLAZAK: 21/05/2026, ODLAZAK: 25/05/2026 - 9858560
+Checklist: EVISITOR ✍🏻
+104 - VILLA KALA - Idil Ugurnal Gelisgen
+
+[2026-05-07 16:03:29] ✅ Obrisan checkbox (all): DOLAZAK: 21/05/2026, ODLAZAK: 25/05/2026 - 9858560
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+104 - VILLA KALA - Idil Ugurnal Gelisgen
+
+[2026-05-08 17:41:41] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (22/05/2026: 10059788) 
+78 - VILLA SPINDLER - Urania - John Boettcher
+
+[2026-05-08 17:41:41] ✅ Dodan EVISITOR: (22/05/2026: 10059788) 
+78 - VILLA SPINDLER - Urania - John Boettcher
+
+[2026-05-08 17:41:43] ✅ Dodan CLEANING: (25/05/2026: 10059788) 
+78 - VILLA SPINDLER - Urania - John Boettcher
+
+[2026-05-08 17:41:44] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (22/05/2026: 10073031) 
+76 - VILLA SPINDLER - Erato - Andrew Warden
+
+[2026-05-08 17:41:45] ✅ Dodan EVISITOR: (22/05/2026: 10073031) 
+76 - VILLA SPINDLER - Erato - Andrew Warden
+
+[2026-05-08 17:41:46] ✅ Dodan CLEANING: (25/05/2026: 10073031) 
+76 - VILLA SPINDLER - Erato - Andrew Warden
+
+[2026-05-08 17:41:47] ✅ Dodan transfer odlazni: (09/05/2026: 10193958) 
+03 - TRANSFER ODLAZNI - Sandra Weiten Zimmermann
+
+[2026-05-08 17:41:49] ✅ Dodan transfer dolazni: (09/05/2026: 10194121) 
+04 - TRANSFER DOLAZNI - Shelly Gibbs
+
+[2026-05-08 17:41:50] ✅ Dodan transfer dolazni: (15/05/2026: 10194299) 
+02 - TRANSFER DOLAZNI - Sophie Greening
+
+[2026-05-08 17:41:51] ✅ Dodan transfer dolazni: (14/05/2026: 10194417) 
+01 - TRANSFER DOLAZNI - John Schell
+
+[2026-05-08 17:41:53] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (09/05/2026: 10195025) 
+102 - VILLA KALA - Tess Hollingworth
+
+[2026-05-08 17:41:53] ✅ Dodan EVISITOR: (09/05/2026: 10195025) 
+102 - VILLA KALA - Tess Hollingworth
+
+[2026-05-08 17:41:54] ✅ Dodan CLEANING: (15/05/2026: 10195025) 
+102 - VILLA KALA - Tess Hollingworth
+
+[2026-05-08 17:41:56] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (14/05/2026: 10195100) 
+01- Arthur Premiun Double Room - Okubo Tomoki
+
+[2026-05-08 17:41:56] ✅ Dodan EVISITOR: (14/05/2026: 10195100) 
+01- Arthur Premiun Double Room - Okubo Tomoki
+
+[2026-05-08 17:41:58] ✅ Dodan CLEANING: (17/05/2026: 10195100) 
+01- Arthur Premiun Double Room - Okubo Tomoki
+
+[2026-05-08 17:41:59] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (17/05/2026: 10195394) 
+13 - OLD TOWN ELEGANCE APARTMENT - Marzena Kowalczyk
+
+[2026-05-08 17:42:00] ✅ Dodan EVISITOR: (17/05/2026: 10195394) 
+13 - OLD TOWN ELEGANCE APARTMENT - Marzena Kowalczyk
+
+[2026-05-08 17:42:01] ✅ Dodan CLEANING: (21/05/2026: 10195394) 
+13 - OLD TOWN ELEGANCE APARTMENT - Marzena Kowalczyk
+
+[2026-05-08 17:42:03] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (14/05/2026: 10195413) 
+18 - DUBROVNIK VISTA RESIDENCE - HONGKUN WANG
+
+[2026-05-08 17:42:04] ✅ Dodan EVISITOR: (14/05/2026: 10195413) 
+18 - DUBROVNIK VISTA RESIDENCE - HONGKUN WANG
+
+[2026-05-08 17:42:05] ✅ Dodan CLEANING: (16/05/2026: 10195413) 
+18 - DUBROVNIK VISTA RESIDENCE - HONGKUN WANG
+
+[2026-05-08 17:42:07] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (28/05/2026: 10195466) 
+50 - AMOROZO - Jessica Sparkman
+
+[2026-05-08 17:42:08] ✅ Dodan EVISITOR: (28/05/2026: 10195466) 
+50 - AMOROZO - Jessica Sparkman
+
+[2026-05-08 17:42:09] ✅ Dodan transfer odlazni: (08/05/2026: 10196168) 
+03 - TRANSFER ODLAZNI - Oliver Matthias Ullrich
+
+[2026-05-08 17:42:11] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (09/05/2026: 10196174) 
+50 - AMOROZO - Eva Patiño Rodriguez
+
+[2026-05-08 17:42:11] ✅ Dodan EVISITOR: (09/05/2026: 10196174) 
+50 - AMOROZO - Eva Patiño Rodriguez
+
+[2026-05-08 17:42:13] ✅ Dodan CLEANING: (14/05/2026: 10196174) 
+50 - AMOROZO - Eva Patiño Rodriguez
+
+[2026-05-08 17:42:14] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (09/05/2026: 10196504) 
+52 - AMOROZO - Moana Hahn
+
+[2026-05-08 17:42:15] ✅ Dodan EVISITOR: (09/05/2026: 10196504) 
+52 - AMOROZO - Moana Hahn
+
+[2026-05-08 17:42:16] ✅ Dodan CLEANING: (13/05/2026: 10196504) 
+52 - AMOROZO - Moana Hahn
+
+[2026-05-08 17:42:17] ✅ Dodan transfer dolazni: (18/05/2026: 10196923) 
+01 - TRANSFER DOLAZNI - David Houdek
+
+[2026-05-08 17:42:18] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (22/05/2026: 10197143) 
+45 Cozy Double Room retreat - Celia Long
+
+[2026-05-08 17:42:19] ✅ Dodan EVISITOR: (22/05/2026: 10197143) 
+45 Cozy Double Room retreat - Celia Long
+
+[2026-05-08 17:42:20] ✅ Dodan CLEANING: (25/05/2026: 10197143) 
+45 Cozy Double Room retreat - Celia Long
+
+[2026-05-08 17:42:22] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (13/05/2026: 10198387) 
+103 - VILLA KALA - Kelvin van den Broek
+
+[2026-05-08 17:42:22] ✅ Dodan EVISITOR: (13/05/2026: 10198387) 
+103 - VILLA KALA - Kelvin van den Broek
+
+[2026-05-08 17:42:23] ✅ Dodan CLEANING: (16/05/2026: 10198387) 
+103 - VILLA KALA - Kelvin van den Broek
+
+[2026-05-08 17:42:25] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (12/05/2026: 10199220) 
+62 - RAFAEL - Caroline Auer
+
+[2026-05-08 17:42:26] ✅ Dodan EVISITOR: (12/05/2026: 10199220) 
+62 - RAFAEL - Caroline Auer
+
+[2026-05-08 17:42:27] ✅ Dodan CLEANING: (15/05/2026: 10199220) 
+62 - RAFAEL - Caroline Auer
+
+[2026-05-08 17:42:28] ✅ Azurirana rezervacija 09/05/2026 - 9842015
+Checklist: EVISITOR ✍🏻
+07 - Studio with Balcony - First floor - Stephen Joseph Oneill
+
+[2026-05-08 17:42:29] ✅ Azurirana rezervacija 14/05/2026 - 9842015
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+07 - Studio with Balcony - First floor - Stephen Joseph Oneill
+
+[2026-05-08 17:42:30] ✅ Azurirana rezervacija 08/05/2026 - 9852686
+Checklist: OLD TOWN / Check-in 🛎️
+24 - AD Pobijana - Caroline Isab Mariage
+
+[2026-05-08 17:42:31] ✅ Azurirana rezervacija 08/05/2026 - 9852686
+Checklist: EVISITOR ✍🏻
+24 - AD Pobijana - Caroline Isab Mariage
+
+[2026-05-08 17:42:32] ✅ Azurirana rezervacija 11/05/2026 - 9852686
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+24 - AD Pobijana - Caroline Isab Mariage
+
+[2026-05-08 17:42:33] ✅ Azurirana rezervacija 08/05/2026 - 9857772
+Checklist: OLD TOWN / Check-in 🛎️
+62 - RAFAEL - Gloria Luz Rascon Martinez
+
+[2026-05-08 17:42:33] ✅ Azurirana rezervacija 08/05/2026 - 9857772
+Checklist: EVISITOR ✍🏻
+62 - RAFAEL - Gloria Luz Rascon Martinez
+
+[2026-05-08 17:42:34] ✅ Azurirana rezervacija 12/05/2026 - 9857772
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+62 - RAFAEL - Gloria Luz Rascon Martinez
+
+[2026-05-08 17:42:35] ✅ Azurirana rezervacija 08/05/2026 - 9914074
+Checklist: VILLA SPINDLER / Check-in 🛎️
+75 - VILLA SPINDLER - Melpomene - Christopher John Burgess
+
+[2026-05-08 17:42:35] ✅ Azurirana rezervacija 08/05/2026 - 9914074
+Checklist: EVISITOR ✍🏻
+75 - VILLA SPINDLER - Melpomene - Christopher John Burgess
+
+[2026-05-08 17:42:36] ✅ Azurirana rezervacija 11/05/2026 - 9914074
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+75 - VILLA SPINDLER - Melpomene - Christopher John Burgess
+
+[2026-05-08 17:42:37] ✅ Azurirana rezervacija 10/05/2026 - 9915818
+Checklist: EVISITOR ✍🏻
+63 - RAFAEL - Nicolás Junco Villamizar
+
+[2026-05-08 17:42:37] ✅ Azurirana rezervacija 10/05/2026 - 9915818
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+63 - RAFAEL - Nicolás Junco Villamizar
+
+[2026-05-08 17:42:38] ✅ Azurirana rezervacija 13/05/2026 - 9915818
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+63 - RAFAEL - Nicolás Junco Villamizar
+
+[2026-05-08 17:42:39] ✅ Azurirana rezervacija 08/05/2026 - 9962025
+Checklist: OLD TOWN / Check-in 🛎️
+44 - Elegant Double - Old Town Street view - Mario Hans Stark
+
+[2026-05-08 17:42:40] ✅ Azurirana rezervacija 08/05/2026 - 9962025
+Checklist: EVISITOR ✍🏻
+44 - Elegant Double - Old Town Street view - Mario Hans Stark
+
+[2026-05-08 17:42:41] ✅ Azurirana rezervacija 11/05/2026 - 9962025
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+44 - Elegant Double - Old Town Street view - Mario Hans Stark
+
+[2026-05-08 17:42:42] ✅ Azurirana rezervacija 08/05/2026 - 10020225
+Checklist: OLD TOWN / Check-in 🛎️
+09 - Studio with a sea view - Second floor Vi - Evelyn Vanessa Barragan
+
+[2026-05-08 17:42:42] ✅ Azurirana rezervacija 08/05/2026 - 10020225
+Checklist: EVISITOR ✍🏻
+09 - Studio with a sea view - Second floor Vi - Evelyn Vanessa Barragan
+
+[2026-05-08 17:42:43] ✅ Azurirana rezervacija 12/05/2026 - 10020225
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+09 - Studio with a sea view - Second floor Vi - Evelyn Vanessa Barragan
+
+[2026-05-08 17:42:44] ✅ Azurirana rezervacija 06/05/2026 - 10056175
+Checklist: OLD TOWN / Check-in 🛎️
+32 - SECRET ORANGE - Alana Christensen Baker
+
+[2026-05-08 17:42:45] ✅ Azurirana rezervacija 06/05/2026 - 10056175
+Checklist: EVISITOR ✍🏻
+32 - SECRET ORANGE - Alana Christensen Baker
+
+[2026-05-08 17:42:46] ✅ Azurirana rezervacija 09/05/2026 - 10056175
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+32 - SECRET ORANGE - Alana Christensen Baker
+
+[2026-05-08 17:42:47] ✅ Azurirana rezervacija 07/05/2026 - 10059108
+Checklist: OLD TOWN / Check-in 🛎️
+38 - SWEET ROOM - Juergen Werner Gayer
+
+[2026-05-08 17:42:47] ✅ Azurirana rezervacija 07/05/2026 - 10059108
+Checklist: EVISITOR ✍🏻
+38 - SWEET ROOM - Juergen Werner Gayer
+
+[2026-05-08 17:42:48] ✅ Azurirana rezervacija 10/05/2026 - 10059108
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+38 - SWEET ROOM - Juergen Werner Gayer
+
+[2026-05-08 17:42:49] ✅ Azurirana rezervacija 08/05/2026 - 10060493
+Checklist: OLD TOWN / Check-in 🛎️
+54 - Two bedroom - Stephen Terence Mccaffery
+
+[2026-05-08 17:42:49] ✅ Azurirana rezervacija 08/05/2026 - 10060493
+Checklist: EVISITOR ✍🏻
+54 - Two bedroom - Stephen Terence Mccaffery
+
+[2026-05-08 17:42:50] ✅ Azurirana rezervacija 11/05/2026 - 10060493
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+54 - Two bedroom - Stephen Terence Mccaffery
+
+[2026-05-08 17:42:51] ✅ Azurirana rezervacija 08/05/2026 - 10073348
+Checklist: OLD TOWN / Check-in 🛎️
+51 - AMOROZO - Angelika Anna Chroboczek
+
+[2026-05-08 17:42:52] ✅ Azurirana rezervacija 08/05/2026 - 10073348
+Checklist: EVISITOR ✍🏻
+51 - AMOROZO - Angelika Anna Chroboczek
+
+[2026-05-08 17:42:52] ✅ Azurirana rezervacija 12/05/2026 - 10073348
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+51 - AMOROZO - Angelika Anna Chroboczek
+
+[2026-05-08 17:42:53] ✅ Azurirana rezervacija 08/05/2026 - 10158788
+Checklist: OLD TOWN / Check-in 🛎️
+45 Cozy Double Room retreat - Priyanka Monal Desai
+
+[2026-05-08 17:42:54] ✅ Azurirana rezervacija 08/05/2026 - 10158788
+Checklist: EVISITOR ✍🏻
+45 Cozy Double Room retreat - Priyanka Monal Desai
+
+[2026-05-08 17:42:55] ✅ Azurirana rezervacija 11/05/2026 - 10158788
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+45 Cozy Double Room retreat - Priyanka Monal Desai
+
+[2026-05-08 17:42:56] ✅ Azurirana rezervacija 08/05/2026 - 10163538
+Checklist: OLD TOWN / Check-in 🛎️
+63 - RAFAEL - David Didier Daniel Walther Hubert
+
+[2026-05-08 17:42:56] ✅ Azurirana rezervacija 08/05/2026 - 10163538
+Checklist: EVISITOR ✍🏻
+63 - RAFAEL - David Didier Daniel Walther Hubert
+
+[2026-05-08 17:42:58] ✅ Azurirana rezervacija 11/05/2026 - 10187847
+Checklist: OLD TOWN / Check-in 🛎️
+44 - Elegant Double - Old Town Street view - Brian Collins
+
+[2026-05-08 17:42:59] ✅ Azurirana rezervacija 11/05/2026 - 10187847
+Checklist: EVISITOR ✍🏻
+44 - Elegant Double - Old Town Street view - Brian Collins
+
+[2026-05-08 17:43:00] ✅ Azurirana rezervacija 13/05/2026 - 10187847
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+44 - Elegant Double - Old Town Street view - Brian Collins
+
+[2026-05-08 17:43:01] ✅ Azurirana rezervacija 12/05/2026 - 10192532
+Checklist: OLD TOWN / Check-in 🛎️
+02 - Arthur Premium Double Room - Jay Sv
+
+[2026-05-08 17:43:01] ✅ Azurirana rezervacija 12/05/2026 - 10192532
+Checklist: EVISITOR ✍🏻
+02 - Arthur Premium Double Room - Jay Sv
+
+[2026-05-08 17:43:02] ✅ Azurirana rezervacija 15/05/2026 - 10192532
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+02 - Arthur Premium Double Room - Jay Sv
+
+[2026-05-08 17:43:07] ✅ Obrisan checkbox (all): DOLAZAK: 18/05/2026, ODLAZAK: 21/05/2026 - 9834290
+Checklist: OLD TOWN / Check-in 🛎️
+07 - Studio with Balcony - First floor - Ma. Teresa Esquivel
+
+[2026-05-08 17:43:08] ✅ Obrisan checkbox (all): DOLAZAK: 18/05/2026, ODLAZAK: 21/05/2026 - 9834290
+Checklist: EVISITOR ✍🏻
+07 - Studio with Balcony - First floor - Ma. Teresa Esquivel
+
+[2026-05-08 17:43:09] ✅ Obrisan checkbox (all): DOLAZAK: 18/05/2026, ODLAZAK: 21/05/2026 - 9834290
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+07 - Studio with Balcony - First floor - Ma. Teresa Esquivel
+
+[2026-05-08 17:43:16] ✅ Obrisan checkbox (all): DOLAZAK: 21/05/2026, ODLAZAK: 25/05/2026 - 9998212
+Checklist: OLD TOWN / Check-in 🛎️
+30 - SEA PEARL - Sandra González
+
+[2026-05-08 17:43:16] ✅ Obrisan checkbox (all): DOLAZAK: 21/05/2026, ODLAZAK: 25/05/2026 - 9998212
+Checklist: EVISITOR ✍🏻
+30 - SEA PEARL - Sandra González
+
+[2026-05-08 17:43:17] ✅ Obrisan checkbox (all): DOLAZAK: 21/05/2026, ODLAZAK: 25/05/2026 - 9998212
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+30 - SEA PEARL - Sandra González
+
+[2026-05-10 12:19:28] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (23/05/2026: 9814289) 
+73 - VILLA SPINDLER - Clio - Andrew Chrascina
+
+[2026-05-10 12:19:29] ✅ Dodan EVISITOR: (23/05/2026: 9814289) 
+73 - VILLA SPINDLER - Clio - Andrew Chrascina
+
+[2026-05-10 12:19:31] ✅ Dodan CLEANING: (26/05/2026: 9814289) 
+73 - VILLA SPINDLER - Clio - Andrew Chrascina
+
+[2026-05-10 12:19:33] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (23/05/2026: 10026805) 
+18 - DUBROVNIK VISTA RESIDENCE - Amie Yoshida
+
+[2026-05-10 12:19:34] ✅ Dodan EVISITOR: (23/05/2026: 10026805) 
+18 - DUBROVNIK VISTA RESIDENCE - Amie Yoshida
+
+[2026-05-10 12:19:35] ✅ Dodan CLEANING: (26/05/2026: 10026805) 
+18 - DUBROVNIK VISTA RESIDENCE - Amie Yoshida
+
+[2026-05-10 12:19:36] ✅ Dodan transfer dolazni: (09/05/2026: 10200325) 
+05 - TRANSFER DOLAZNI - Aymee Elizabeth Chavez Leyva
+
+[2026-05-10 12:19:37] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (10/05/2026: 10200741) 
+108 - VILLA KALA - Margot Lucie Heyman
+
+[2026-05-10 12:19:38] ✅ Dodan EVISITOR: (10/05/2026: 10200741) 
+108 - VILLA KALA - Margot Lucie Heyman
+
+[2026-05-10 12:19:39] ✅ Dodan CLEANING: (15/05/2026: 10200741) 
+108 - VILLA KALA - Margot Lucie Heyman
+
+[2026-05-10 12:19:41] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (24/05/2026: 10200904) 
+24 - AD Pobijana - Emma Brock
+
+[2026-05-10 12:19:41] ✅ Dodan EVISITOR: (24/05/2026: 10200904) 
+24 - AD Pobijana - Emma Brock
+
+[2026-05-10 12:19:43] ✅ Dodan CLEANING: (29/05/2026: 10200904) 
+24 - AD Pobijana - Emma Brock
+
+[2026-05-10 12:19:44] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (13/05/2026: 10202059) 
+106 - VILLA KALA - Agius Marg
+
+[2026-05-10 12:19:45] ✅ Dodan EVISITOR: (13/05/2026: 10202059) 
+106 - VILLA KALA - Agius Marg
+
+[2026-05-10 12:19:46] ✅ Dodan CLEANING: (16/05/2026: 10202059) 
+106 - VILLA KALA - Agius Marg
+
+[2026-05-10 12:19:47] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (10/05/2026: 10202598) 
+03 - Arthur Superior Double Room - Naomi Fukuda
+
+[2026-05-10 12:19:48] ✅ Dodan EVISITOR: (10/05/2026: 10202598) 
+03 - Arthur Superior Double Room - Naomi Fukuda
+
+[2026-05-10 12:19:50] ✅ Dodan CLEANING: (12/05/2026: 10202598) 
+03 - Arthur Superior Double Room - Naomi Fukuda
+
+[2026-05-10 12:19:51] ✅ Dodan transfer dolazni: (23/05/2026: 10203889) 
+03 - TRANSFER DOLAZNI - Andrew Chrascina
+
+[2026-05-10 12:19:52] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (24/05/2026: 10204348) 
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-10 12:19:53] ✅ Dodan EVISITOR: (24/05/2026: 10204348) 
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-10 12:19:54] ✅ Dodan CLEANING: (27/05/2026: 10204348) 
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-10 12:19:55] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (28/05/2026: 10204822) 
+11 - GREY NEST - Gizem Ozden
+
+[2026-05-10 12:19:56] ✅ Dodan EVISITOR: (28/05/2026: 10204822) 
+11 - GREY NEST - Gizem Ozden
+
+[2026-05-10 12:19:57] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (14/05/2026: 10205116) 
+105 - VILLA KALA - Adam Kordys
+
+[2026-05-10 12:19:58] ✅ Dodan EVISITOR: (14/05/2026: 10205116) 
+105 - VILLA KALA - Adam Kordys
+
+[2026-05-10 12:19:59] ✅ Dodan CLEANING: (17/05/2026: 10205116) 
+105 - VILLA KALA - Adam Kordys
+
+[2026-05-10 12:20:00] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (31/05/2026: 10205119) 
+105 - VILLA KALA - 
+
+[2026-05-10 12:20:01] ✅ Dodan EVISITOR: (31/05/2026: 10205119) 
+105 - VILLA KALA - 
+
+[2026-05-10 12:20:03] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (31/05/2026: 10205120) 
+106 - VILLA KALA - 
+
+[2026-05-10 12:20:04] ✅ Dodan EVISITOR: (31/05/2026: 10205120) 
+106 - VILLA KALA - 
+
+[2026-05-10 12:20:05] ✅ Dodan transfer odlazni: (11/05/2026: 10205197) 
+03 - TRANSFER ODLAZNI - Lauren Ashley Maxwell
+
+[2026-05-10 12:20:07] ✅ Dodan transfer dolazni: (19/05/2026: 10205768) 
+02 - TRANSFER DOLAZNI - Shibei He
+
+[2026-05-10 12:20:07] ✅ Azurirana rezervacija 09/05/2026 - 9818617
+Checklist: OLD TOWN / Check-in 🛎️
+57 - CENTRAL W APARTMENT - Carmen Rosemarie Keller
+
+[2026-05-10 12:20:08] ✅ Azurirana rezervacija 09/05/2026 - 9818617
+Checklist: EVISITOR ✍🏻
+57 - CENTRAL W APARTMENT - Carmen Rosemarie Keller
+
+[2026-05-10 12:20:09] ✅ Azurirana rezervacija 13/05/2026 - 9818617
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+57 - CENTRAL W APARTMENT - Carmen Rosemarie Keller
+
+[2026-05-10 12:20:10] ✅ Azurirana rezervacija 10/05/2026 - 9821495
+Checklist: OLD TOWN / Check-in 🛎️
+14 - THE SIGNATURE SUITE - Halima Hafza Arteh
+
+[2026-05-10 12:20:10] ✅ Azurirana rezervacija 10/05/2026 - 9821495
+Checklist: EVISITOR ✍🏻
+14 - THE SIGNATURE SUITE - Halima Hafza Arteh
+
+[2026-05-10 12:20:11] ✅ Azurirana rezervacija 15/05/2026 - 9821495
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+14 - THE SIGNATURE SUITE - Halima Hafza Arteh
+
+[2026-05-10 12:20:12] ✅ Azurirana rezervacija 09/05/2026 - 9889213
+Checklist: OLD TOWN / Check-in 🛎️
+08 Premium Double room - First floor Villa Mo - Michael Robert Flood
+
+[2026-05-10 12:20:12] ✅ Azurirana rezervacija 09/05/2026 - 9889213
+Checklist: EVISITOR ✍🏻
+08 Premium Double room - First floor Villa Mo - Michael Robert Flood
+
+[2026-05-10 12:20:13] ✅ Azurirana rezervacija 13/05/2026 - 9889213
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+08 Premium Double room - First floor Villa Mo - Michael Robert Flood
+
+[2026-05-10 12:20:14] ✅ Azurirana rezervacija 09/05/2026 - 9913666
+Checklist: OLD TOWN / Check-in 🛎️
+17 - ADRIATIC ABOVE APARTMENT - Gemma Kate Dickinson
+
+[2026-05-10 12:20:14] ✅ Azurirana rezervacija 09/05/2026 - 9913666
+Checklist: EVISITOR ✍🏻
+17 - ADRIATIC ABOVE APARTMENT - Gemma Kate Dickinson
+
+[2026-05-10 12:20:15] ✅ Azurirana rezervacija 13/05/2026 - 9913666
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+17 - ADRIATIC ABOVE APARTMENT - Gemma Kate Dickinson
+
+[2026-05-10 12:20:16] ✅ Azurirana rezervacija 09/05/2026 - 9918066
+Checklist: OLD TOWN / Check-in 🛎️
+10 -Deluxe Doube room with side Sea View  - S - Romain Antoine Jacques
+
+[2026-05-10 12:20:17] ✅ Azurirana rezervacija 09/05/2026 - 9918066
+Checklist: EVISITOR ✍🏻
+10 -Deluxe Doube room with side Sea View  - S - Romain Antoine Jacques
+
+[2026-05-10 12:20:17] ✅ Azurirana rezervacija 13/05/2026 - 9918066
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+10 -Deluxe Doube room with side Sea View  - S - Romain Antoine Jacques
+
+[2026-05-10 12:20:18] ✅ Azurirana rezervacija 09/05/2026 - 9951409
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+104 - VILLA KALA - Aymee Elizabeth Chavez Leyva
+
+[2026-05-10 12:20:19] ✅ Azurirana rezervacija 09/05/2026 - 9951409
+Checklist: EVISITOR ✍🏻
+104 - VILLA KALA - Aymee Elizabeth Chavez Leyva
+
+[2026-05-10 12:20:20] ✅ Azurirana rezervacija 12/05/2026 - 9951409
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+104 - VILLA KALA - Aymee Elizabeth Chavez Leyva
+
+[2026-05-10 12:20:21] ✅ Azurirana rezervacija 09/05/2026 - 10031405
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+105 - VILLA KALA - Eng Hiang Joseph Yeo
+
+[2026-05-10 12:20:21] ✅ Azurirana rezervacija 09/05/2026 - 10031405
+Checklist: EVISITOR ✍🏻
+105 - VILLA KALA - Eng Hiang Joseph Yeo
+
+[2026-05-10 12:20:22] ✅ Azurirana rezervacija 12/05/2026 - 10031405
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+105 - VILLA KALA - Eng Hiang Joseph Yeo
+
+[2026-05-10 12:20:22] ✅ Azurirana rezervacija 12/05/2026 - 10031405
+Checklist: EVISITOR ✍🏻
+105 - VILLA KALA - Eng Hiang Joseph Yeo
+
+[2026-05-10 12:20:23] ✅ Azurirana rezervacija 12/05/2026 - 10031405
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+105 - VILLA KALA - Eng Hiang Joseph Yeo
+
+[2026-05-10 12:20:24] ✅ Azurirana rezervacija 09/05/2026 - 10031406
+Checklist: EVISITOR ✍🏻
+101 - VILLA KALA - Bee Lan Jamie Tan
+
+[2026-05-10 12:20:25] ✅ Azurirana rezervacija 12/05/2026 - 10031406
+Checklist: EVISITOR ✍🏻
+101 - VILLA KALA - Bee Lan Jamie Tan
+
+[2026-05-10 12:20:25] ✅ Azurirana rezervacija 12/05/2026 - 10031406
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+101 - VILLA KALA - Bee Lan Jamie Tan
+
+[2026-05-10 12:20:26] ✅ Azurirana rezervacija 09/05/2026 - 10031407
+Checklist: EVISITOR ✍🏻
+103 - VILLA KALA - Loo Ang Quek
+
+[2026-05-10 12:20:27] ✅ Azurirana rezervacija 12/05/2026 - 10031407
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+103 - VILLA KALA - Loo Ang Quek
+
+[2026-05-10 12:20:28] ✅ Azurirana rezervacija 09/05/2026 - 10052966
+Checklist: OLD TOWN / Check-in 🛎️
+53 - Studio Apartment - Steven John Gallia
+
+[2026-05-10 12:20:28] ✅ Azurirana rezervacija 09/05/2026 - 10052966
+Checklist: EVISITOR ✍🏻
+53 - Studio Apartment - Steven John Gallia
+
+[2026-05-10 12:20:29] ✅ Azurirana rezervacija 12/05/2026 - 10052966
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+53 - Studio Apartment - Steven John Gallia
+
+[2026-05-10 12:20:30] ✅ Azurirana rezervacija 09/05/2026 - 10164855
+Checklist: OLD TOWN / Check-in 🛎️
+04 - Standard singe room - Eunmi Jang
+
+[2026-05-10 12:20:30] ✅ Azurirana rezervacija 09/05/2026 - 10164855
+Checklist: EVISITOR ✍🏻
+04 - Standard singe room - Eunmi Jang
+
+[2026-05-10 12:20:31] ✅ Azurirana rezervacija 12/05/2026 - 10164855
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+04 - Standard singe room - Eunmi Jang
+
+[2026-05-10 12:20:32] ✅ Azurirana rezervacija 10/05/2026 - 10186949
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+107 - VILLA KALA - Jadesola Rachel Fakuade
+
+[2026-05-10 12:20:32] ✅ Azurirana rezervacija 10/05/2026 - 10186949
+Checklist: EVISITOR ✍🏻
+107 - VILLA KALA - Jadesola Rachel Fakuade
+
+[2026-05-10 12:20:33] ✅ Azurirana rezervacija 13/05/2026 - 10186949
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+107 - VILLA KALA - Jadesola Rachel Fakuade
+
+[2026-05-10 12:20:34] ✅ Azurirana rezervacija 11/05/2026 - 10191859
+Checklist: OLD TOWN / Check-in 🛎️
+68 - LINCUN - Christopher Augustin Daigle
+
+[2026-05-10 12:20:35] ✅ Azurirana rezervacija 11/05/2026 - 10191859
+Checklist: EVISITOR ✍🏻
+68 - LINCUN - Christopher Augustin Daigle
+
+[2026-05-10 12:20:36] ✅ Azurirana rezervacija 13/05/2026 - 10191859
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+68 - LINCUN - Christopher Augustin Daigle
+
+[2026-05-10 12:20:36] ✅ Azurirana rezervacija 09/05/2026 - 10195025
+Checklist: EVISITOR ✍🏻
+102 - VILLA KALA - Tess Josephine Hollingworth
+
+[2026-05-10 12:20:37] ✅ Azurirana rezervacija 15/05/2026 - 10195025
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+102 - VILLA KALA - Tess Josephine Hollingworth
+
+[2026-05-10 12:20:38] ✅ Azurirana rezervacija 09/05/2026 - 10196174
+Checklist: OLD TOWN / Check-in 🛎️
+50 - AMOROZO - Eva Patino Rodriguez
+
+[2026-05-10 12:20:39] ✅ Azurirana rezervacija 09/05/2026 - 10196174
+Checklist: EVISITOR ✍🏻
+50 - AMOROZO - Eva Patino Rodriguez
+
+[2026-05-10 12:20:40] ✅ Azurirana rezervacija 14/05/2026 - 10196174
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+50 - AMOROZO - Eva Patino Rodriguez
+
+[2026-05-10 12:20:40] ✅ Azurirana rezervacija 09/05/2026 - 10196504
+Checklist: OLD TOWN / Check-in 🛎️
+52 - AMOROZO - Moana Elena Hahn
+
+[2026-05-10 12:20:41] ✅ Azurirana rezervacija 09/05/2026 - 10196504
+Checklist: EVISITOR ✍🏻
+52 - AMOROZO - Moana Elena Hahn
+
+[2026-05-10 12:20:42] ✅ Azurirana rezervacija 13/05/2026 - 10196504
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+52 - AMOROZO - Moana Elena Hahn
+
+[2026-05-10 12:20:43] ✅ Azurirana rezervacija 12/05/2026 - 10199220
+Checklist: OLD TOWN / Check-in 🛎️
+62 - RAFAEL - Caroline Auer
+
+[2026-05-10 12:20:43] ✅ Azurirana rezervacija 12/05/2026 - 10199220
+Checklist: EVISITOR ✍🏻
+62 - RAFAEL - Caroline Auer
+
+[2026-05-10 12:20:44] ✅ Azurirana rezervacija 15/05/2026 - 10199220
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+62 - RAFAEL - Caroline Auer
+
+[2026-05-10 12:20:50] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 01/06/2026 - 9607897
+Checklist: OLD TOWN / Check-in 🛎️
+40 - ZENITH - Kätlin Lemmats
+
+[2026-05-10 12:20:51] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 01/06/2026 - 9607897
+Checklist: EVISITOR ✍🏻
+40 - ZENITH - Kätlin Lemmats
+
+[2026-05-10 12:20:55] ✅ Obrisan checkbox (all): DOLAZAK: 16/05/2026, ODLAZAK: 19/05/2026 - 9968453
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+105 - VILLA KALA - Madeline Worledge
+
+[2026-05-10 12:20:56] ✅ Obrisan checkbox (all): DOLAZAK: 16/05/2026, ODLAZAK: 19/05/2026 - 9968453
+Checklist: EVISITOR ✍🏻
+105 - VILLA KALA - Madeline Worledge
+
+[2026-05-10 12:20:57] ✅ Obrisan checkbox (all): DOLAZAK: 16/05/2026, ODLAZAK: 19/05/2026 - 9968453
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+105 - VILLA KALA - Madeline Worledge
+
+[2026-05-10 12:21:04] ✅ Obrisan checkbox (all): DOLAZAK: 20/05/2026, ODLAZAK: 23/05/2026 - 10060325
+Checklist: OLD TOWN / Check-in 🛎️
+37 - OCEAN - eileen Holland
+
+[2026-05-10 12:21:04] ✅ Obrisan checkbox (all): DOLAZAK: 20/05/2026, ODLAZAK: 23/05/2026 - 10060325
+Checklist: EVISITOR ✍🏻
+37 - OCEAN - eileen Holland
+
+[2026-05-10 12:21:05] ✅ Obrisan checkbox (all): DOLAZAK: 20/05/2026, ODLAZAK: 23/05/2026 - 10060325
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+37 - OCEAN - eileen Holland
+
+[2026-05-10 12:21:13] ✅ Obrisan checkbox (all): DOLAZAK: 26/05/2026, ODLAZAK: 29/05/2026 - 10135847
+Checklist: OLD TOWN / Check-in 🛎️
+66 - LINCUN - Adam Seymour
+
+[2026-05-10 12:21:14] ✅ Obrisan checkbox (all): DOLAZAK: 26/05/2026, ODLAZAK: 29/05/2026 - 10135847
+Checklist: EVISITOR ✍🏻
+66 - LINCUN - Adam Seymour
+
+[2026-05-10 12:21:15] ✅ Obrisan checkbox (all): DOLAZAK: 26/05/2026, ODLAZAK: 29/05/2026 - 10135847
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+66 - LINCUN - Adam Seymour
+
+[2026-05-10 12:21:19] ✅ Obrisan checkbox (all): DOLAZAK: 16/05/2026, ODLAZAK: 18/05/2026 - 10139633
+Checklist: VILLA SPINDLER / Check-in 🛎️
+77 - VILLA SPINDLER - Terpsichore - AYUSH RAJESH KOTHARI
+
+[2026-05-10 12:21:19] ✅ Obrisan checkbox (all): DOLAZAK: 16/05/2026, ODLAZAK: 18/05/2026 - 10139633
+Checklist: EVISITOR ✍🏻
+77 - VILLA SPINDLER - Terpsichore - AYUSH RAJESH KOTHARI
+
+[2026-05-10 12:21:20] ✅ Obrisan checkbox (all): DOLAZAK: 16/05/2026, ODLAZAK: 18/05/2026 - 10139633
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+77 - VILLA SPINDLER - Terpsichore - AYUSH RAJESH KOTHARI
+
+[2026-05-10 12:21:27] ✅ Obrisan checkbox (all): DOLAZAK: 17/05/2026, ODLAZAK: 20/05/2026 - 10163967
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+104 - VILLA KALA - Julia Prestes Chuffi Barros
+
+[2026-05-10 12:21:27] ✅ Obrisan checkbox (all): DOLAZAK: 17/05/2026, ODLAZAK: 20/05/2026 - 10163967
+Checklist: EVISITOR ✍🏻
+104 - VILLA KALA - Julia Prestes Chuffi Barros
+
+[2026-05-10 12:21:28] ✅ Obrisan checkbox (all): DOLAZAK: 17/05/2026, ODLAZAK: 20/05/2026 - 10163967
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+104 - VILLA KALA - Julia Prestes Chuffi Barros
+
+[2026-05-10 12:42:03] ✅ Azurirana rezervacija 10/05/2026 - 10050391
+Checklist: OLD TOWN / Check-in 🛎️
+67 - LINCUN - Wei Chuan Tseng
+
+[2026-05-10 12:42:03] ✅ Azurirana rezervacija 10/05/2026 - 10050391
+Checklist: EVISITOR ✍🏻
+67 - LINCUN - Wei Chuan Tseng
+
+[2026-05-10 12:42:04] ✅ Azurirana rezervacija 13/05/2026 - 10050391
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+67 - LINCUN - Wei Chuan Tseng
+
+[2026-05-10 15:56:09] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 01/06/2026 - 9899747
+Checklist: OLD TOWN / Check-in 🛎️
+32 - SECRET ORANGE - DARIA CZECHOWSKA
+
+[2026-05-10 15:56:09] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 01/06/2026 - 9899747
+Checklist: EVISITOR ✍🏻
+32 - SECRET ORANGE - DARIA CZECHOWSKA
+
+[2026-05-10 22:55:53] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (22/05/2026: 10208491) 
+16 - ADRIATIC GALLERY APARTMENT - Cath Heppelthwaite
+
+[2026-05-10 22:55:54] ✅ Dodan EVISITOR: (22/05/2026: 10208491) 
+16 - ADRIATIC GALLERY APARTMENT - Cath Heppelthwaite
+
+[2026-05-10 22:55:55] ✅ Dodan CLEANING: (25/05/2026: 10208491) 
+16 - ADRIATIC GALLERY APARTMENT - Cath Heppelthwaite
+
+[2026-05-10 22:55:56] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (14/05/2026: 10208515) 
+37 - OCEAN - Makoto Hashimoto
+
+[2026-05-10 22:55:57] ✅ Dodan EVISITOR: (14/05/2026: 10208515) 
+37 - OCEAN - Makoto Hashimoto
+
+[2026-05-10 22:55:59] ✅ Dodan CLEANING: (17/05/2026: 10208515) 
+37 - OCEAN - Makoto Hashimoto
+
+[2026-05-10 22:56:00] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (14/05/2026: 10209065) 
+66 - LINCUN - Zbigniew Roszko
+
+[2026-05-10 22:56:01] ✅ Dodan EVISITOR: (14/05/2026: 10209065) 
+66 - LINCUN - Zbigniew Roszko
+
+[2026-05-10 22:56:02] ✅ Dodan CLEANING: (17/05/2026: 10209065) 
+66 - LINCUN - Zbigniew Roszko
+
+[2026-05-10 22:56:03] ✅ Azurirana rezervacija 10/05/2026 - 9915817
+Checklist: OLD TOWN / Check-in 🛎️
+65 - RAFAEL - Aurora Florentina Gonzalez Rodriguez
+
+[2026-05-10 22:56:03] ✅ Azurirana rezervacija 10/05/2026 - 9915817
+Checklist: EVISITOR ✍🏻
+65 - RAFAEL - Aurora Florentina Gonzalez Rodriguez
+
+[2026-05-10 22:56:03] ✅ Azurirana rezervacija 10/05/2026 - 9915817
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+65 - RAFAEL - Aurora Florentina Gonzalez Rodriguez
+
+[2026-05-10 22:56:05] ✅ Azurirana rezervacija 13/05/2026 - 9915817
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+65 - RAFAEL - Aurora Florentina Gonzalez Rodriguez
+
+[2026-05-10 22:56:05] ✅ Azurirana rezervacija 10/05/2026 - 9915818
+Checklist: EVISITOR ✍🏻
+63 - RAFAEL - Nicolas Junco Villamizar
+
+[2026-05-10 22:56:06] ✅ Azurirana rezervacija 13/05/2026 - 9915818
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+63 - RAFAEL - Nicolas Junco Villamizar
+
+[2026-05-10 22:56:07] ✅ Azurirana rezervacija 10/05/2026 - 9915819
+Checklist: EVISITOR ✍🏻
+64 - RAFAEL - Maria Eugenia Yugueros Izquierdo
+
+[2026-05-10 22:56:08] ✅ Azurirana rezervacija 10/05/2026 - 9915819
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+64 - RAFAEL - Maria Eugenia Yugueros Izquierdo
+
+[2026-05-10 22:56:09] ✅ Azurirana rezervacija 13/05/2026 - 9915819
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+64 - RAFAEL - Maria Eugenia Yugueros Izquierdo
+
+[2026-05-10 22:56:09] ✅ Azurirana rezervacija 09/05/2026 - 9976833
+Checklist: OLD TOWN / Check-in 🛎️
+01- Arthur Premiun Double Room - Cynthia Walke Smith
+
+[2026-05-10 22:56:10] ✅ Azurirana rezervacija 09/05/2026 - 9976833
+Checklist: EVISITOR ✍🏻
+01- Arthur Premiun Double Room - Cynthia Walke Smith
+
+[2026-05-10 22:56:11] ✅ Azurirana rezervacija 13/05/2026 - 9976833
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+01- Arthur Premiun Double Room - Cynthia Walke Smith
+
+[2026-05-10 22:56:12] ✅ Azurirana rezervacija 10/05/2026 - 10072466
+Checklist: OLD TOWN / Check-in 🛎️
+38 - SWEET ROOM - Maria Paulina Pinto Troya
+
+[2026-05-10 22:56:12] ✅ Azurirana rezervacija 10/05/2026 - 10072466
+Checklist: EVISITOR ✍🏻
+38 - SWEET ROOM - Maria Paulina Pinto Troya
+
+[2026-05-10 22:56:13] ✅ Azurirana rezervacija 13/05/2026 - 10072466
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+38 - SWEET ROOM - Maria Paulina Pinto Troya
+
+[2026-05-10 22:56:17] ✅ Obrisan checkbox (all): DOLAZAK: 17/05/2026, ODLAZAK: 21/05/2026 - 10195394
+Checklist: OLD TOWN / Check-in 🛎️
+13 - OLD TOWN ELEGANCE APARTMENT - Marzena Kowalczyk
+
+[2026-05-10 22:56:18] ✅ Obrisan checkbox (all): DOLAZAK: 17/05/2026, ODLAZAK: 21/05/2026 - 10195394
+Checklist: EVISITOR ✍🏻
+13 - OLD TOWN ELEGANCE APARTMENT - Marzena Kowalczyk
+
+[2026-05-10 22:56:19] ✅ Obrisan checkbox (all): DOLAZAK: 17/05/2026, ODLAZAK: 21/05/2026 - 10195394
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+13 - OLD TOWN ELEGANCE APARTMENT - Marzena Kowalczyk
+
+[2026-05-11 07:56:11] ✅ Dodan transfer dolazni: (11/05/2026: 10209822) 
+02 - TRANSFER DOLAZNI - Ruza Nikolova
+
+[2026-05-11 07:56:12] ✅ Dodan transfer dolazni: (14/05/2026: 10209865) 
+02 - TRANSFER DOLAZNI - Adam Kordys
+
+[2026-05-11 07:56:14] ✅ Dodan transfer odlazni: (12/05/2026: 10209898) 
+01 - TRANSFER ODLAZNI - Bee Lan Jamie Tan
+
+[2026-05-11 07:56:15] ✅ Azurirana rezervacija 22/05/2026 - 10208491
+Checklist: OLD TOWN / Check-in 🛎️
+16 - ADRIATIC GALLERY APARTMENT - Cath Heppelthwaite
+
+[2026-05-11 07:56:15] ✅ Azurirana rezervacija 22/05/2026 - 10208491
+Checklist: EVISITOR ✍🏻
+16 - ADRIATIC GALLERY APARTMENT - Cath Heppelthwaite
+
+[2026-05-11 07:56:16] ✅ Azurirana rezervacija 25/05/2026 - 10208491
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+16 - ADRIATIC GALLERY APARTMENT - Cath Heppelthwaite
+
+[2026-05-11 07:56:17] ✅ Azurirana rezervacija 14/05/2026 - 10208515
+Checklist: OLD TOWN / Check-in 🛎️
+37 - OCEAN - Makoto Hashimoto
+
+[2026-05-11 07:56:18] ✅ Azurirana rezervacija 14/05/2026 - 10208515
+Checklist: EVISITOR ✍🏻
+37 - OCEAN - Makoto Hashimoto
+
+[2026-05-11 07:56:19] ✅ Azurirana rezervacija 17/05/2026 - 10208515
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+37 - OCEAN - Makoto Hashimoto
+
+[2026-05-11 07:56:20] ✅ Azurirana rezervacija 14/05/2026 - 10209065
+Checklist: OLD TOWN / Check-in 🛎️
+66 - LINCUN - Zbigniew Roszko
+
+[2026-05-11 07:56:21] ✅ Azurirana rezervacija 14/05/2026 - 10209065
+Checklist: EVISITOR ✍🏻
+66 - LINCUN - Zbigniew Roszko
+
+[2026-05-11 07:56:22] ✅ Azurirana rezervacija 17/05/2026 - 10209065
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+66 - LINCUN - Zbigniew Roszko
+
+[2026-05-11 07:56:29] ✅ Obrisan checkbox (all): DOLAZAK: 26/05/2026, ODLAZAK: 03/06/2026 - 10192428
+Checklist: OLD TOWN / Check-in 🛎️
+12 - PETIT NOOK - Anastasiia Petrova
+
+[2026-05-11 07:56:29] ✅ Obrisan checkbox (all): DOLAZAK: 26/05/2026, ODLAZAK: 03/06/2026 - 10192428
+Checklist: EVISITOR ✍🏻
+12 - PETIT NOOK - Anastasiia Petrova
+
+[2026-05-12 18:20:12] ✅ Dodan transfer odlazni: (11/05/2026: 10210502) 
+04 - TRANSFER ODLAZNI - Aymee Elizabeth Chavez Leyva
+
+[2026-05-12 18:20:14] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (16/05/2026: 10211430) 
+104 - VILLA KALA - Hubert LAGACHE
+
+[2026-05-12 18:20:15] ✅ Dodan EVISITOR: (16/05/2026: 10211430) 
+104 - VILLA KALA - Hubert LAGACHE
+
+[2026-05-12 18:20:16] ✅ Dodan CLEANING: (19/05/2026: 10211430) 
+104 - VILLA KALA - Hubert LAGACHE
+
+[2026-05-12 18:20:17] ✅ Dodan transfer dolazni: (23/05/2026: 10212248) 
+04 - TRANSFER DOLAZNI - Ann McMahon
+
+[2026-05-12 18:20:19] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (24/05/2026: 10213595) 
+107 - VILLA KALA - Marta Nowakowska
+
+[2026-05-12 18:20:19] ✅ Dodan EVISITOR: (24/05/2026: 10213595) 
+107 - VILLA KALA - Marta Nowakowska
+
+[2026-05-12 18:20:21] ✅ Dodan CLEANING: (28/05/2026: 10213595) 
+107 - VILLA KALA - Marta Nowakowska
+
+[2026-05-12 18:20:22] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (13/05/2026: 10213613) 
+68 - LINCUN - Marcel Schmid
+
+[2026-05-12 18:20:23] ✅ Dodan EVISITOR: (13/05/2026: 10213613) 
+68 - LINCUN - Marcel Schmid
+
+[2026-05-12 18:20:25] ✅ Dodan CLEANING: (16/05/2026: 10213613) 
+68 - LINCUN - Marcel Schmid
+
+[2026-05-12 18:20:26] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (29/05/2026: 10214329) 
+76 - VILLA SPINDLER - Erato - Nikolai Blaich
+
+[2026-05-12 18:20:27] ✅ Dodan EVISITOR: (29/05/2026: 10214329) 
+76 - VILLA SPINDLER - Erato - Nikolai Blaich
+
+[2026-05-12 18:20:29] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (13/05/2026: 10214723) 
+16 - ADRIATIC GALLERY APARTMENT - Lennart Meier
+
+[2026-05-12 18:20:30] ✅ Dodan EVISITOR: (13/05/2026: 10214723) 
+16 - ADRIATIC GALLERY APARTMENT - Lennart Meier
+
+[2026-05-12 18:20:31] ✅ Dodan CLEANING: (16/05/2026: 10214723) 
+16 - ADRIATIC GALLERY APARTMENT - Lennart Meier
+
+[2026-05-12 18:20:32] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (25/05/2026: 10215087) 
+66 - LINCUN - Ilgar Gündüz
+
+[2026-05-12 18:20:33] ✅ Dodan EVISITOR: (25/05/2026: 10215087) 
+66 - LINCUN - Ilgar Gündüz
+
+[2026-05-12 18:20:35] ✅ Dodan CLEANING: (29/05/2026: 10215087) 
+66 - LINCUN - Ilgar Gündüz
+
+[2026-05-12 18:20:36] ✅ Dodan transfer dolazni: (15/05/2026: 10215786) 
+03 - TRANSFER DOLAZNI - Martin Ehinger
+
+[2026-05-12 18:20:38] ✅ Dodan transfer odlazni: (12/05/2026: 10216141) 
+05 - TRANSFER ODLAZNI - Roger Michael Kaye
+
+[2026-05-12 18:20:39] ✅ Dodan transfer odlazni: (13/05/2026: 10217063) 
+02 - TRANSFER ODLAZNI - Cynthia Walke Smith
+
+[2026-05-12 18:20:40] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (17/05/2026: 10219709) 
+02 - Arthur Premium Double Room - VIJAY SAPRA
+
+[2026-05-12 18:20:41] ✅ Dodan EVISITOR: (17/05/2026: 10219709) 
+02 - Arthur Premium Double Room - VIJAY SAPRA
+
+[2026-05-12 18:20:43] ✅ Dodan CLEANING: (20/05/2026: 10219709) 
+02 - Arthur Premium Double Room - VIJAY SAPRA
+
+[2026-05-12 18:20:44] ✅ Azurirana rezervacija 11/05/2026 - 9819480
+Checklist: EVISITOR ✍🏻
+78 - VILLA SPINDLER - Urania - Corinne Imhof Fleischer
+
+[2026-05-12 18:20:45] ✅ Azurirana rezervacija 14/05/2026 - 9819480
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+78 - VILLA SPINDLER - Urania - Corinne Imhof Fleischer
+
+[2026-05-12 18:20:46] ✅ Azurirana rezervacija 12/05/2026 - 9846742
+Checklist: OLD TOWN / Check-in 🛎️
+26 - PANORAMA - Karen Margaret Hickey
+
+[2026-05-12 18:20:46] ✅ Azurirana rezervacija 12/05/2026 - 9846742
+Checklist: EVISITOR ✍🏻
+26 - PANORAMA - Karen Margaret Hickey
+
+[2026-05-12 18:20:48] ✅ Azurirana rezervacija 16/05/2026 - 9846742
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+26 - PANORAMA - Karen Margaret Hickey
+
+[2026-05-12 18:20:49] ✅ Azurirana rezervacija 12/05/2026 - 9918884
+Checklist: OLD TOWN / Check-in 🛎️
+55 - CENTRAL W ROOM - Bonnie May Strome
+
+[2026-05-12 18:20:49] ✅ Azurirana rezervacija 12/05/2026 - 9918884
+Checklist: EVISITOR ✍🏻
+55 - CENTRAL W ROOM - Bonnie May Strome
+
+[2026-05-12 18:20:50] ✅ Azurirana rezervacija 14/05/2026 - 9918884
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+55 - CENTRAL W ROOM - Bonnie May Strome
+
+[2026-05-12 18:20:52] ✅ Azurirana rezervacija 12/05/2026 - 9919071
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+104 - VILLA KALA - Chloe Ashleigh Towner
+
+[2026-05-12 18:20:52] ✅ Azurirana rezervacija 12/05/2026 - 9919071
+Checklist: EVISITOR ✍🏻
+104 - VILLA KALA - Chloe Ashleigh Towner
+
+[2026-05-12 18:20:53] ✅ Azurirana rezervacija 16/05/2026 - 9919071
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+104 - VILLA KALA - Chloe Ashleigh Towner
+
+[2026-05-12 18:20:54] ✅ Azurirana rezervacija 12/05/2026 - 9992034
+Checklist: OLD TOWN / Check-in 🛎️
+53 - Studio Apartment - Hind Mohammed Almoail
+
+[2026-05-12 18:20:55] ✅ Azurirana rezervacija 12/05/2026 - 9992034
+Checklist: EVISITOR ✍🏻
+53 - Studio Apartment - Hind Mohammed Almoail
+
+[2026-05-12 18:20:56] ✅ Azurirana rezervacija 16/05/2026 - 9992034
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+53 - Studio Apartment - Hind Mohammed Almoail
+
+[2026-05-12 18:20:57] ✅ Azurirana rezervacija 12/05/2026 - 10030871
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+105 - VILLA KALA - Ruchika Laxmikant Chakala
+
+[2026-05-12 18:20:58] ✅ Azurirana rezervacija 14/05/2026 - 10030871
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+105 - VILLA KALA - Ruchika Laxmikant Chakala
+
+[2026-05-12 18:20:59] ✅ Azurirana rezervacija 12/05/2026 - 10053547
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+101 - VILLA KALA - Alexandre Garcia Da Silva
+
+[2026-05-12 18:21:00] ✅ Azurirana rezervacija 16/05/2026 - 10053547
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+101 - VILLA KALA - Alexandre Garcia Da Silva
+
+[2026-05-12 18:21:01] ✅ Azurirana rezervacija 11/05/2026 - 10059161
+Checklist: VILLA SPINDLER / Check-in 🛎️
+71 - VILLA SPINDLER - Euterpe - Elizabeth Ann Cleary
+
+[2026-05-12 18:21:02] ✅ Azurirana rezervacija 11/05/2026 - 10059161
+Checklist: EVISITOR ✍🏻
+71 - VILLA SPINDLER - Euterpe - Elizabeth Ann Cleary
+
+[2026-05-12 18:21:03] ✅ Azurirana rezervacija 15/05/2026 - 10059161
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+71 - VILLA SPINDLER - Euterpe - Elizabeth Ann Cleary
+
+[2026-05-12 18:21:04] ✅ Azurirana rezervacija 11/05/2026 - 10060569
+Checklist: OLD TOWN / Check-in 🛎️
+24 - AD Pobijana - Alice Muriel Carter Pegg
+
+[2026-05-12 18:21:04] ✅ Azurirana rezervacija 11/05/2026 - 10060569
+Checklist: EVISITOR ✍🏻
+24 - AD Pobijana - Alice Muriel Carter Pegg
+
+[2026-05-12 18:21:06] ✅ Azurirana rezervacija 14/05/2026 - 10060569
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+24 - AD Pobijana - Alice Muriel Carter Pegg
+
+[2026-05-12 18:21:07] ✅ Azurirana rezervacija 11/05/2026 - 10089529
+Checklist: OLD TOWN / Check-in 🛎️
+47 - Elegant Double with Old Town View - Sophie Jane Ellis
+
+[2026-05-12 18:21:07] ✅ Azurirana rezervacija 11/05/2026 - 10089529
+Checklist: EVISITOR ✍🏻
+47 - Elegant Double with Old Town View - Sophie Jane Ellis
+
+[2026-05-12 18:21:08] ✅ Azurirana rezervacija 14/05/2026 - 10089529
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+47 - Elegant Double with Old Town View - Sophie Jane Ellis
+
+[2026-05-12 18:21:09] ✅ Azurirana rezervacija 11/05/2026 - 10100243
+Checklist: OLD TOWN / Check-in 🛎️
+23 - AD Pobijana - David S De Haan
+
+[2026-05-12 18:21:09] ✅ Azurirana rezervacija 11/05/2026 - 10100243
+Checklist: EVISITOR ✍🏻
+23 - AD Pobijana - David S De Haan
+
+[2026-05-12 18:21:11] ✅ Azurirana rezervacija 15/05/2026 - 10100243
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+23 - AD Pobijana - David S De Haan
+
+[2026-05-12 18:21:12] ✅ Azurirana rezervacija 11/05/2026 - 10110193
+Checklist: OLD TOWN / Check-in 🛎️
+54 - Two bedroom - Laminda C Puckett
+
+[2026-05-12 18:21:12] ✅ Azurirana rezervacija 11/05/2026 - 10110193
+Checklist: EVISITOR ✍🏻
+54 - Two bedroom - Laminda C Puckett
+
+[2026-05-12 18:21:13] ✅ Azurirana rezervacija 15/05/2026 - 10110193
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+54 - Two bedroom - Laminda C Puckett
+
+[2026-05-12 18:21:14] ✅ Azurirana rezervacija 14/05/2026 - 10130330
+Checklist: OLD TOWN / Check-in 🛎️
+64 - RAFAEL - weiru liu
+
+[2026-05-12 18:21:15] ✅ Azurirana rezervacija 14/05/2026 - 10130330
+Checklist: EVISITOR ✍🏻
+64 - RAFAEL - weiru liu
+
+[2026-05-12 18:21:15] ✅ Azurirana rezervacija 16/05/2026 - 10130330
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+64 - RAFAEL - weiru liu
+
+[2026-05-12 18:21:17] ✅ Azurirana rezervacija 12/05/2026 - 10178492
+Checklist: VILLA SPINDLER / Check-in 🛎️
+77 - VILLA SPINDLER - Terpsichore - Cristine Agustina Siregar
+
+[2026-05-12 18:21:17] ✅ Azurirana rezervacija 12/05/2026 - 10178492
+Checklist: EVISITOR ✍🏻
+77 - VILLA SPINDLER - Terpsichore - Cristine Agustina Siregar
+
+[2026-05-12 18:21:18] ✅ Azurirana rezervacija 14/05/2026 - 10178492
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+77 - VILLA SPINDLER - Terpsichore - Cristine Agustina Siregar
+
+[2026-05-12 18:21:19] ✅ Azurirana rezervacija 12/05/2026 - 10184987
+Checklist: TRANSFER DOLAZNI 🚐
+01 - TRANSFER DOLAZNI - Cristine Agustina Siregar
+
+[2026-05-12 18:21:21] ✅ Azurirana rezervacija 14/05/2026 - 10186044
+Checklist: OLD TOWN / Check-in 🛎️
+32 - SECRET ORANGE - Joseph Munro Hughes
+
+[2026-05-12 18:21:21] ✅ Azurirana rezervacija 14/05/2026 - 10186044
+Checklist: EVISITOR ✍🏻
+32 - SECRET ORANGE - Joseph Munro Hughes
+
+[2026-05-12 18:21:22] ✅ Azurirana rezervacija 17/05/2026 - 10186044
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+32 - SECRET ORANGE - Joseph Munro Hughes
+
+[2026-05-12 18:21:23] ✅ Azurirana rezervacija 12/05/2026 - 10192532
+Checklist: OLD TOWN / Check-in 🛎️
+02 - Arthur Premium Double Room - Jayakri Sreeramamangalam Vijayanpillai
+
+[2026-05-12 18:21:23] ✅ Azurirana rezervacija 12/05/2026 - 10192532
+Checklist: EVISITOR ✍🏻
+02 - Arthur Premium Double Room - Jayakri Sreeramamangalam Vijayanpillai
+
+[2026-05-12 18:21:25] ✅ Azurirana rezervacija 15/05/2026 - 10192532
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+02 - Arthur Premium Double Room - Jayakri Sreeramamangalam Vijayanpillai
+
+[2026-05-12 18:21:32] ✅ Obrisan checkbox (all): DOLAZAK: 27/05/2026, ODLAZAK: 29/05/2026 - 10150591
+Checklist: VILLA SPINDLER / Check-in 🛎️
+75 - VILLA SPINDLER - Melpomene - Jessica Carlson
+
+[2026-05-12 18:21:33] ✅ Obrisan checkbox (all): DOLAZAK: 27/05/2026, ODLAZAK: 29/05/2026 - 10150591
+Checklist: EVISITOR ✍🏻
+75 - VILLA SPINDLER - Melpomene - Jessica Carlson
+
+[2026-05-12 18:21:33] ✅ Obrisan checkbox (all): DOLAZAK: 27/05/2026, ODLAZAK: 29/05/2026 - 10150591
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+75 - VILLA SPINDLER - Melpomene - Jessica Carlson
+
+[2026-05-13 17:58:10] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (27/05/2026: 9939491) 
+55 - CENTRAL W ROOM - Bec Jones
+
+[2026-05-13 17:58:11] ✅ Dodan EVISITOR: (27/05/2026: 9939491) 
+55 - CENTRAL W ROOM - Bec Jones
+
+[2026-05-13 17:58:13] ✅ Dodan CLEANING: (29/05/2026: 9939491) 
+55 - CENTRAL W ROOM - Bec Jones
+
+[2026-05-13 17:58:14] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (27/05/2026: 10150591) 
+75 - VILLA SPINDLER - Melpomene - Jessica Carlson
+
+[2026-05-13 17:58:15] ✅ Dodan EVISITOR: (27/05/2026: 10150591) 
+75 - VILLA SPINDLER - Melpomene - Jessica Carlson
+
+[2026-05-13 17:58:17] ✅ Dodan CLEANING: (29/05/2026: 10150591) 
+75 - VILLA SPINDLER - Melpomene - Jessica Carlson
+
+[2026-05-13 17:58:18] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (26/05/2026: 10220079) 
+06 Superior Double room - Ground Floor - Maddy Bradley
+
+[2026-05-13 17:58:19] ✅ Dodan EVISITOR: (26/05/2026: 10220079) 
+06 Superior Double room - Ground Floor - Maddy Bradley
+
+[2026-05-13 17:58:20] ✅ Dodan CLEANING: (29/05/2026: 10220079) 
+06 Superior Double room - Ground Floor - Maddy Bradley
+
+[2026-05-13 17:58:21] ✅ Dodan transfer dolazni: (18/05/2026: 10221628) 
+04 - TRANSFER DOLAZNI - Steffen Berliner
+
+[2026-05-13 17:58:23] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (19/05/2026: 10223239) 
+30 - SEA PEARL - Morten Haugen
+
+[2026-05-13 17:58:24] ✅ Dodan EVISITOR: (19/05/2026: 10223239) 
+30 - SEA PEARL - Morten Haugen
+
+[2026-05-13 17:58:25] ✅ Dodan CLEANING: (26/05/2026: 10223239) 
+30 - SEA PEARL - Morten Haugen
+
+[2026-05-13 17:58:27] ✅ Dodan transfer dolazni: (13/05/2026: 10224169) 
+01 - TRANSFER DOLAZNI - Andre Huntley
+
+[2026-05-13 17:58:28] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (20/05/2026: 10224315) 
+69 - LINCUN - Benjamin Roebuck
+
+[2026-05-13 17:58:29] ✅ Dodan EVISITOR: (20/05/2026: 10224315) 
+69 - LINCUN - Benjamin Roebuck
+
+[2026-05-13 17:58:31] ✅ Dodan CLEANING: (23/05/2026: 10224315) 
+69 - LINCUN - Benjamin Roebuck
+
+[2026-05-13 17:58:32] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (27/05/2026: 10224928) 
+02 - Arthur Premium Double Room - Reese Stewart
+
+[2026-05-13 17:58:33] ✅ Dodan EVISITOR: (27/05/2026: 10224928) 
+02 - Arthur Premium Double Room - Reese Stewart
+
+[2026-05-13 17:58:34] ✅ Dodan CLEANING: (30/05/2026: 10224928) 
+02 - Arthur Premium Double Room - Reese Stewart
+
+[2026-05-13 17:58:36] ✅ Azurirana rezervacija 13/05/2026 - 9754976
+Checklist: OLD TOWN / Check-in 🛎️
+13 - OLD TOWN ELEGANCE APARTMENT - Wojciech Karol Rose
+
+[2026-05-13 17:58:36] ✅ Azurirana rezervacija 13/05/2026 - 9754976
+Checklist: EVISITOR ✍🏻
+13 - OLD TOWN ELEGANCE APARTMENT - Wojciech Karol Rose
+
+[2026-05-13 17:58:37] ✅ Azurirana rezervacija 17/05/2026 - 9754976
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+13 - OLD TOWN ELEGANCE APARTMENT - Wojciech Karol Rose
+
+[2026-05-13 17:58:39] ✅ Azurirana rezervacija 13/05/2026 - 9863940
+Checklist: VILLA SPINDLER / Check-in 🛎️
+73 - VILLA SPINDLER - Clio - Andre Jon Hutley
+
+[2026-05-13 17:58:39] ✅ Azurirana rezervacija 13/05/2026 - 9863940
+Checklist: EVISITOR ✍🏻
+73 - VILLA SPINDLER - Clio - Andre Jon Hutley
+
+[2026-05-13 17:58:40] ✅ Azurirana rezervacija 16/05/2026 - 9863940
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+73 - VILLA SPINDLER - Clio - Andre Jon Hutley
+
+[2026-05-13 17:58:41] ✅ Azurirana rezervacija 13/05/2026 - 9863941
+Checklist: VILLA SPINDLER / Check-in 🛎️
+74 - VILLA SPINDLER - Calliope - Lisa Jane Broderick
+
+[2026-05-13 17:58:42] ✅ Azurirana rezervacija 13/05/2026 - 9863941
+Checklist: EVISITOR ✍🏻
+74 - VILLA SPINDLER - Calliope - Lisa Jane Broderick
+
+[2026-05-13 17:58:43] ✅ Azurirana rezervacija 16/05/2026 - 9863941
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+74 - VILLA SPINDLER - Calliope - Lisa Jane Broderick
+
+[2026-05-13 17:58:44] ✅ Azurirana rezervacija 13/05/2026 - 9909776
+Checklist: OLD TOWN / Check-in 🛎️
+39 - LUAN - Felicia Lucia Homan
+
+[2026-05-13 17:58:44] ✅ Azurirana rezervacija 13/05/2026 - 9909776
+Checklist: EVISITOR ✍🏻
+39 - LUAN - Felicia Lucia Homan
+
+[2026-05-13 17:58:45] ✅ Azurirana rezervacija 18/05/2026 - 9909776
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+39 - LUAN - Felicia Lucia Homan
+
+[2026-05-13 17:58:46] ✅ Azurirana rezervacija 13/05/2026 - 9996229
+Checklist: OLD TOWN / Check-in 🛎️
+57 - CENTRAL W APARTMENT - Mark Robert Peterson
+
+[2026-05-13 17:58:46] ✅ Azurirana rezervacija 13/05/2026 - 9996229
+Checklist: EVISITOR ✍🏻
+57 - CENTRAL W APARTMENT - Mark Robert Peterson
+
+[2026-05-13 17:58:47] ✅ Azurirana rezervacija 17/05/2026 - 9996229
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+57 - CENTRAL W APARTMENT - Mark Robert Peterson
+
+[2026-05-13 17:58:48] ✅ Azurirana rezervacija 13/05/2026 - 10060264
+Checklist: VILLA SPINDLER / Check-in 🛎️
+72 - VILLA SPINDLER - Thalia - Maria Eugenia Noriega Melchor
+
+[2026-05-13 17:58:49] ✅ Azurirana rezervacija 13/05/2026 - 10060264
+Checklist: EVISITOR ✍🏻
+72 - VILLA SPINDLER - Thalia - Maria Eugenia Noriega Melchor
+
+[2026-05-13 17:58:50] ✅ Azurirana rezervacija 15/05/2026 - 10060264
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+72 - VILLA SPINDLER - Thalia - Maria Eugenia Noriega Melchor
+
+[2026-05-13 17:58:51] ✅ Azurirana rezervacija 13/05/2026 - 10085538
+Checklist: OLD TOWN / Check-in 🛎️
+52 - AMOROZO - Anna Agnieszka Gorna
+
+[2026-05-13 17:58:51] ✅ Azurirana rezervacija 13/05/2026 - 10085538
+Checklist: EVISITOR ✍🏻
+52 - AMOROZO - Anna Agnieszka Gorna
+
+[2026-05-13 17:58:52] ✅ Azurirana rezervacija 17/05/2026 - 10085538
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+52 - AMOROZO - Anna Agnieszka Gorna
+
+[2026-05-13 17:58:54] ✅ Azurirana rezervacija 13/05/2026 - 10166172
+Checklist: OLD TOWN / Check-in 🛎️
+10 -Deluxe Doube room with side Sea View  - S - Kenneth Yiu Fung Hui
+
+[2026-05-13 17:58:54] ✅ Azurirana rezervacija 13/05/2026 - 10166172
+Checklist: EVISITOR ✍🏻
+10 -Deluxe Doube room with side Sea View  - S - Kenneth Yiu Fung Hui
+
+[2026-05-13 17:58:55] ✅ Azurirana rezervacija 15/05/2026 - 10166172
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+10 -Deluxe Doube room with side Sea View  - S - Kenneth Yiu Fung Hui
+
+[2026-05-13 17:58:56] ✅ Azurirana rezervacija 13/05/2026 - 10198387
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+103 - VILLA KALA - Kelvin Van Den Broek
+
+[2026-05-13 17:58:56] ✅ Azurirana rezervacija 13/05/2026 - 10198387
+Checklist: EVISITOR ✍🏻
+103 - VILLA KALA - Kelvin Van Den Broek
+
+[2026-05-13 17:58:57] ✅ Azurirana rezervacija 16/05/2026 - 10198387
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+103 - VILLA KALA - Kelvin Van Den Broek
+
+[2026-05-13 17:58:58] ✅ Azurirana rezervacija 13/05/2026 - 10202059
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+106 - VILLA KALA - Margaret Ann Agius
+
+[2026-05-13 17:58:59] ✅ Azurirana rezervacija 13/05/2026 - 10202059
+Checklist: EVISITOR ✍🏻
+106 - VILLA KALA - Margaret Ann Agius
+
+[2026-05-13 17:59:00] ✅ Azurirana rezervacija 16/05/2026 - 10202059
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+106 - VILLA KALA - Margaret Ann Agius
+
+[2026-05-13 17:59:06] ✅ Obrisan checkbox (all): DOLAZAK: 25/05/2026, ODLAZAK: 01/06/2026 - 10112073
+Checklist: OLD TOWN / Check-in 🛎️
+41 - SUMMER NIGHT - Svetlana Rakutova
+
+[2026-05-13 17:59:06] ✅ Obrisan checkbox (all): DOLAZAK: 25/05/2026, ODLAZAK: 01/06/2026 - 10112073
+Checklist: EVISITOR ✍🏻
+41 - SUMMER NIGHT - Svetlana Rakutova
+
+[2026-05-13 17:59:14] ✅ Obrisan checkbox (all): DOLAZAK: 21/05/2026, ODLAZAK: 24/05/2026 - 10165399
+Checklist: OLD TOWN / Check-in 🛎️
+52 - AMOROZO - JOSE MARIA PEREZ OTERO
+
+[2026-05-13 17:59:15] ✅ Obrisan checkbox (all): DOLAZAK: 21/05/2026, ODLAZAK: 24/05/2026 - 10165399
+Checklist: EVISITOR ✍🏻
+52 - AMOROZO - JOSE MARIA PEREZ OTERO
+
+[2026-05-13 17:59:16] ✅ Obrisan checkbox (all): DOLAZAK: 21/05/2026, ODLAZAK: 24/05/2026 - 10165399
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+52 - AMOROZO - JOSE MARIA PEREZ OTERO
+
+[2026-05-14 15:28:01] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (28/05/2026: 10191459) 
+19 - SANTA CROCE SUITE - Alicia Krzyzanowski
+
+[2026-05-14 15:28:02] ✅ Dodan EVISITOR: (28/05/2026: 10191459) 
+19 - SANTA CROCE SUITE - Alicia Krzyzanowski
+
+[2026-05-14 15:28:03] ✅ Dodan CLEANING: (31/05/2026: 10191459) 
+19 - SANTA CROCE SUITE - Alicia Krzyzanowski
+
+[2026-05-14 15:28:04] ✅ Dodana rezervacija u KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️: (21/05/2026: 10226513) 
+104 - VILLA KALA - DERIKVANDI ALI
+
+[2026-05-14 15:28:05] ✅ Dodan EVISITOR: (21/05/2026: 10226513) 
+104 - VILLA KALA - DERIKVANDI ALI
+
+[2026-05-14 15:28:06] ✅ Dodan CLEANING: (24/05/2026: 10226513) 
+104 - VILLA KALA - DERIKVANDI ALI
+
+[2026-05-14 15:28:07] ✅ Dodan transfer dolazni: (18/05/2026: 10227364) 
+02 - TRANSFER DOLAZNI - Olga Gloeckler
+
+[2026-05-14 15:28:09] ✅ Dodan transfer odlazni: (15/05/2026: 10227682) 
+02 - TRANSFER ODLAZNI - Nysa Shah
+
+[2026-05-14 15:28:10] ✅ Dodana rezervacija u VILLA SPINDLER / Check-in 🛎️: (18/05/2026: 10227814) 
+72 - VILLA SPINDLER - Thalia - vlasnik
+
+[2026-05-14 15:28:11] ✅ Dodan EVISITOR: (18/05/2026: 10227814) 
+72 - VILLA SPINDLER - Thalia - vlasnik
+
+[2026-05-14 15:28:14] ✅ Dodan CLEANING: (19/05/2026: 10227814) 
+72 - VILLA SPINDLER - Thalia - vlasnik
+
+[2026-05-14 15:28:16] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (17/05/2026: 10228952) 
+56 - CENTRAL W ROOM - Krzysztof Pachacz
+
+[2026-05-14 15:28:16] ✅ Dodan EVISITOR: (17/05/2026: 10228952) 
+56 - CENTRAL W ROOM - Krzysztof Pachacz
+
+[2026-05-14 15:28:18] ✅ Dodan CLEANING: (20/05/2026: 10228952) 
+56 - CENTRAL W ROOM - Krzysztof Pachacz
+
+[2026-05-14 15:28:20] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (18/05/2026: 10229034) 
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-14 15:28:21] ✅ Dodan EVISITOR: (18/05/2026: 10229034) 
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-14 15:28:22] ✅ Dodan CLEANING: (21/05/2026: 10229034) 
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-14 15:28:24] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (17/05/2026: 10229580) 
+12 - PETIT NOOK - Nancy Bolous
+
+[2026-05-14 15:28:24] ✅ Dodan EVISITOR: (17/05/2026: 10229580) 
+12 - PETIT NOOK - Nancy Bolous
+
+[2026-05-14 15:28:26] ✅ Dodan CLEANING: (20/05/2026: 10229580) 
+12 - PETIT NOOK - Nancy Bolous
+
+[2026-05-14 15:28:27] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (18/05/2026: 10231346) 
+39 - LUAN - Phuong Huynh Nguyen Thai
+
+[2026-05-14 15:28:28] ✅ Dodan EVISITOR: (18/05/2026: 10231346) 
+39 - LUAN - Phuong Huynh Nguyen Thai
+
+[2026-05-14 15:28:30] ✅ Dodan CLEANING: (21/05/2026: 10231346) 
+39 - LUAN - Phuong Huynh Nguyen Thai
+
+[2026-05-14 15:28:31] ✅ Azurirana rezervacija 11/05/2026 - 9819479
+Checklist: EVISITOR ✍🏻
+75 - VILLA SPINDLER - Melpomene - Karin Scherer
+
+[2026-05-14 15:28:32] ✅ Azurirana rezervacija 14/05/2026 - 9819479
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+75 - VILLA SPINDLER - Melpomene - Karin Scherer
+
+[2026-05-14 15:28:33] ✅ Azurirana rezervacija 14/05/2026 - 9887105
+Checklist: VILLA SPINDLER / Check-in 🛎️
+77 - VILLA SPINDLER - Terpsichore - Robert Anton Hierlwimmer
+
+[2026-05-14 15:28:34] ✅ Azurirana rezervacija 14/05/2026 - 9887105
+Checklist: EVISITOR ✍🏻
+77 - VILLA SPINDLER - Terpsichore - Robert Anton Hierlwimmer
+
+[2026-05-14 15:28:34] ✅ Azurirana rezervacija 16/05/2026 - 9887105
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+77 - VILLA SPINDLER - Terpsichore - Robert Anton Hierlwimmer
+
+[2026-05-14 15:28:36] ✅ Azurirana rezervacija 14/05/2026 - 9894385
+Checklist: OLD TOWN / Check-in 🛎️
+55 - CENTRAL W ROOM - Gina S Aretos
+
+[2026-05-14 15:28:36] ✅ Azurirana rezervacija 14/05/2026 - 9894385
+Checklist: EVISITOR ✍🏻
+55 - CENTRAL W ROOM - Gina S Aretos
+
+[2026-05-14 15:28:37] ✅ Azurirana rezervacija 18/05/2026 - 9894385
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+55 - CENTRAL W ROOM - Gina S Aretos
+
+[2026-05-14 15:28:38] ✅ Azurirana rezervacija 14/05/2026 - 9921127
+Checklist: VILLA SPINDLER / Check-in 🛎️
+75 - VILLA SPINDLER - Melpomene - Antoine Simon Bordas
+
+[2026-05-14 15:28:38] ✅ Azurirana rezervacija 14/05/2026 - 9921127
+Checklist: EVISITOR ✍🏻
+75 - VILLA SPINDLER - Melpomene - Antoine Simon Bordas
+
+[2026-05-14 15:28:39] ✅ Azurirana rezervacija 17/05/2026 - 9921127
+Checklist: VILLA SPINDLER / Cleaning 🪣🚽🪤🧹
+75 - VILLA SPINDLER - Melpomene - Antoine Simon Bordas
+
+[2026-05-14 15:28:40] ✅ Azurirana rezervacija 16/05/2026 - 9962868
+Checklist: EVISITOR ✍🏻
+43 - Elegant Double - Old Town Street view - howard stone
+
+[2026-05-14 15:28:42] ✅ Azurirana rezervacija 19/05/2026 - 9962868
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+43 - Elegant Double - Old Town Street view - howard stone
+
+[2026-05-14 15:28:43] ✅ Azurirana rezervacija 14/05/2026 - 10009566
+Checklist: OLD TOWN / Check-in 🛎️
+56 - CENTRAL W ROOM - Felix Sebastian Turner
+
+[2026-05-14 15:28:43] ✅ Azurirana rezervacija 14/05/2026 - 10009566
+Checklist: EVISITOR ✍🏻
+56 - CENTRAL W ROOM - Felix Sebastian Turner
+
+[2026-05-14 15:28:44] ✅ Azurirana rezervacija 17/05/2026 - 10009566
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+56 - CENTRAL W ROOM - Felix Sebastian Turner
+
+[2026-05-14 15:28:46] ✅ Azurirana rezervacija 13/05/2026 - 10022875
+Checklist: VILLA SPINDLER / Check-in 🛎️
+76 - VILLA SPINDLER - Erato - Audrey Malvina Bares
+
+[2026-05-14 15:28:46] ✅ Azurirana rezervacija 13/05/2026 - 10022875
+Checklist: EVISITOR ✍🏻
+76 - VILLA SPINDLER - Erato - Audrey Malvina Bares
+
+[2026-05-14 15:28:48] ✅ Azurirana rezervacija 14/05/2026 - 10089794
+Checklist: OLD TOWN / Check-in 🛎️
+07 - Studio with Balcony - First floor - Aimee Mary Anderson
+
+[2026-05-14 15:28:49] ✅ Azurirana rezervacija 14/05/2026 - 10089794
+Checklist: EVISITOR ✍🏻
+07 - Studio with Balcony - First floor - Aimee Mary Anderson
+
+[2026-05-14 15:28:50] ✅ Azurirana rezervacija 17/05/2026 - 10089794
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+07 - Studio with Balcony - First floor - Aimee Mary Anderson
+
+[2026-05-14 15:28:51] ✅ Azurirana rezervacija 14/05/2026 - 10100279
+Checklist: OLD TOWN / Check-in 🛎️
+67 - LINCUN - John Lee Schell
+
+[2026-05-14 15:28:51] ✅ Azurirana rezervacija 14/05/2026 - 10100279
+Checklist: EVISITOR ✍🏻
+67 - LINCUN - John Lee Schell
+
+[2026-05-14 15:28:52] ✅ Azurirana rezervacija 16/05/2026 - 10100279
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+67 - LINCUN - John Lee Schell
+
+[2026-05-14 15:28:53] ✅ Azurirana rezervacija 14/05/2026 - 10105519
+Checklist: OLD TOWN / Check-in 🛎️
+08 Premium Double room - First floor Villa Mo - Jenna Louise Cooper
+
+[2026-05-14 15:28:54] ✅ Azurirana rezervacija 14/05/2026 - 10105519
+Checklist: EVISITOR ✍🏻
+08 Premium Double room - First floor Villa Mo - Jenna Louise Cooper
+
+[2026-05-14 15:28:55] ✅ Azurirana rezervacija 17/05/2026 - 10105519
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+08 Premium Double room - First floor Villa Mo - Jenna Louise Cooper
+
+[2026-05-14 15:28:56] ✅ Azurirana rezervacija 14/05/2026 - 10130330
+Checklist: OLD TOWN / Check-in 🛎️
+64 - RAFAEL - Weiru Liu
+
+[2026-05-14 15:28:56] ✅ Azurirana rezervacija 14/05/2026 - 10130330
+Checklist: EVISITOR ✍🏻
+64 - RAFAEL - Weiru Liu
+
+[2026-05-14 15:28:57] ✅ Azurirana rezervacija 16/05/2026 - 10130330
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+64 - RAFAEL - Weiru Liu
+
+[2026-05-14 15:28:59] ✅ Azurirana rezervacija 14/05/2026 - 10131524
+Checklist: OLD TOWN / Check-in 🛎️
+69 - LINCUN - Fernando Jose Pastore Neto
+
+[2026-05-14 15:28:59] ✅ Azurirana rezervacija 14/05/2026 - 10131524
+Checklist: EVISITOR ✍🏻
+69 - LINCUN - Fernando Jose Pastore Neto
+
+[2026-05-14 15:29:00] ✅ Azurirana rezervacija 17/05/2026 - 10131524
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+69 - LINCUN - Fernando Jose Pastore Neto
+
+[2026-05-14 15:29:01] ✅ Azurirana rezervacija 14/05/2026 - 10176492
+Checklist: OLD TOWN / Check-in 🛎️
+29 - SEA PEARL - Urszula Alfreda Mazurek
+
+[2026-05-14 15:29:01] ✅ Azurirana rezervacija 14/05/2026 - 10176492
+Checklist: EVISITOR ✍🏻
+29 - SEA PEARL - Urszula Alfreda Mazurek
+
+[2026-05-14 15:29:02] ✅ Azurirana rezervacija 17/05/2026 - 10176492
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+29 - SEA PEARL - Urszula Alfreda Mazurek
+
+[2026-05-14 15:29:03] ✅ Azurirana rezervacija 14/05/2026 - 10183842
+Checklist: OLD TOWN / Check-in 🛎️
+09 - Studio with a sea view - Second floor Vi - Daire Conchur Conway
+
+[2026-05-14 15:29:04] ✅ Azurirana rezervacija 14/05/2026 - 10183842
+Checklist: EVISITOR ✍🏻
+09 - Studio with a sea view - Second floor Vi - Daire Conchur Conway
+
+[2026-05-14 15:29:05] ✅ Azurirana rezervacija 18/05/2026 - 10183842
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+09 - Studio with a sea view - Second floor Vi - Daire Conchur Conway
+
+[2026-05-14 15:29:06] ✅ Azurirana rezervacija 14/05/2026 - 10194417
+Checklist: TRANSFER DOLAZNI 🚐
+01 - TRANSFER DOLAZNI - John Lee Schell
+
+[2026-05-14 15:29:07] ✅ Azurirana rezervacija 14/05/2026 - 10195100
+Checklist: OLD TOWN / Check-in 🛎️
+01- Arthur Premiun Double Room - Tomoki Okubo
+
+[2026-05-14 15:29:08] ✅ Azurirana rezervacija 14/05/2026 - 10195100
+Checklist: EVISITOR ✍🏻
+01- Arthur Premiun Double Room - Tomoki Okubo
+
+[2026-05-14 15:29:09] ✅ Azurirana rezervacija 17/05/2026 - 10195100
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+01- Arthur Premiun Double Room - Tomoki Okubo
+
+[2026-05-14 15:29:23] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 31/05/2026 - 10176824
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+107 - VILLA KALA - Vlasnik / Owner
+
+[2026-05-14 15:29:23] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 31/05/2026 - 10176824
+Checklist: EVISITOR ✍🏻
+107 - VILLA KALA - Vlasnik / Owner
+
+[2026-05-14 15:29:24] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 31/05/2026 - 10176824
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Check-in 🛎️
+107 - VILLA KALA - Vlasnik / Owner
+
+[2026-05-14 15:29:25] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 31/05/2026 - 10176824
+Checklist: EVISITOR ✍🏻
+107 - VILLA KALA - Vlasnik / Owner
+
+[2026-05-14 15:29:25] ✅ Obrisan checkbox (all): DOLAZAK: 28/05/2026, ODLAZAK: 31/05/2026 - 10176824
+Checklist: KALA LUXURY ROOMS / OUTER APARTMENTS / Cleaning 🪣🚽🪤🧹
+107 - VILLA KALA - Vlasnik / Owner
+
+[2026-05-14 15:29:30] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 10204348
+Checklist: OLD TOWN / Check-in 🛎️
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-14 15:29:31] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 10204348
+Checklist: EVISITOR ✍🏻
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-14 15:29:32] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 10204348
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-14 15:29:32] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 10204348
+Checklist: OLD TOWN / Check-in 🛎️
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-14 15:29:33] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 10204348
+Checklist: EVISITOR ✍🏻
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-14 15:29:34] ✅ Obrisan checkbox (all): DOLAZAK: 24/05/2026, ODLAZAK: 27/05/2026 - 10204348
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+50 - AMOROZO - KARIN LAMBOTTE
+
+[2026-05-14 15:35:03] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (28/05/2026: 10231414) 
+05 Superior Double room - Ground Floor - Camila Passos
+
+[2026-05-14 15:35:04] ✅ Dodan EVISITOR: (28/05/2026: 10231414) 
+05 Superior Double room - Ground Floor - Camila Passos
+
+[2026-05-14 15:35:06] ✅ Dodan CLEANING: (31/05/2026: 10231414) 
+05 Superior Double room - Ground Floor - Camila Passos
+
+[2026-05-14 15:35:07] ✅ Azurirana rezervacija 18/05/2026 - 10231346
+Checklist: OLD TOWN / Check-in 🛎️
+39 - LUAN - Phuong Huynh Nguyen Thai
+
+[2026-05-14 15:35:07] ✅ Azurirana rezervacija 18/05/2026 - 10231346
+Checklist: EVISITOR ✍🏻
+39 - LUAN - Phuong Huynh Nguyen Thai
+
+[2026-05-14 15:35:08] ✅ Azurirana rezervacija 21/05/2026 - 10231346
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+39 - LUAN - Phuong Huynh Nguyen Thai
+
+[2026-05-14 16:00:03] ✅ Azurirana rezervacija 15/05/2026 - 10060888
+Checklist: OLD TOWN / Check-in 🛎️
+17 - ADRIATIC ABOVE APARTMENT - Benjamin Hugo Alonso Cabrera Troncoso
+
+[2026-05-14 16:00:04] ✅ Azurirana rezervacija 15/05/2026 - 10060888
+Checklist: EVISITOR ✍🏻
+17 - ADRIATIC ABOVE APARTMENT - Benjamin Hugo Alonso Cabrera Troncoso
+
+[2026-05-14 16:00:05] ✅ Azurirana rezervacija 18/05/2026 - 10060888
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+17 - ADRIATIC ABOVE APARTMENT - Benjamin Hugo Alonso Cabrera Troncoso
+
+[2026-05-14 16:07:03] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (31/05/2026: 10231586) 
+07 - Studio with Balcony - First floor - Sophie Ruetz
+
+[2026-05-14 16:07:04] ✅ Dodan EVISITOR: (31/05/2026: 10231586) 
+07 - Studio with Balcony - First floor - Sophie Ruetz
+
+[2026-05-14 16:21:05] ✅ Azurirana rezervacija 15/05/2026 - 10176163
+Checklist: OLD TOWN / Check-in 🛎️
+11 - GREY NEST - Martin Robert Ehinger
+
+[2026-05-14 16:21:05] ✅ Azurirana rezervacija 15/05/2026 - 10176163
+Checklist: EVISITOR ✍🏻
+11 - GREY NEST - Martin Robert Ehinger
+
+[2026-05-14 16:21:06] ✅ Azurirana rezervacija 19/05/2026 - 10176163
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+11 - GREY NEST - Martin Robert Ehinger
+
+[2026-05-14 16:21:08] ✅ Azurirana rezervacija 15/05/2026 - 10215786
+Checklist: TRANSFER DOLAZNI 🚐
+03 - TRANSFER DOLAZNI - Martin Robert Ehinger
+
+[2026-05-14 17:07:03] ✅ Azurirana rezervacija 31/05/2026 - 10231586
+Checklist: OLD TOWN / Check-in 🛎️
+07 - Studio with Balcony - First floor - Sophie Ruetz
+
+[2026-05-14 17:07:03] ✅ Azurirana rezervacija 31/05/2026 - 10231586
+Checklist: EVISITOR ✍🏻
+07 - Studio with Balcony - First floor - Sophie Ruetz
+
+[2026-05-14 17:07:04] ❌ ERROR: MODIFY: Kartica ne postoji za datum 03/06/2026 - 10231586
+
+[2026-05-14 17:07:11] ✅ Obrisan checkbox (all): DOLAZAK: 31/05/2026, ODLAZAK: 03/06/2026 - 9951055
+Checklist: OLD TOWN / Check-in 🛎️
+10 -Deluxe Doube room with side Sea View  - S - Fabian Pellarin
+
+[2026-05-14 17:07:12] ✅ Obrisan checkbox (all): DOLAZAK: 31/05/2026, ODLAZAK: 03/06/2026 - 9951055
+Checklist: EVISITOR ✍🏻
+10 -Deluxe Doube room with side Sea View  - S - Fabian Pellarin
 

@@ -78,8 +78,8 @@ try {
   app = null; // fallback ako se pokreće iz CLI-a
 }
 
-const dataFile = readJSONSafe("data.json", { reservations: [] });
-const reservations = dataFile.reservations;
+/*const dataFile = readJSONSafe("data.json", { reservations: [] });
+const reservations = dataFile.reservations;*/
 
 const configPath = getDataPath("config.json");
 const logFile = getDataPath("log.txt");
@@ -98,9 +98,10 @@ function updateConfig(newConfig) {
 // 📖 UČITAJ CONFIG
 let config = loadConfig();
 let isCreatingCards = false; // sprječava overlap
+let isUpdating = false;
 
 // 🧠 PROVJERI MJESEC I ODRADI POTREBNO
-async function autoSync() {
+/*async function autoSync() {
   try {
     const now = new Date();
     const currentMonth = now.getMonth() + 1; // 1-12
@@ -137,6 +138,62 @@ async function autoSync() {
     logText(`❌ Greška u autoSync: ${err.message}`);
     isCreatingCards = false;
   }
+}*/
+
+async function autoSync() {
+  try {
+    const now = new Date();
+
+    const currentMonth = now.getMonth() + 1;
+    const daysLeft = getDaysUntilEndOfMonth(now);
+
+    console.log("Dana prije kraja:", daysLeft, "currentMonth:", currentMonth);
+
+    config = loadConfig();
+    const trackedMonth = config.monthTracker;
+
+    // 🔥 SWITCH 5 DANA PRIJE KRAJA
+    if (daysLeft <= 5 && trackedMonth === currentMonth) {
+      console.log(`🆕 ${daysLeft} dana do kraja mjeseca → prebacujem`);
+
+      isCreatingCards = true;
+
+      const nextDate = new Date(now.getFullYear(), now.getMonth() + 1, 1);
+      const nextMonth = nextDate.getMonth() + 1;
+
+      await archiveAndRenameList(nextDate);
+      await createCardsForMonth(nextDate);
+
+      config.monthTracker = nextMonth;
+      updateConfig(config);
+
+      isCreatingCards = false;
+
+      console.log(`✅ Prebačeno na mjesec ${nextMonth}`);
+    }
+
+    // 🔄 NORMALAN SYNC
+    else {
+      console.log("🔄 Sync aktivnog mjeseca...");
+      if(!isUpdating){
+          const activeDate = new Date(now.getFullYear(), trackedMonth - 1, 1);
+          await checkForUpdates(activeDate);
+      }
+      else{
+        console.log("Aktivan update se dogadja. Preskacem.");
+      }
+    }
+
+  } catch (err) {
+    console.error("❌ Greška u autoSync:", err.message);
+    logText(`❌ Greška u autoSync: ${err.message}`);
+    isCreatingCards = false;
+  }
+}
+
+function getDaysUntilEndOfMonth(date) {
+  const end = new Date(date.getFullYear(), date.getMonth() + 1, 0);
+  return Math.ceil((end - date) / (1000 * 60 * 60 * 24));
 }
 
 function readJSONSafe(filename, fallback) {
@@ -184,9 +241,10 @@ function loadConfig() {
 
 
 // 📦 Dummy funkcija (preimenuj listu + arhiviraj stare kartice)
-async function archiveAndRenameList(currentMonth) {
+async function archiveAndRenameList(date) {
   try {
-    const monthName = new Date().toLocaleString("en-US", { month: "long" });
+    //const monthName = new Date().toLocaleString("en-US", { month: "long" });
+    const monthName = date.toLocaleString("en-US", { month: "long" });
     const year = new Date().getFullYear();
 
     console.log(`📦 Arhiviram sve kartice i preimenujem listu na "${monthName}"...`);
@@ -529,7 +587,7 @@ async function createCardForDay(dateObj, arrivalsGrouped, departuresGrouped) {
         { params: { key: TRELLO_KEY, token: TRELLO_TOKEN, name: item } }
       );
       console.log(`➕ ${checklistName}: ${item}`);
-      await sleep(150);
+      await sleep(250);
     }
   }
 
@@ -714,7 +772,11 @@ async function handleDeleteReservation(reservation, type = 'all') {
 
         if (type === 'arrival') {
           const name = checklist.name.toLowerCase();
-          if (name.includes('check-in') || name.includes('evisitor') || name.includes('transfer')) {
+          if (
+            name.includes('check-in') ||
+            name.includes('evisitor') ||
+            name.includes('transfer')
+          ) {
             shouldCheck = true;
           }
         } else if (type === 'departure') {
@@ -722,33 +784,95 @@ async function handleDeleteReservation(reservation, type = 'all') {
             shouldCheck = true;
           }
         } else if (type === 'all') {
-          shouldCheck = true; // briši sve
+          shouldCheck = true;
         }
 
         if (!shouldCheck) continue;
 
-        const item = checklist.checkItems.find(
-          ci =>
-            ci.name.includes(reservation.unitName) &&
-            ci.name.includes(reservation.guestName)
-        );
+        const unit = (reservation.unitName || "").trim();
+        const guest = (reservation.guestName || "").trim();
+
+        const item = checklist.checkItems.find(ci => {
+          const text = (ci.name || "").toLowerCase().trim();
+          const u = unit.toLowerCase().trim();
+          const g = guest.toLowerCase().trim();
+
+          // 🛑 već obrađeno → ignoriraj
+          const alreadyMarked = text.includes("treba obrisat? - program");
+          if (alreadyMarked) return false;
+
+          if (!u) return false;
+
+          const hasUnit = text.includes(u);
+
+          // normal case
+          if (g.length > 0) {
+            return hasUnit && text.includes(g);
+          }
+
+          // empty guest case
+          return (
+            hasUnit &&
+            (text.includes(" / /") || text.match(/\/\s*\/\s*/))
+          );
+        });
+
+        if (!item && !guest) {
+          console.log("⚠️ EMPTY GUEST MATCH FAILED:", {
+            unit,
+            checklist: checklist.name,
+            sample: checklist.checkItems.map(i => i.name),
+          });
+        }
 
         if (item) {
+
+          // 🟡 ako je guest prazan → samo označi, ne briši
+          if (!guest) {
+            await axios.put(
+              `https://api.trello.com/1/cards/${card.id}/checkItem/${item.id}`,
+              null,
+              {
+                params: {
+                  key: TRELLO_KEY,
+                  token: TRELLO_TOKEN,
+                  name: `${item.name} / Treba obrisat? - Program`
+                }
+              }
+            );
+
+            console.log(
+              `⚠️ Označen prazan guest: ${unit} → ${item.name}`
+            );
+
+            continue;
+          }
+
+          // 🗑️ normal delete
           await axios.delete(
             `https://api.trello.com/1/checklists/${checklist.id}/checkItems/${item.id}`,
             { params: { key: TRELLO_KEY, token: TRELLO_TOKEN } }
           );
 
           console.log(
-            `🗑️ Obrisan checkbox (${type}) za ${reservation.unitName} / ${reservation.guestName} na kartici ${card.name} u checklisti "${checklist.name}"`
+            `🗑️ Obrisan checkbox (${type}) za ${unit} / ${guest} na kartici ${card.name} u checklisti "${checklist.name}"`
           );
-          logText(`Obrisan checkbox (${type}): DOLAZAK: ${formatDate(reservation.arrivalDate)}, ODLAZAK: ${formatDate(reservation.departureDate)} - ${reservation.id}\nChecklist: ${checklist.name}\n${reservation.unitName} - ${reservation.guestName}`);
+
+          logText(
+            `Obrisan checkbox (${type}): DOLAZAK: ${formatDate(reservation.arrivalDate)}, ODLAZAK: ${formatDate(reservation.departureDate)} - ${reservation.id}\nChecklist: ${checklist.name}\n${reservation.unitName} - ${reservation.guestName}`
+          );
         }
       }
     }
   } catch (err) {
-    console.error('❌ Greška kod brisanja rezervacije:', err.response?.data || err.message);
-    logError(`Brisanje rezervacije ${formatDate(reservation.arrivalDate)} (${reservation.id}) \n${reservation.unitName} - ${reservation.guestName}`);
+    console.error(
+      '❌ Greška kod brisanja rezervacije:',
+      err.response?.data || err.message
+    );
+
+    logError(
+      `Brisanje rezervacije ${formatDate(reservation.arrivalDate)} (${reservation.id}) \n${reservation.unitName} - ${reservation.guestName}`
+    );
   }
 }
 
@@ -831,9 +955,16 @@ async function handleModifyReservation(oldReservation, newReservation) {
 }
 
 
-async function checkForUpdates() {
+async function checkForUpdates(activeDate) {
   // 1️⃣ Povuci svježe rezervacije i spremi u newData.json
-  await fetchReservations("newData.json");
+  const year = activeDate.getFullYear();
+  const month = activeDate.getMonth();
+
+  isUpdating = true;
+
+  await fetchReservations("newData.json", activeDate);
+  
+  //await fetchReservations("newData.json");
 
   // 2️⃣ Učitaj stare i nove podatke
   const oldData = fs.existsSync(getDataPath("data.json"))
@@ -911,6 +1042,7 @@ async function checkForUpdates() {
   // 4️⃣ Na kraju, zamijeni data.json novim stanjem
   fs.writeFileSync(getDataPath("data.json"), JSON.stringify(newData, null, 2));
   console.log("✅ data.json ažuriran");
+  isUpdating = false;
 }
 
 
@@ -925,11 +1057,17 @@ function sleep(ms) {
 
 
 
-async function createCardsForCurrentMonth() {
-  await fetchReservations("data.json");
-  const today = new Date();
-  const year = today.getFullYear();
-  const month = today.getMonth();
+async function createCardsForMonth(date) {
+  
+  //await fetchReservations("data.json");
+  //const today = new Date();
+  const year = date.getFullYear();
+  const month = date.getMonth();
+  const nextDate = new Date(year, month + 1, 1);
+  await fetchReservations("data.json", date);
+
+  const dataFile = readJSONSafe("data.json", { reservations: [] });
+  const reservations = dataFile.reservations;
 
   const arrivalsGrouped = groupReservationsByArrivalDate(reservations, month, year);
   const departuresGrouped = groupReservationsByDepartureDate(reservations, month, year);
