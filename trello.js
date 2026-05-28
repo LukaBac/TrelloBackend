@@ -35,8 +35,23 @@ function getBasePath() {
   return process.cwd();
 }
 
+// function getDataPath(filename) {
+//   return path.join(getBasePath(), filename);
+// }
+
 function getDataPath(filename) {
-  return path.join(getBasePath(), filename);
+  const candidates = [
+    path.join(process.resourcesPath, filename),
+    path.join(process.resourcesPath, "app.asar.unpacked", filename),
+    path.join(__dirname, filename),
+    path.join(process.cwd(), filename)
+  ];
+
+  for (const p of candidates) {
+    if (fs.existsSync(p)) return p;
+  }
+
+  return path.join(process.resourcesPath, filename);
 }
 
 // require("dotenv").config({
@@ -100,50 +115,9 @@ let config = loadConfig();
 let isCreatingCards = false; // sprječava overlap
 let isUpdating = false;
 
-// 🧠 PROVJERI MJESEC I ODRADI POTREBNO
-/*async function autoSync() {
-  try {
-    const now = new Date();
-    const currentMonth = now.getMonth() + 1; // 1-12
-    config = loadConfig();
-    const trackedMonth = config.monthTracker;
-
-    if (currentMonth !== trackedMonth && !isCreatingCards) {
-      console.log(`🗓️ Novi mjesec (${currentMonth}) otkriven! - Kreiram kartice`);
-      logText(`🗓️ Novi mjesec (${currentMonth}) otkriven — pokrećem izradu kartica...`);
-
-      isCreatingCards = true;
-
-      // 📁 Arhiviraj stare kartice + preimenuj listu
-      await archiveAndRenameList(currentMonth);
-
-      // 🃏 Kreiraj nove kartice
-      await createCardsForCurrentMonth();
-
-      // 🔁 Ažuriraj config
-      config.monthTracker = currentMonth;
-      updateConfig(config);
-
-      isCreatingCards = false;
-
-      console.log("✅ Novi mjesec kreiran i config ažuriran.");
-      logText(`✅ Novi mjesec kreiran i config ažuriran na ${currentMonth}.`);
-    } else {
-      // 🔄 Samo provjeri updatee (ako nije novi mjesec)
-      console.log("🔄 Pokrećem sinkronizaciju s Rentlio API-jem...");
-      await checkForUpdates();
-    }
-  } catch (err) {
-    console.error("❌ Greška u autoSync:", err.message);
-    logText(`❌ Greška u autoSync: ${err.message}`);
-    isCreatingCards = false;
-  }
-}*/
-
 async function autoSync() {
   try {
     const now = new Date();
-
     const currentMonth = now.getMonth() + 1;
     const daysLeft = getDaysUntilEndOfMonth(now);
 
@@ -152,24 +126,28 @@ async function autoSync() {
     config = loadConfig();
     const trackedMonth = config.monthTracker;
 
-    // 🔥 SWITCH 5 DANA PRIJE KRAJA
-    if (daysLeft <= 5 && trackedMonth === currentMonth) {
-      console.log(`🆕 ${daysLeft} dana do kraja mjeseca → prebacujem`);
+    // SWITCH MJESECA
+    if (currentMonth !== trackedMonth && !isCreatingCards) {
+      console.log(`🗓️ Novi mjesec (${currentMonth}) otkriven! - Kreiram kartice`);
+      logText(`🗓️ Novi mjesec (${currentMonth}) otkriven — pokrećem izradu kartica...`);
 
       isCreatingCards = true;
 
-      const nextDate = new Date(now.getFullYear(), now.getMonth() + 1, 1);
+      const nextDate = new Date(now.getFullYear(), now.getMonth(), 1);
       const nextMonth = nextDate.getMonth() + 1;
+
+      console.log("NextDate: " + nextDate);
 
       await archiveAndRenameList(nextDate);
       await createCardsForMonth(nextDate);
 
-      config.monthTracker = nextMonth;
+      config.monthTracker = currentMonth;
       updateConfig(config);
 
       isCreatingCards = false;
 
-      console.log(`✅ Prebačeno na mjesec ${nextMonth}`);
+      console.log("✅ Novi mjesec kreiran i config ažuriran.");
+      logText(`✅ Novi mjesec kreiran i config ažuriran na ${currentMonth}.`);
     }
 
     // 🔄 NORMALAN SYNC
@@ -226,7 +204,45 @@ function loadConfig() {
   });
 }
 
+// 🧠 PROVJERI MJESEC I ODRADI POTREBNO
+/*async function autoSync() {
+  try {
+    const now = new Date();
+    const currentMonth = now.getMonth() + 1; // 1-12
+    config = loadConfig();
+    const trackedMonth = config.monthTracker;
 
+    if (currentMonth !== trackedMonth && !isCreatingCards) {
+      console.log(`🗓️ Novi mjesec (${currentMonth}) otkriven! - Kreiram kartice`);
+      logText(`🗓️ Novi mjesec (${currentMonth}) otkriven — pokrećem izradu kartica...`);
+
+      isCreatingCards = true;
+
+      // 📁 Arhiviraj stare kartice + preimenuj listu
+      await archiveAndRenameList(currentMonth);
+
+      // 🃏 Kreiraj nove kartice
+      await createCardsForCurrentMonth();
+
+      // 🔁 Ažuriraj config
+      config.monthTracker = currentMonth;
+      updateConfig(config);
+
+      isCreatingCards = false;
+
+      console.log("✅ Novi mjesec kreiran i config ažuriran.");
+      logText(`✅ Novi mjesec kreiran i config ažuriran na ${currentMonth}.`);
+    } else {
+      // 🔄 Samo provjeri updatee (ako nije novi mjesec)
+      console.log("🔄 Pokrećem sinkronizaciju s Rentlio API-jem...");
+      await checkForUpdates();
+    }
+  } catch (err) {
+    console.error("❌ Greška u autoSync:", err.message);
+    logText(`❌ Greška u autoSync: ${err.message}`);
+    isCreatingCards = false;
+  }
+}*/
 
 
 
@@ -964,8 +980,6 @@ async function checkForUpdates(activeDate) {
 
   await fetchReservations("newData.json", activeDate);
   
-  //await fetchReservations("newData.json");
-
   // 2️⃣ Učitaj stare i nove podatke
   const oldData = fs.existsSync(getDataPath("data.json"))
     ? JSON.parse(fs.readFileSync(getDataPath("data.json"), "utf-8"))

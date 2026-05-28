@@ -29,21 +29,11 @@
       "icon": "icon.ico"
     }
   },
-  "pkg": {
-    "assets": [
-      ".env"
-    ],
-    "scripts": [
-      "rentlio.js"
-    ]
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "electron": "electron .",
     "build": "electron-builder",
     "build:ncc": "ncc build trello.js -o build/lib",
-    "build:exe": "pkg ./build/lib/index.js --targets node18-win-x64 --output dist/dubrovnik-apartmani.exe",
-    "build:background_exe": "pkg ./build/lib/index.js --targets node18-win-x64 --output dist/dubrovnik-apartmani.exe --options hideConsole",
     "build:copy": "copy .env dist\\.env && copy config.json dist\\config.json && copy data.json dist\\data.json && copy newData.json dist\\newData.json && copy log.txt dist\\log.txt && copy package.json dist\\package.json && xcopy img dist\\img /E /I /Y",
     "build:all": "npm run build:ncc && npm run build:exe && npm run build:copy"
   },

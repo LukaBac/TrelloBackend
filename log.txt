@@ -3925,3 +3925,96 @@ Checklist: OLD TOWN / Check-in 🛎️
 Checklist: EVISITOR ✍🏻
 10 -Deluxe Doube room with side Sea View  - S - Fabian Pellarin
 
+
+
+[2026-05-14 21:14:00] ✅ 🗓️ Novi mjesec (5) otkriven — pokrećem izradu kartica...
+
+[2026-05-14 21:14:01] ✅ ✅ Lista preimenovana u "MAY" i sve kartice arhivirane.
+
+[2026-05-14 21:17:46] ✅ Obrisan checkbox (all): DOLAZAK: 13/05/2026, ODLAZAK: 17/05/2026 - 9754976
+Checklist: OLD TOWN / Check-in 🛎️
+13 - OLD TOWN ELEGANCE APARTMENT - Wojciech Karol Rose
+
+[2026-05-14 21:17:47] ✅ Obrisan checkbox (all): DOLAZAK: 13/05/2026, ODLAZAK: 17/05/2026 - 9754976
+Checklist: EVISITOR ✍🏻
+13 - OLD TOWN ELEGANCE APARTMENT - Wojciech Karol Rose
+
+[2026-05-14 21:17:48] ✅ Obrisan checkbox (all): DOLAZAK: 13/05/2026, ODLAZAK: 17/05/2026 - 9754976
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+13 - OLD TOWN ELEGANCE APARTMENT - Wojciech Karol Rose
+
+[2026-05-14 21:19:01] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (13/05/2026: 9754976) 
+13 - OLD TOWN ELEGANCE APARTMENT - Wojciech Karol Rose
+
+[2026-05-14 21:19:01] ✅ Dodan EVISITOR: (13/05/2026: 9754976) 
+13 - OLD TOWN ELEGANCE APARTMENT - Wojciech Karol Rose
+
+[2026-05-14 21:19:03] ✅ Dodan CLEANING: (17/05/2026: 9754976) 
+13 - OLD TOWN ELEGANCE APARTMENT - Wojciech Karol Rose
+
+[2026-05-14 21:20:00] ✅ Azurirana rezervacija 13/05/2026 - 9754976
+Checklist: OLD TOWN / Check-in 🛎️
+13 - OLD TOWN ELEGANCE APARTMENT - 
+
+[2026-05-14 21:20:01] ✅ Azurirana rezervacija 13/05/2026 - 9754976
+Checklist: EVISITOR ✍🏻
+13 - OLD TOWN ELEGANCE APARTMENT - 
+
+[2026-05-14 21:20:02] ✅ Azurirana rezervacija 17/05/2026 - 9754976
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+13 - OLD TOWN ELEGANCE APARTMENT - 
+
+[2026-05-14 21:20:02] ✅ Azurirana rezervacija 17/05/2026 - 9754976
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+13 - OLD TOWN ELEGANCE APARTMENT - 
+
+[2026-05-14 21:23:48] ✅ Azurirana rezervacija 22/05/2026 - 10156264
+Checklist: OLD TOWN / Check-in 🛎️
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:23:48] ✅ Azurirana rezervacija 22/05/2026 - 10156264
+Checklist: EVISITOR ✍🏻
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:23:50] ✅ Azurirana rezervacija 25/05/2026 - 10156264
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:23:50] ✅ Promjena dolaska, premjestam: 23/05/2026 - 10156264
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:23:58] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (23/05/2026: 10156264) 
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:23:59] ✅ Dodan EVISITOR: (23/05/2026: 10156264) 
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:25:12] ✅ Azurirana rezervacija 23/05/2026 - 10156264
+Checklist: OLD TOWN / Check-in 🛎️
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:25:12] ✅ Azurirana rezervacija 23/05/2026 - 10156264
+Checklist: EVISITOR ✍🏻
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:25:13] ✅ Azurirana rezervacija 25/05/2026 - 10156264
+Checklist: OLD TOWN / Cleaning 🪣🚽🪤🧹
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:25:13] ✅ Promjena dolaska, premjestam: 24/05/2026 - 10156264
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:25:18] ✅ Obrisan checkbox (arrival): DOLAZAK: 23/05/2026, ODLAZAK: 25/05/2026 - 10156264
+Checklist: OLD TOWN / Check-in 🛎️
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:25:19] ✅ Obrisan checkbox (arrival): DOLAZAK: 23/05/2026, ODLAZAK: 25/05/2026 - 10156264
+Checklist: EVISITOR ✍🏻
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:25:23] ✅ Dodana rezervacija u OLD TOWN / Check-in 🛎️: (24/05/2026: 10156264) 
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
+[2026-05-14 21:25:23] ✅ Dodan EVISITOR: (24/05/2026: 10156264) 
+13 - OLD TOWN ELEGANCE APARTMENT - Kevin Wilson
+
